@@ -7,9 +7,9 @@ This is the repository for the source code of the Sell2Rent Website version 4. T
 - `/css`: CSS files for styling and customization.
 - `/js`: JavaScript files for interactivity and additional functionality.
 - `/img`: Stores images used on the site.
-- `/includes`: Contains modular PHP files for the header, footer, and other common elements.
+- `/templates`: Contains modular PHP files for the header, footer, and other common elements.
 - `index.php`: Main home page.
-- `about.php`, `contact.php`, etc.: Other pages of the site.
+- `about.php`, `invest.php`, etc.: Other pages of the site.
 
 ## Usage
 

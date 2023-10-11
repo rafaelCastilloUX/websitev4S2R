@@ -30,32 +30,32 @@
   <header class="">
     <nav class="navbar navbar-expand-lg fixed-top position-absolute top-0 px-lg-5 py-md-0 bg-dark" data-bs-theme="dark" style="--bs-bg-opacity: .5;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/s2r-logo.svg" alt="Sell2Rent Logo" class="w-100" height="45"></a>
+          <a class="navbar-brand" href="index.php"><img src="img/s2r-logo.svg" alt="Sell2Rent Logo" class="w-100" height="45"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarStandard" aria-controls="mainNavbarStandard" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa-solid fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="mainNavbarStandard">
             <ul class="navbar-nav fw-bold gap-md-4 me-auto ms-md-4 text-center">
                 <li class="nav-item dropdown py-3 pb-1">
-                  <a class="nav-link dropdown-toggle" href="sell.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="sell.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Sell
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="why-choose-us.html">Why Choose Us?</a></li>
-                    <li><a class="dropdown-item" href="get-started-uploading.html">Get Starteds Uploading</a></li>                  
+                    <li><a class="dropdown-item" href="why-choose-us.php">Why Choose Us?</a></li>
+                    <li><a class="dropdown-item" href="get-started-uploading.php">Get Starteds Uploading</a></li>                  
                   </ul>
                 </li>
                 <li class="nav-item dropdown py-3 pb-1">
-                  <a class="nav-link dropdown-toggle" href="sell.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="invest.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Invest
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="invest.html">Investors</a></li>
+                    <li><a class="dropdown-item" href="invest.php">Investors</a></li>
                     <li><a class="dropdown-item" href="#">Property Marketplace</a></li>                  
                   </ul>
                 </li>
                 <li class="nav-item dropdown py-3 pb-1">
-                  <a class="nav-link dropdown-toggle" href="sell.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Partners
                   </a>
                   <ul class="dropdown-menu">

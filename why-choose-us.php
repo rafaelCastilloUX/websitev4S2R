@@ -9,7 +9,7 @@
                     <h1 class="fw-bold  display-1">No <span class="text-verde">Loans</span>. No <span class="text-verde">Debt</span>. </h1>
                      <p class="fw-normal fs-3">Sell your house, cash out, and stay as a renter. <br> It's the new sale leaseback option with no BS.</p>
                     <div class="container">
-                        <button type="button" class="btn fw-bold btn-verde btn-lg">Get Started <i class="fa-solid fa-chevron-right"></i></button>
+                        <button type="button" class="btn fw-bold btn-verde btn-lg">GET STARTED <i class="fa-solid fa-chevron-right"></i></button>
                     </div><!--/container-->
                   </div>
             </div>

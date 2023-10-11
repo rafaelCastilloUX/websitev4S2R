@@ -56,7 +56,7 @@ body {
 }
 
 .btn ,  .btn-lg{
-  font-size: 1em;
+  font-size: 1em; 
 }
 .btn-azul{
   background-color: var(--color-azul);
@@ -128,6 +128,7 @@ body {
     background: var(--color-principal);
     height: 13px;
     width: 13px;
+    opacity: 1;
 }
 .carousel-controls-s2r .carousel-control-next:hover , 
 .carousel-controls-s2r .carousel-control-prev:hover {
@@ -138,7 +139,8 @@ body {
   color: var(--color-verde);
 }
 
-.carousel-controls-s2r .icon-arrow:hover{
+.carousel-controls-s2r .carousel-control-prev:hover .icon-arrow , 
+.carousel-controls-s2r .carousel-control-next:hover .icon-arrow{
   color: var(--color-principal);
 }
 
@@ -174,7 +176,10 @@ h4, h5 {
 .hero-home{
   background: url(../img/_demoHeroBGImage.jpg) center repeat-x ;  
   background-size: cover;
-  height: 100vh; 
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
 } 
 
 .hero-title{
