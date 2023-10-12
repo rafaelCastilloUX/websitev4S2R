@@ -1,10 +1,10 @@
 <?php include('templates/header.php'); ?>
     <main>    
         <!--hero-->
-        <section class="Hero bg-navy hero-home pt-10  " >
+        <section class="Hero bg-navy hero-home pb-5" >
             <div class="container-fluid overflow-hidden ">
               <div class="row " data-aos="fade-in" data-aos-anchor-placement="top" data-aos-delay="300">
-                <div class="col-12 align-self-lg-end pt-5 px-lg-5">
+                <div class="col-12  align-self-lg-end pt-5 px-lg-5 align-items-end">
                     <div class="container-fluid">
                         <div class="row py-3 py-sm-5 py-xl-9 pd-lg-5 mt-lg-10 justify-content-sm-center text-center">
                           <div class="col-12 col-sm-10 position-relative" id="leadForm">
@@ -53,7 +53,7 @@
                 </div><!--/col-lg-7 -->
               </div><!--/row-->              
             </div><!--/container-->
-            <div class="position-absolute bottom-0 w-100 overflow-hidden">
+            <div class="position-absolute bottom-0 w-100 overflow-hidden d-none d-sm-block">
               <div class="ticker-container bg-navy">
                 <div class="ticker">  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. | </div>
                 <div class="ticker">  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. | </div>
@@ -235,9 +235,9 @@
             </div><!--/.row-->
           </div><!--/.container-->
         </section><!--/.map-->
-        <section class="our-program" style="max-height: 170vh;overflow: hidden;background-color: #ededed;">
+        <section class="our-program" style="background-color: #ededed;">
           <div class="upper-section">
-            <nav class="mt-5">
+            <nav class="mt-0">
               <div class="nav nav-tabs justify-content-center gap-3" id="nav-tab" role="tablist">
                 <button class="nav-link active" id="nav-stay-tab" data-bs-toggle="tab" data-bs-target="#nav-stay" type="button" role="tab" aria-controls="nav-home" aria-selected="true"> Sell & Stay </button>
                 <!-- <button class="nav-link" id="nav-move-out-tab" data-bs-toggle="tab" data-bs-target="#nav-move-out" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"> Sell & Move Out </button>-->
@@ -281,12 +281,12 @@
                         </div><!--/hgroup-->
                         <img src="img/img_sellAStay_laptop.png" alt="Sell and Stay" class="img-fluid">
                       </div><!--/col -->
-                      <div class="col p-4">
+                      <div class="col p-4 overflow-y-auto" style="height: 60vh;margin-top: 5em;">
                         <!-- Section: Timeline -->
                         <section class="py-5">
                           <ul class="timeline-with-icons">
                             <li class="timeline-item mb-5" data-aos="fade-in-up" data-aos-anchor-placement="top" data-aos-delay="300">
-                              <span class="timeline--icon">
+                              <span class="timeline--icon" id="step01">
                                 <span class="timeline-step">STEP</span>
                                 <span class="timeline-number">01</span>
                               </span>
@@ -298,7 +298,7 @@
                                 <p class="fs-4 mb-0 mt-2">Fill out the form and schedule a call with our sales team. (We’re nice. We promise.)</p>
                               </div><!--/card-step--> 
                             </li><!--/step-->
-                            <li class="timeline-item mb-5"  data-aos="fade-in-up" data-aos-anchor-placement="top" data-aos-delay="600">                              
+                            <li class="timeline-item mb-5"  id="step02" data-aos-anchor=".timeline-with-icons"  data-aos="fade-in-up" data-aos-delay="300">                              
                               <span class="timeline--icon">
                                 <span class="timeline-step">STEP</span>
                                 <span class="timeline-number">02</span>
@@ -311,7 +311,7 @@
                                 <p>Fill out the form and schedule a call with our sales team. (We’re nice. We promise.)</p>
                               </div><!--/card-step--> 
                             </li><!--/step--> 
-                            <li class="timeline-item mb-5"  data-aos="fade-in-up" data-aos-anchor-placement="top" data-aos-delay="900">                              
+                            <li class="timeline-item mb-5"  id="step03" data-aos-anchor=".timeline-with-icons" data-aos="fade-in-up" data-aos-delay="300">                              
                               <span class="timeline--icon">
                                 <span class="timeline-step">STEP</span>
                                 <span class="timeline-number">03</span>
@@ -519,22 +519,7 @@
             </div><!--/.row--> 
             <div class="row">
               <div class="col-sm-12 col-lg-6 text-sm-center text-lg-end">
-                <div id="carouselTestimonials" class="carouselTestimonials carousel slide"  data-bs-ride="carousel">
-                  <div class="carousel-inner text-end ms-auto" style="max-width:30em;">
-                    <div class="carousel-item active">
-                      <img src="img/testimonials-photo1.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/testimonials-photo2.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/testimonials-photo3.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/testimonials-photo4.png" class="d-block w-100" alt="...">
-                    </div>
-                  </div> 
-                </div> 
+              <iframe width="315" height="560" src="https://www.youtube.com/embed/tU4xI2maNDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
               <div class="col-sm-12 col-lg-5 ">
                 <div id="carouselTestimonials2" class="carouselTestimonials carousel slide justify-content-center d-grid align-items-center" style="height: 90%;"  data-bs-ride="carousel">

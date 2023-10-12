@@ -21,11 +21,6 @@
 
 /* Custom styles */
 
-.accordion-button:not(.collapsed){
-  background-color:var(--color-verde);
-  color: #111;
-}
-
 
 body {
   background-color: white;
@@ -51,12 +46,15 @@ body {
 .bg-sell {
   background: url(../img/hero-bg_sell.jpg) top no-repeat;  
 }
+.bg-strategic-partners {
+  background: url(../img/hero-bg_strategic-partners.png) top no-repeat;  
+}
 .bg-gsu{
   background: url(../img/hero-bg_getStartedUploading.jpg) top center no-repeat;
 }
 
 .btn ,  .btn-lg{
-  font-size: 1em;
+  font-size: 1em; 
 }
 .btn-azul{
   background-color: var(--color-azul);
@@ -73,6 +71,7 @@ body {
   background-color: var(--button-verde);
   color: var(--color-principal);
   font-weight: 600;
+  border-radius: 2px;
 }
 
 .btn-verde:hover , .btn-verde:active , .btn-verde:focus-visible {
@@ -115,7 +114,7 @@ body {
     justify-content: space-between;
     height: 3em;
     width: fit-content;
-    bottom: 1em;
+    bottom: -1em;
     right: 1em;
     padding: 1em;
     gap: 2em;
@@ -128,17 +127,20 @@ body {
     background: var(--color-principal);
     height: 13px;
     width: 13px;
+    opacity: 1;
+    transition:all ease .3s;
 }
 .carousel-controls-s2r .carousel-control-next:hover , 
 .carousel-controls-s2r .carousel-control-prev:hover {
-  background-color: var(--button-verde-hover);
+  background-color: var(--button-verde);
 }
 
 .carousel-controls-s2r .icon-arrow{
   color: var(--color-verde);
 }
 
-.carousel-controls-s2r .icon-arrow:hover{
+.carousel-controls-s2r .carousel-control-prev:hover .icon-arrow , 
+.carousel-controls-s2r .carousel-control-next:hover .icon-arrow{
   color: var(--color-principal);
 }
 
@@ -157,7 +159,12 @@ body {
   padding: 2em;
 }
  
-
+.end-5{
+  right: 5%;
+}
+.end-10{
+  right: 10%;
+}
 .fw-bold {
   font-weight: 800!important;
 }
@@ -174,7 +181,10 @@ h4, h5 {
 .hero-home{
   background: url(../img/_demoHeroBGImage.jpg) center repeat-x ;  
   background-size: cover;
-  height: 100vh; 
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
 } 
 
 .hero-title{
@@ -342,7 +352,10 @@ h4, h5 {
   background-blend-mode: color;
   background-origin: content-box;
 }
-
+.rotate3{
+  transform: rotate(-3deg);
+  transform-origin:top left;
+}
 .rotating-text-wrapper {
   display: inline-block;
 }
@@ -398,10 +411,7 @@ h4, h5 {
   display: inline-block;
 
 }
-.textFrame.rotate3{
-  transform: rotate(-3deg);
-  transform-origin:top left;
-}
+
 .ticker-container{
   
   width: 200%;
