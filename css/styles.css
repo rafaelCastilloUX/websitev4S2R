@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&family=Poppins:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&family=Poppins:wght@400;600;700;800&display=swap');
 /* Basic reset */
 * {
   box-sizing: border-box;
@@ -20,6 +20,42 @@
 }
 
 /* Custom styles */
+.accordionFaqs{
+  display: block;
+
+}
+.accordionFaqs .accordion-item{
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.accordionFaqs .collapse, .accordionFaqs .accordion-item{
+  background-color: var(--color-principal);
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.accordionFaqs .accordion-header>.accordion-button{
+  background-color: #efefef;
+  font-weight: 600;
+}
+.accordionFaqs .accordion-button:not(.collapsed){
+  background-color: var(--color-principal);
+  color: var(--color-verde);
+  border-bottom: 0;
+  font-weight: 600;
+  box-shadow: none;
+}
+.accordionFaqs .accordion-button::after{
+  content: url('../img/icons/chevron-right.svg');
+  background-image: none;
+}
+.accordionFaqs .accordion-button:not(.collapsed)::after {
+  content: url('../img/icons/chevron-down-green.svg');
+  transform: rotate(0deg);
+}
+.accordionFaqs.accordion-flush .accordion-item{
+  border: 1px solid #eee!important;
+}
 
 
 body {
@@ -220,7 +256,11 @@ h4, h5 {
   radial-gradient(at 0% 0%, hsla(237,58%,43%,1) 0px, transparent 50%);
 }
 
-/* HERO SECCION */
+/*  F  */
+
+.fw-semibold{
+  font-weight: 600;
+}
 .feature-icon {
   height: 3rem;
   width: 3rem;
