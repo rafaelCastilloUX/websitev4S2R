@@ -511,22 +511,7 @@
             </div><!--/.row--> 
             <div class="row">
               <div class="col-sm-12 col-lg-6 text-sm-center text-lg-end">
-                <div id="carouselTestimonials" class="carouselTestimonials carousel slide"  data-bs-ride="carousel">
-                  <div class="carousel-inner text-end ms-auto" style="max-width:30em;">
-                    <div class="carousel-item active">
-                      <img src="img/testimonials-photo1.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/testimonials-photo2.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/testimonials-photo3.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/testimonials-photo4.png" class="d-block w-100" alt="...">
-                    </div>
-                  </div> 
-                </div> 
+              <iframe width="315" height="560" src="https://www.youtube.com/embed/tU4xI2maNDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
               <div class="col-sm-12 col-lg-5 ">
                 <div id="carouselTestimonials2" class="carouselTestimonials carousel slide justify-content-center d-grid align-items-center" style="height: 90%;"  data-bs-ride="carousel">

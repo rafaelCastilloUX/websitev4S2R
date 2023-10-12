@@ -59,7 +59,7 @@
                     Partners
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Strategic Partners</a></li>
+                    <li><a class="dropdown-item" href="strategic-partners.php">Strategic Partners</a></li>
                     <li><a class="dropdown-item" href="#">Real Estate Agents</a></li>                  
                   </ul>
                 </li>   
