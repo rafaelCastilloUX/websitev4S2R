@@ -20,9 +20,43 @@
   <!-- End Google Tag Manager -->
   
  
-    
+<!-- Batchdata -->
+<link rel="stylesheet" href="resources/batchdataAutocomplete/dist/batch-address-auto-complete.min.css">
+<script src="resources/batchdataAutocomplete/dist/batch-address-auto-complete.min.js"></script>
+<script src="resources/environment.js"></script>
+<script>
+  function initialize() {
+    console.log("init")
+    console.log(env)
+    // Custom Autocomplete of Batch Service
+    batchAutocomplete(document.getElementById("batchAddressAutoComplete"), env.domainServer, env.apiKey);
+
+    // Add an event listener to get value
+    document.addEventListener("batch-address-auto-complete", function (e) {
+      // Here you will get data what you had selected in input by using "e.detail"
+      console.log('Selected item: ', e.detail);
+
+      localStorage.setItem('street', e.detail.address);
+      localStorage.setItem('city', e.detail.city);
+      localStorage.setItem('state', e.detail.state);
+      localStorage.setItem('zipcode', e.detail.zip);
+    });
+
+    // Add an event listener to handle error
+    document.addEventListener("batch-auto-complete-error", function (e) {
+      // Here you will get error using "e.detail"
+      console.log("Error while searching: ", e.detail);
+    });
+  }
+
+  function goToForms() {
+    window.location.href = "/forms/index.html"
+  }
+</script>
+<!-- End Batchdata -->
 </head>
-<body>   
+
+<body onload="initialize()">   
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQWHB9M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
