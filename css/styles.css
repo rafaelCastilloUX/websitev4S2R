@@ -85,9 +85,16 @@ body {
 .bg-strategic-partners {
   background: url(../img/hero-bg_strategic-partners.png) top no-repeat;  
 }
+.bg-realestate-agents {
+  background: url(../img/hero-bg_realestate-agents.png) top no-repeat;  
+}
 .bg-gsu{
   background: url(../img/hero-bg_getStartedUploading.jpg) top center no-repeat;
 }
+.bg-black-white{
+  background: linear-gradient(90deg, var(--color-principal) 70%, var(--color-principal) 70%);
+}
+
 
 .btn ,  .btn-lg{
   font-size: 1em; 
@@ -299,6 +306,17 @@ h4, h5 {
 .font-mulish{
   font-family: var(--mulish-font);
 }
+
+
+/* Footer */
+
+footer .list-group-item {
+  background-color: transparent;
+  border: 0;
+}
+footer .list-group-item>a{text-decoration: none;}
+
+ 
 
 .label-btn{
   padding: .8em 2em;
@@ -535,6 +553,41 @@ section.fees {
 section.map{
   background: linear-gradient(180deg, var(--color-azul) 49.70%, white 49.71%);
 }
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: var(--color-verde);
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content:  '\2022';
+  background: var(--color-principal);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid var(--color-verde);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+  line-height: 11px;
+  font-size: 20px;
+  text-align: center;
+  color:var(--color-verde);
+}
 .what-to-expect{
   background-color: white;
   border: 1px solid #eee;
@@ -543,15 +596,6 @@ section.map{
   padding: 20px 40px;
 }
 
-/* Footer */
-
-footer .list-group-item {
-  background-color: transparent;
-  border: 0;
-}
-footer .list-group-item>a{text-decoration: none;}
-
- 
 /* Media query para resolución SM (576px y superior) */
 @media (min-width: 576px) and (max-width: 991.98px)  {
   .mapa-users {
@@ -562,6 +606,10 @@ footer .list-group-item>a{text-decoration: none;}
 
 /* Media query para resolución MD (992px y superior) */
 @media (min-width: 992px) {
+  .bg-black-white{
+    background: linear-gradient(90deg,var(--color-principal) 70%, white 70%);
+  }
+  
   /* .dettails{padding: 30px 50px;  }*/
   .investCard.investments{
     background-image:url(../img/BG_investment-card.png);

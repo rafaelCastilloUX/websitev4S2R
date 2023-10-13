@@ -7,7 +7,7 @@
                     <h1 class="fw-bold">Your Questions Answered </h1>
                 </div><!--/heading-->
             </div><!--/col-->
-            <div class="col-12 col-md-2">
+            <div class="col-12 col-md-2 d-none d-md-block">
                 <a href="#" class="btn btn-lg btn-dark rounded-1 w-100 fw-bold">SEE ALL FAQ'S <i class="fas fa-chevron-right"></i></a>
             </div><!--/col-->
         </div><!--/row-->
