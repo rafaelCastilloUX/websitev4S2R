@@ -4,7 +4,7 @@
         <!--hero-->
         <section class="bg-strategic-partners pt-10 d-block position-relative pt-xl-40vh">
             <div class="container">
-                <div class="row p-5 text-center  bg-dark ">
+                <div class="row p-5 text-center  bg-navy ">
                     <div class="col-12 col-lg-8 offset-lg-2">
                         <div class="p-5text-center rounded-2 text-white top-xl-25vh w-100"  >
                             <h2 class="fw-bold fs-1">Help Home owners</h2>
@@ -19,65 +19,147 @@
                 </div><!--/row-->
             </div><!--/container-->
         </section><!--/.Hero--> 
-        <section class="my-5">
-            What is a leaseback
+        <section class="mt-5">
+            <div class="container my-3 bg-black-white ps-5 pe-5 pt-5">
+                <div class="row align-items-center mt-lg-5 ">
+                    <div class="col-sm-12 col-lg-7 ">
+                        <div class="">
+                            <h2 class="fw-bold display-5 text-white">What is a</h2>
+                            <h2 class="display-5 text-verde fw-bold">Leaseback?</h2>
+                            <p class="fw-bsemiold fs-6 text-white">A leaseback, often referred to as a sale-leaseback, is a financial arrangement where a property owner sells their property and subsequently leases it back from the buyer. This arrangement offers mutual benefits: the seller gains access to equity while continuing to use the property as a tenant, and the buyer acquires a property with a built-in tenant, creating a win-win scenario for both parties.</p>
+                            <p class="fw-semibol mt-3 text-verde fs-6">Homeowners today don't know they have this option (we want to change that!).</p>
+                        </div>
+                    </div><!--/col-->
+                    <div class="col-sm-12 col-lg-5 ">
+                        <img src="img/img-whatsaLeasback.png" alt="What is a leaseback" class="img-fluid">                        
+                    </div><!--/col-->
+                </div><!--/.row-->
+                <div class="row mt-5 align-items-end">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="bg-verde p-5 text-center">
+                            <p>The US Single-Family Market is vast.</p>
+                            <h2 class="fs-1 fw-bolder">140M+</h2>
+                            <p>Homes (of which 5-7 million homes sell each year).</p>
+                        </div><!--/text center -->
+                    </div><!--/col-->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="bg-azul p-5 text-white text-center">
+                            <p>Almost half of U.S. households can't afford a $250,000 home, with nearly</p>
+                            <h2 class="fs-1 fw-bolder">30%</h2>
+                            <p>spending over 30% of their income on housing costs, according to NAHB.</p>
+                        </div><!--/text center -->
+                    </div><!--/col-->
+                </div><!--/row-->
+            </div><!--/.container-->
         </section>
-        <section class="faq my-5">
+        <section class="bg-navy py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <div class="heading">
-                            <h3 class="fw-bold text-azul">Frequently Asked Questions</h3>
-                            <h2 class="fw-bold">Your Questions Answered</h2>
-                        </div><!--/heading-->
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="dettails">
+                            <h3 class="fw-bold mb-0">Lets grow together</h3>
+                            <p class="mb-0">At Sell2Rent, We Believe In Building Strong & Mutually Beneficial Partnerships. We Are Dedicated To Fostering Collaborative Relationships That Provide Value To Both Parties Involved.</p>
+                            <a href="#" class="btn btn-lg btn-dark fw-bold">REGISTER NOW <i class="fa-solid fa-chevron-right"></i></a><!--CTA-->
+                        </div><!--/detailes -->
                     </div><!--/col-->
-                    <div class="col">
-                        <a href="#" class="btn btn-lg btn-dark border-1">SEE ALL FAQ'S <i class="fas fa-chevron-right"></i></a>
+                    <div class="col-12 col-sm-6 col-md-8 text-center">
+                        <img src="img/demo-strategicpartners.png" alt="Demo" class="img-fluid" width='350'>
                     </div><!--/col-->
-                </div><!--/row-->
-                <div class="row">
-                    <div class="col">
-                    <div class="accordion" id="accordionFaqs">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Why Choose Sell2Rent?
-                            </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFaqs">
-                            <div class="accordion-body">
-                                <p>The majority of our properties are off-market and have never been listed online. Thanks to our sell and Stay program, most of our properties also include a homeowner willing to rent from day one.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Who is the seller?
-                            </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
-                            <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            How long does the buying process Take?
-                            </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                            </div>
-                        </div>
-                        </div>
+                </div>
+            </div>
+
+        </section><!--/bg-navy-->
+        <section class="bg-white py-5">
+            <div class="container">
+                <div class="row" data-aos="fade-in" data-aos-delay="300">
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <div class="hgroup text-center">
+                        <h2 class="fw-bold text-dark display-4">Sell2Rent's <br>Unique Value Proposition</h2>
+                    </div><!--Headingroup-->
                     </div><!--/col-->
-                </div><!--/row-->
+                </div><!--/.row-->
+                <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                  <div class="card text-white bg-navy mb-3">
+                    <img src="img/s-partners_uniqueproportion.png" class="card-img-top" alt="Photos">
+                    <div class="card-body p-md-5">
+                      <h5 class="card-title">Photos</h5>
+                      <p class="card-text">Upload updated photos of each room, the exterior, & special amenities help us showcase your property's unique features to potential investors.</p>
+                    </div>
+                  </div>
+                </div><!--/col-->
+                <div class="col">
+                  <div class="col">
+                    <div class="card text-white bg-azul mb-3">
+                      <img src="img/s-partners_haslefree.png" class="card-img-top" alt="Photos">
+                      <div class="card-body p-md-5">
+                        <h5 class="card-title">Video</h5>
+                        <p class="card-text">Stand out with a video tour! A walk-through highlighting the best aspects of your home allows investors to virtually experience your property.</p>
+                      </div>
+                    </div>
+                  </div><!--/col-->
+                </div><!--/col-->
+                <div class="col">
+                  <div class="col">
+                    <div class="card text-white bg-navy mb-3">
+                      <img src="img/s-partners_family.png" class="card-img-top" alt="Photos">
+                      <div class="card-body p-md-5">
+                        <h5 class="card-title">Last Mortgage Statement</h5>
+                        <p class="card-text">Share your latest mortgage statement for a personalized offer calculation, ensuring your financial needs are considered.</p>
+                      </div>
+                    </div>
+                  </div><!--/col-->
+                </div><!--/col-->
+                <div class="col">
+                  <div class="card text-white bg-navy mb-3">
+                    <img src="img/s-partners_man.png" class="card-img-top" alt="Photos">
+                    <div class="card-body p-md-5">
+                      <h5 class="card-title">HOA if Applicable</h5>
+                      <p class="card-text">If part of a homeowner's association, provide HOA information to help investors understand fees and regulations.</p>
+                    </div>
+                  </div>
+                </div><!--/col-->                
+              </div><!--/row-->
             </div><!--/container-->
-        </section><!--/acordion faq-->
+            <div class="container">
+                <div class="row" data-aos="fade-in" data-aos-delay="300">
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <div class="hgroup text-center">
+                        <h2 class="fw-bold text-dark display-4">As seen on </h2>
+                        <p class="my-4 fw-bold text-dark">Discover our story as told by the biggest names in US media.</p>
+                        </div><!--Headingroup-->
+                    </div><!--/col-->
+                </div><!--/.row-->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 align-items-center text-center">
+                    <div class="col px-5"  data-aos="fade-in" data-aos-delay="300">
+                        <img src="img/logo-Foxnewss.png" alt="As seen on S2R" class="img-fluid">
+                    </div>
+                    <div class="col px-5"  data-aos="fade-in" data-aos-delay="500">
+                        <img src="img/logo_marketwatch.png" alt="As seen on S2R" class="img-fluid">
+                    </div>
+                    <div class="col px-5"  data-aos="fade-in" data-aos-delay="700">
+                        <img src="img/logo_BostonHerald.png" alt="As seen on S2R" class="img-fluid">
+                    </div>
+                    <div class="col px-5"  data-aos="fade-in" data-aos-delay="900">
+                        <img src="img/logo_nbc.png" alt="As seen on S2R" class="img-fluid">
+                    </div>
+                </div><!--/-->
+            </div>
+        </section><!--/bg-white-->
+        <section class="bg-azul py-5">
+            <div class="container">
+                <div class="row" data-aos="fade-in" data-aos-delay="300">
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <div class="hgroup text-center">
+                        <h2 class="fw-bold text-white display-4">Join Our <span class="text-dark">Partner Network</span>  Now!</h2>
+                        <p class="my-4 fw-bold text-white">You're just moments away from unlocking the opportunity to connect your clients with a unique investment solution. As a registered partner with Sell2Rent, you're empowered to submit your property listings and provide homeowners with a valuable service that sets you apart.</p>
+                        <a href="#" class="btn btn-lg btn-verde fw-bold">CONTACT US<i class="fas fa-chevron-right fa-sm"></i></a>
+                        </div><!--Headingroup-->
+                    </div><!--/col-->
+                </div><!--/.row-->
+            </div><!--/container-->
+        </section><!--/bg-azul-->
+        
+        <?php include('templates/accordionFAQs.php') ?>                                       
     </main>
     <?php include('templates/footer.php'); ?>

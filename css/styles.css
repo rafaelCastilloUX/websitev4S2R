@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&family=Poppins:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&family=Poppins:wght@400;600;700;800&display=swap');
 /* Basic reset */
 * {
   box-sizing: border-box;
@@ -20,6 +20,42 @@
 }
 
 /* Custom styles */
+.accordionFaqs{
+  display: block;
+
+}
+.accordionFaqs .accordion-item{
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.accordionFaqs .collapse, .accordionFaqs .accordion-item{
+  background-color: var(--color-principal);
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.accordionFaqs .accordion-header>.accordion-button{
+  background-color: #efefef;
+  font-weight: 600;
+}
+.accordionFaqs .accordion-button:not(.collapsed){
+  background-color: var(--color-principal);
+  color: var(--color-verde);
+  border-bottom: 0;
+  font-weight: 600;
+  box-shadow: none;
+}
+.accordionFaqs .accordion-button::after{
+  content: url('../img/icons/chevron-right.svg');
+  background-image: none;
+}
+.accordionFaqs .accordion-button:not(.collapsed)::after {
+  content: url('../img/icons/chevron-down-green.svg');
+  transform: rotate(0deg);
+}
+.accordionFaqs.accordion-flush .accordion-item{
+  border: 1px solid #eee!important;
+}
 
 
 body {
@@ -36,22 +72,38 @@ body {
 .bg-navy{
   background-color: var(--color-principal);
 }
-
-.bg-invest{
-  background:url(../img/hero-bg_invest.png )top no-repeat;
-}
 .bg-verde{
   background-color: var(--color-verde);
 }
+
+.bg-about{
+  background:url(../img/hero-bg_about.png )top no-repeat;
+  background-size: contain;
+}
+.bg-invest{
+  background:url(../img/hero-bg_invest.png )top no-repeat;
+  background-size: contain;
+}
 .bg-sell {
-  background: url(../img/hero-bg_sell.jpg) top no-repeat;  
+  background: url(../img/hero-bg_sell.jpg) top no-repeat;
+  background-size: contain;  
 }
 .bg-strategic-partners {
-  background: url(../img/hero-bg_strategic-partners.png) top no-repeat;  
+  background: url(../img/hero-bg_strategic-partners.png) top no-repeat;
+  background-size: contain;  
+}
+.bg-realestate-agents {
+  background: url(../img/hero-bg_realestate-agents.png) top no-repeat;
+  background-size: contain;  
 }
 .bg-gsu{
   background: url(../img/hero-bg_getStartedUploading.jpg) top center no-repeat;
+  background-size: contain;
 }
+.bg-black-white{
+  background: linear-gradient(90deg, var(--color-principal) 70%, var(--color-principal) 70%);
+}
+
 
 .btn ,  .btn-lg{
   font-size: 1em; 
@@ -211,7 +263,7 @@ h4, h5 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.investCard.investments, .investCard.solutions{
+.investCard.investments, .investCard.solutions , .investCard.about{
 
   background-color:hsla(239,13%,17%,1);
   background-image:
@@ -220,7 +272,11 @@ h4, h5 {
   radial-gradient(at 0% 0%, hsla(237,58%,43%,1) 0px, transparent 50%);
 }
 
-/* HERO SECCION */
+/*  F  */
+
+.fw-semibold{
+  font-weight: 600;
+}
 .feature-icon {
   height: 3rem;
   width: 3rem;
@@ -259,6 +315,17 @@ h4, h5 {
 .font-mulish{
   font-family: var(--mulish-font);
 }
+
+
+/* Footer */
+
+footer .list-group-item {
+  background-color: transparent;
+  border: 0;
+}
+footer .list-group-item>a{text-decoration: none;}
+
+ 
 
 .label-btn{
   padding: .8em 2em;
@@ -495,6 +562,41 @@ section.fees {
 section.map{
   background: linear-gradient(180deg, var(--color-azul) 49.70%, white 49.71%);
 }
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: var(--color-verde);
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content:  '\2022';
+  background: var(--color-principal);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid var(--color-verde);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+  line-height: 11px;
+  font-size: 20px;
+  text-align: center;
+  color:var(--color-verde);
+}
 .what-to-expect{
   background-color: white;
   border: 1px solid #eee;
@@ -503,15 +605,6 @@ section.map{
   padding: 20px 40px;
 }
 
-/* Footer */
-
-footer .list-group-item {
-  background-color: transparent;
-  border: 0;
-}
-footer .list-group-item>a{text-decoration: none;}
-
- 
 /* Media query para resolución SM (576px y superior) */
 @media (min-width: 576px) and (max-width: 991.98px)  {
   .mapa-users {
@@ -522,6 +615,10 @@ footer .list-group-item>a{text-decoration: none;}
 
 /* Media query para resolución MD (992px y superior) */
 @media (min-width: 992px) {
+  .bg-black-white{
+    background: linear-gradient(90deg,var(--color-principal) 70%, white 70%);
+  }
+  
   /* .dettails{padding: 30px 50px;  }*/
   .investCard.investments{
     background-image:url(../img/BG_investment-card.png);
@@ -531,6 +628,13 @@ footer .list-group-item>a{text-decoration: none;}
   }
   .investCard.solutions{
     background-image:url(../img/BG_solutions-card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .investCard.about{
+    background-image:url(../img/aboutCard.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
