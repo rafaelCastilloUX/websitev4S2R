@@ -1,4 +1,4 @@
-# Sell2Rent Website version 4
+# Sell2Rent Website version 3
 
 This is the repository for the source code of the Sell2Rent Website version 4. The site is built using modern web technologies, including Bootstrap for design and PHP for modularizing and reusing common elements.
 
