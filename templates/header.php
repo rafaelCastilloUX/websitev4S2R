@@ -64,7 +64,7 @@
                   </ul>
                 </li>   
                 <li class="nav-item py-3 pb-1">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="about.php">About Us</a>
                 </li>
                 <li class="nav-item py-3 pb-1">
                   <a class="nav-link" href="#">Resources</a>
