@@ -658,3 +658,11 @@ ul.timeline > li:before {
     padding-top: 40vh;
   }
 }
+
+.autocomplete-items {
+  z-index: 99999;
+}
+
+.autocomplete-list {
+  z-index: 99999;
+}
