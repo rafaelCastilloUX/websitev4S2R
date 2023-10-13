@@ -26,8 +26,7 @@
 <script src="resources/environment.js"></script>
 <script>
   function initialize() {
-    console.log("init")
-    console.log(env)
+    document.querySelector('#get-started-button').disabled = true;
     // Custom Autocomplete of Batch Service
     batchAutocomplete(document.getElementById("batchAddressAutoComplete"), env.domainServer, env.apiKey);
 
@@ -40,17 +39,21 @@
       localStorage.setItem('city', e.detail.city);
       localStorage.setItem('state', e.detail.state);
       localStorage.setItem('zipcode', e.detail.zip);
+      document.querySelector('#get-started-button').disabled = false;
     });
 
     // Add an event listener to handle error
     document.addEventListener("batch-auto-complete-error", function (e) {
       // Here you will get error using "e.detail"
       console.log("Error while searching: ", e.detail);
+      document.querySelector('#get-started-button').disabled = true;
     });
   }
 
   function goToForms() {
-    window.location.href = "/forms/index.html"
+    if(document.querySelector('#get-started-button').disabled === false) {
+      window.location.href = "/forms/index.html"
+    }
   }
 </script>
 <!-- End Batchdata -->
