@@ -24,7 +24,6 @@
 </head>
 <body>   
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQWHB9M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
   <header class="">
@@ -67,7 +66,7 @@
                   <a class="nav-link" href="about.php">About Us</a>
                 </li>
                 <li class="nav-item py-3 pb-1">
-                  <a class="nav-link" href="#">Resources</a>
+                  <a class="nav-link" href="resources.php">Resources</a>
                 </li>
             </ul>
             <div class="d-xlex pt-2 py-3 pb-1">
