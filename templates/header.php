@@ -42,7 +42,7 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="why-choose-us.php">Why Choose Us?</a></li>
-                    <li><a class="dropdown-item" href="get-started-uploading.php">Get Starteds Uploading</a></li>                  
+                    <li><a class="dropdown-item disabled" href="get-started-uploading.php">Get Starteds Uploading</a></li>                  
                   </ul>
                 </li>
                 <li class="nav-item dropdown py-3 pb-1">

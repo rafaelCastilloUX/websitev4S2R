@@ -263,7 +263,7 @@ h4, h5 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.investCard.investments, .investCard.solutions{
+.investCard.investments, .investCard.solutions , .investCard.about{
 
   background-color:hsla(239,13%,17%,1);
   background-image:
@@ -628,6 +628,13 @@ ul.timeline > li:before {
   }
   .investCard.solutions{
     background-image:url(../img/BG_solutions-card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .investCard.about{
+    background-image:url(../img/aboutCard.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
