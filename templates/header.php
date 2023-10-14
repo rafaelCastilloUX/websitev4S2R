@@ -32,16 +32,15 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQWHB9M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-
-  <header class="">
-    <nav class="navbar navbar-expand-lg fixed-top position-absolute top-0 px-lg-5 py-md-0 bg-dark" data-bs-theme="dark" style="--bs-bg-opacity: .5;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.php"><img src="img/s2r-logo.svg" alt="Sell2Rent Logo" class="w-100" height="45"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarStandard" aria-controls="mainNavbarStandard" aria-expanded="false" aria-label="Toggle navigation">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-semitransparent fixed-top bg-navy" style="bg-opacity: .5;">
+      <div class="container">
+        <a class="navbar-brand" href="index.php"><img src="img/s2r-logo.svg" alt="Sell2Rent Logo" class="w-100" height="45"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarStandard" aria-controls="mainNavbarStandard" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa-solid fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="mainNavbarStandard">
-            <ul class="navbar-nav fw-bold gap-md-4 me-auto ms-md-4 text-center">
+        <div class="collapse navbar-collapse" id="mainNavbarStandard">
+          <ul class="navbar-nav fw-bold me-auto ms-md-4 text-center">
                 <li class="nav-item dropdown py-3 pb-1">
                   <a class="nav-link dropdown-toggle" href="sell.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Sell
@@ -79,8 +78,9 @@
             <div class="d-xlex pt-2 py-3 pb-1">
               <a href="#" class="btn btn-verde fw-bold fs-6 px-3 w-100 text-uppercase">Get Started For Free <i class="fa-solid fa-chevron-right"></i></a>
             </div><!--/.d-flex -->
-          </div><!--collapse-->
-        </div><!--/container-fluid-->
+        </div>
+      </div>
     </nav>
-  </header> 
+  </header>
+ 
   <!-- end of Navbar -->

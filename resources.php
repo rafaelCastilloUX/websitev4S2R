@@ -2,9 +2,9 @@
 <!--|-->
 <main>
     <!--hero-->
-    <section class="bg-resources pt-10 d-block position-relative pt-xl-40vh">
+    <section class="bg-navy pt-10 d-block position-relative ">
             <div class="container">
-                <div class="row text-center  bg-navy " >
+                <div class="row text-center " >
                     <div class="col">
                         <div class="p-5 text-center rounded-2 text-white top-xl-25vh w-100"  >
                             <h2 class="fw-bold text-verde fs-1">Uncover Insights,</h2>
@@ -14,16 +14,8 @@
                 </div><!--/row-->
             </div><!--/container-->
         </section><!--/.Hero-->
-        <section class="reels pb-5">
+        <section class="reels py-5">
           <div class="container">
-            <div class="row" data-aos="fade-in" data-aos-delay="300">
-              <div class="col">
-                <div class="hgroup text-center">
-                  <h4 class="fw-bold text-azul mb-0">Shorts</h4>
-                  <h2 class="fw-semibold display-4">Preserving Memories and <br> Unlocking Equity</h2>
-                </div><!--Headingroup-->
-              </div><!--/col-->
-            </div><!--/.row-->
             <div class="row">
               <div class="col">
                 <div class="card border-0">

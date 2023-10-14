@@ -77,27 +77,30 @@ body {
 }
 
 .bg-about{
-  background:url(../img/hero-bg_about.png )top no-repeat;
+  background:url(../img/hero-bg-about.webp )top no-repeat;
   background-size: contain;
 }
 .bg-invest{
-  background:url(../img/hero-bg_invest.png )top no-repeat;
+  background:url(../img/hero-bg-invest.webp )top no-repeat;
   background-size: contain;
 }
 .bg-sell {
-  background: url(../img/hero-bg_sell.jpg) top no-repeat;
+  background: url(../img/hero-bg_sell.webp) top no-repeat;
   background-size: contain;  
 }
 .bg-strategic-partners {
-  background: url(../img/hero-bg_strategic-partners.png) top no-repeat;
+  background: url(../img/hero-bg_strategic-partners.webp) top no-repeat;
   background-size: contain;  
 }
 .bg-realestate-agents {
-  background: url(../img/hero-bg_realestate-agents.png) top no-repeat;
+  background: url(../img/hero-bg_realestate-agents.webp) top no-repeat;
   background-size: contain;  
 }
+.bg-resources {
+  background: var(--color-principal);
+}
 .bg-gsu{
-  background: url(../img/hero-bg_getStartedUploading.jpg) top center no-repeat;
+  background: url(../img/hero-bg-gsu.webp) top center no-repeat;
   background-size: contain;
 }
 .bg-black-white{
@@ -229,9 +232,12 @@ h4, h5 {
   font-family: 'Mulish', sans-serif;
 }
 
+.hero{
+  padding-top: 70px;/* navbar size*/
+}
 
 .hero-home{
-  background: url(../img/_demoHeroBGImage.jpg) center repeat-x ;  
+  background: url(../img/hero-bg-home-rwd.webp) center repeat-x ;  
   background-size: cover;
   height: 100vh;
   min-height: 100vh;
@@ -369,8 +375,16 @@ footer .list-group-item>a{text-decoration: none;}
   z-index: 3;
 }
 
-.navbar {
+.navbar-collapse{
+  background-color: transparent;
+  transform: all ease .4s;
+}
+.navbar-collapse.show{
   background-color: var(--color-principal);
+  border-radius: 5px;
+}
+.navbar-semitransparent {
+  background-color:#1f262e61;
 }
 .navbar-toggler{
   border: 2px solid whitesmoke;
@@ -620,6 +634,14 @@ ul.timeline > li:before {
   }
   
   /* .dettails{padding: 30px 50px;  }*/
+  .hero-home{
+    background: url(../img/hero-bg-home.webp) center repeat-x ;  
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+  } 
   .investCard.investments{
     background-image:url(../img/BG_investment-card.png);
     background-size: cover;
