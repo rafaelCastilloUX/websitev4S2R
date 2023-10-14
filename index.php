@@ -29,16 +29,9 @@
                               <div class="col-12 col-lg-8 offset-lg-2 pb-4 pb-md-0">
                                   <form  class="row row-cols-lg-auto g-2 align-items-center overflow-hidden rounded-1 p-2 bg-white">
                                       <div class="col-12 col-lg-7 col-xl-8 p-2 mt-0">
-                                        <label class="visually-hidden" for="inlineFormInputemail">email</label>
+                                        <!-- <label class="visually-hidden" for="inlineFormInputemail">email</label> -->
                                         <!-- <input type="text" class="form-control form-control-lg border-0" id="inlineFormInputemail" placeholder="Enter your address" required> -->
-                                        <div class="batch-loading">
-                                          <input class="form-control form-control-lg border-0 batch-autocomplete" id="batchAddressAutoComplete" notFoundText="No results found"
-                                            showNotFound=true displayData="name" type="text" take='5' debounce='700'
-                                            placeholder="Enter your address"
-                                            filterType="address">
-                                          <div id="batch-loader"></div>
-                                          <div id="batchNoDataFound"></div>
-                                        </div>
+                                        <?php include('templates/batchdata-input.php'); ?>
                                       </div>
                                       <div class="col-12 col-lg-5 col-xl-4  mt-0 ">
                                         <button disabled id="get-started-button" onclick="goToForms()" type="button" class="btn btn-verde btn-lg w-100 fw-bold py-3 fs-5">GET STARTED <i class="fa-solid fa-chevron-right"></i></button>

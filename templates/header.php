@@ -21,7 +21,7 @@
   
  
 <!-- Batchdata -->
-<link rel="stylesheet" href="resources/batchdataAutocomplete/dist/batch-address-auto-complete.min.css">
+<link rel="stylesheet" href="css/batchdata.min.css">
 <script src="resources/batchdataAutocomplete/dist/batch-address-auto-complete.min.js"></script>
 <script src="resources/environment.js"></script>
 <script>
