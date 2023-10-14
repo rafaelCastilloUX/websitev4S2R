@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /content/
-Disallow: /js/
+Disallow: /resources/
+Disallow: /img/
 Disallow: /css/
-Disallow: /fonts/
+Disallow: /templates/
 Disallow: /404.html
