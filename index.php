@@ -1,7 +1,7 @@
 <?php include('templates/header.php'); ?>
-    <main>    
-        <!--hero-->
-        <section class="Hero bg-navy hero-home pb-5" >
+    <main>
+      <!--hero-->
+      <section class="Hero bg-navy hero-home pb-5" >              
             <div class="container-fluid overflow-hidden ">
               <div class="row " data-aos="fade-in" data-aos-anchor-placement="top" data-aos-delay="300">
                 <div class="col-12  align-self-lg-end pt-5 px-lg-5 align-items-end">
@@ -51,7 +51,7 @@
                 <div class="ticker">  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. | </div>
                 <div class="ticker">  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. | </div>
               </div><!--/ticker-container-->
-            </div><!--/band tricker -->
+            </div><!--/band tricker -->          
         </section><!--/.Hero-->
         <section class="Info py-2" >          
           <div class="container">
@@ -63,7 +63,6 @@
                 <div>
                   <h4 class="fw-bold">Property <br> Check</h4>
                   <p class="mb-0">Single-family homes, townhouses, or Condos under $1MM, built after 1900, with lots under 1 acre.</p>
-                  
                 </div>
               </div><!--/.col-->
               <div class="col d-flex align-items-center"  data-aos="fade-in" data-aos-delay="300">
@@ -86,7 +85,7 @@
                   
                 </div>
               </div><!--/.col-->
-            </div><!--/.row-->
+            </div><!--/.row-->            
           </div><!--/.container-fluid-->
           
         </section><!--/.info-->

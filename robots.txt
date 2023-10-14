@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /resources/
+Disallow: /img/
+Disallow: /css/
+Disallow: /templates/
+Disallow: /404.html
