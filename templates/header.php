@@ -27,6 +27,7 @@
 <script src="resources/batchdata.js"></script>
 <!-- End Batchdata -->
 <script src="resources/simulator-form.js"></script>
+<script src="resources/dynamic-table.js"></script>
 </head>
 
 <body onload="initialize()">   
