@@ -28,7 +28,7 @@
   margin-top: .5em;
   margin-bottom: .5em;
 }
-.accordionFaqs .collapse, .accordionFaqs .accordion-item{
+.accordionFaqs .accordion-item{
   background-color: var(--color-principal);
   color: white;
   margin-top: 1em;
@@ -563,6 +563,9 @@ footer .list-group-item>a{text-decoration: none;}
   border-radius: 8px;
 }
 
+.top-n1 {
+  top: -1em;
+}
 .top-10vh{
   top: 10vh;
 }

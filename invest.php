@@ -31,15 +31,64 @@
                     </div><!--/col-->
                 </div><!--/.row-->
                 <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 offset-md-2" data-aos="fade-in-left" data-aos-delay="600">
+                    <div class="col-12 col-md-4 offset-md-1" data-aos="fade-in-left" data-aos-delay="600">
                     <div class="dettails">
                         <h3 class="fw-bold mb-0">Lets grow together</h3>
                         <p class="mb-0">At Sell2Rent, We Believe In Building Strong & Mutually Beneficial Partnerships. We Are Dedicated To Fostering Collaborative Relationships That Provide Value To Both Parties Involved.</p>
                         <a href="#" class="btn btn-lg btn-dark fw-bold">REGISTER NOW <i class="fa-solid fa-chevron-right"></i></a><!--CTA-->
                     </div><!--/detailes -->
                     </div><!--/col-->
-                    <div class=" col-12 col-sm-6 col-md-4 text-center" data-aos="fade-in-right" data-aos-delay="600">
-                        <img src="img/demo-investWhy.png" alt="Demo" class="img-fluid" width='350'>
+                    <div class=" col-12 col-md-6 overflow-y-auto" style="height: 60vh; " data-aos="fade-in-right" data-aos-delay="400" >
+                       <!-- Section: Timeline -->
+                       <section class="py-1">
+                          <ul class="pb-0 list-unstyled" data-aos="fade-in-up" data-aos-delay="300">                            
+                            <li class=" mb-5">
+                                <div class="position-relative mt-5"> 
+                                    <h3 class="bg-azul py-3 px-4 text-white fs-3 fw-semibold ms-3 position-absolute top-n1"> /01 </h3>
+                                </div>                               
+                                <div class="bg-navy pt-5 pb-2 px-3">
+                                    <h5 class="fw-bold text-verde">Steady Income from Day 1:</h5>
+                                    <p class="fs-5 mb-0 mt-2 text-white">Secure immediate rental income with our sale-leaseback properties, eliminating the stress of finding tenants and covering vacancy costs.</p>
+                                </div><!--/card-step--> 
+                            </li><!--/step 1-->
+                            <li class=" mb-5">
+                                <div class="position-relative mt-5"> 
+                                    <h3 class="bg-azul py-3 px-4 text-white fs-3 fw-semibold ms-3 position-absolute top-n1 rotate3" style="right:1em;" > /02 </h3>
+                                </div>                               
+                                <div class="bg-navy pt-5 pb-2 px-3">
+                                    <h5 class="fw-bold text-verde">Off-Market Advantage:</h5>
+                                    <p class="fs-5 mb-0 mt-2 text-white">Gain exclusive access to off-market properties, giving you a competitive edge in the real estate market.</p>
+                                </div><!--/card-step--> 
+                            </li><!--/step 2-->
+                            <li class=" mb-5">
+                                <div class="position-relative mt-5"> 
+                                    <h3 class="bg-azul py-3 px-4 text-white fs-3 fw-semibold ms-3 position-absolute top-n1"> /03 </h3>
+                                </div>                               
+                                <div class="bg-navy pt-5 pb-2 px-3">
+                                    <h5 class="fw-bold text-verde">Quality Tenants and Extended Leases:</h5>
+                                    <p class="fs-5 mb-0 mt-2 text-white">Invest confidently with homeowners-turned-renters who are motivated to care for the property, and enjoy extended lease agreements to reduce turnover expenses.</p>
+                                </div><!--/card-step--> 
+                            </li><!--/step 3-->
+                            <li class=" mb-5">
+                                <div class="position-relative mt-5"> 
+                                    <h3 class="bg-azul py-3 px-4 text-white fs-3 fw-semibold ms-3 position-absolute top-n1 rotate3" style="right:1em;" > /04 </h3>
+                                </div>                               
+                                <div class="bg-navy pt-5 pb-2 px-3">
+                                    <h5 class="fw-bold text-verde">Data-Driven Investment: </h5>
+                                    <p class="fs-5 mb-0 mt-2 text-white">Our data-driven approach matches you with properties that align with your investment profile, maximizing the relevance of your investment choices.</p>
+                                </div><!--/card-step--> 
+                            </li><!--/step 4-->
+                            <li class=" mb-5">
+                                <div class="position-relative mt-5"> 
+                                    <h3 class="bg-azul py-3 px-4 text-white fs-3 fw-semibold ms-3 position-absolute top-n1"> /05 </h3>
+                                </div>                               
+                                <div class="bg-navy pt-5 pb-2 px-3">
+                                    <h5 class="fw-bold text-verde">Diverse Investment Options:</h5>
+                                    <p class="fs-5 mb-0 mt-2 text-white">Choose from a variety of single-family homes and townhomes across the US, enhancing your investment portfolio with nationwide opportunities.</p>
+                                </div><!--/card-step--> 
+                            </li><!--/step 5-->  
+                          </ul>
+                        </section><!-- Section: Timeline -->
                     </div>
                 </div><!--/row-->
             </div><!--/container-->
@@ -125,14 +174,14 @@
                 </div><!--/.row-->
                 <div class="row row-cols-1 row-cols-md-2">
                     <div class="col mb-4">
-                        <div class="tarjeta bg-verde p-5 my-auto">
+                        <div class="tarjeta bg-azul text-white p-5 my-auto rotate3">
                             <div class="rate w-100 fs-5 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div><!--/rate-->
-                            <h5 class="mb-3">I wanted to have access to the equity in my house. I am already turning 70 so l am getting old. I wanted to spend the money with my adult children and wanted to stay as a tenant forever, so Sell2Rent was the best method I found.</h5>
+                            <h5 class="mb-3">Sell2Rent's marketplace has truly opened doors to investment opportunities I wouldn't have found anywhere else. The properties are top-notch, and the process is seamless.</h5>
                             <div class="name d-inline-flex gap-2">
-                            <p class="fw-bold">John W.</p>
-                            <p class="ps-2 border-start border-dark"> Accountant</p>
+                            <p class="fw-bold">John R.</p>
+                            <p class="ps-2 border-start border-dark"> Seasoned InvestorSeasoned Investor</p>
                             </div><!--/name-->                        
                         </div><!--/tarjeta-->
                     </div><!--/col-->
@@ -141,10 +190,10 @@
                             <div class="rate w-100 fs-5 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div><!--/rate-->
-                            <h5 class="mb-3">I wanted to have access to the equity in my house. I am already turning 70 so l am getting old. I wanted to spend the money with my adult children and wanted to stay as a tenant forever, so Sell2Rent was the best method I found.</h5>
+                            <h5 class="mb-3">Sell2Rent's marketplace has truly opened doors to investment opportunities I wouldn't have found anywhere else. The properties are top-notch, and the process is seamless.</h5>
                             <div class="name d-inline-flex gap-2">
-                            <p class="fw-bold">John W.</p>
-                            <p class="ps-2 border-start border-dark"> Accountant</p>
+                            <p class="fw-bold">John R.</p>
+                            <p class="ps-2 border-start border-dark"> Seasoned Investor</p>
                             </div><!--/name-->                        
                         </div><!--/tarjeta-->
                     </div><!--/col-->
@@ -153,22 +202,22 @@
                             <div class="rate w-100 fs-5 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div><!--/rate-->
-                            <h5 class="mb-3">I wanted to have access to the equity in my house. I am already turning 70 so l am getting old. I wanted to spend the money with my adult children and wanted to stay as a tenant forever, so Sell2Rent was the best method I found.</h5>
+                            <h5 class="mb-3">Sell2Rent's marketplace has truly opened doors to investment opportunities I wouldn't have found anywhere else. The properties are top-notch, and the process is seamless.</h5>
                             <div class="name d-inline-flex gap-2">
-                            <p class="fw-bold">John W.</p>
-                            <p class="ps-2 border-start border-dark"> Accountant</p>
+                            <p class="fw-bold">John R.</p>
+                            <p class="ps-2 border-start border-dark"> Seasoned Investor</p>
                             </div><!--/name-->                        
                         </div><!--/tarjeta-->
                     </div><!--/col-->
                     <div class="col mb-4">
-                        <div class="tarjeta bg-verde p-5 my-auto">
+                        <div class="tarjeta bg-navy text-white p-5 my-auto">
                             <div class="rate w-100 fs-5 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div><!--/rate-->
-                            <h5 class="mb-3">I wanted to have access to the equity in my house. I am already turning 70 so l am getting old. I wanted to spend the money with my adult children and wanted to stay as a tenant forever, so Sell2Rent was the best method I found.</h5>
+                            <h5 class="mb-3">Sell2Rent's marketplace has truly opened doors to investment opportunities I wouldn't have found anywhere else. The properties are top-notch, and the process is seamless.</h5>
                             <div class="name d-inline-flex gap-2">
-                            <p class="fw-bold">John W.</p>
-                            <p class="ps-2 border-start border-dark"> Accountant</p>
+                            <p class="fw-bold">John R.</p>
+                            <p class="ps-2 border-start border-dark"> Seasoned Investor</p>
                             </div><!--/name-->                        
                         </div><!--/tarjeta-->
                     </div><!--/col-->
@@ -230,8 +279,8 @@
                     <div class="col mb-4">
                         <div class="caption-deals position-relative">
                             <div class="heading text-nowrap position-absolute bottom-10 end-10">
-                                <h5 class="py-1 px-3 d-inline-block bg-dark fw-bold rotate3 text-white  position-absolute z-2">Tranquil</h5>
-                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">Grove</h5>
+                                <h5 class="py-1 px-3 d-inline-block bg-dark fw-bold rotate3 text-white  position-absolute z-2">Sunny Pine</h5>
+                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">Retreat</h5>
                             </div><!--/heading-->
                             <img src="img/deals/demo_img4.png" alt="Demo imagen" class="img-fluid shadow-lg">
                         </div><!--/caption-deals-->
@@ -239,8 +288,8 @@
                     <div class="col mb-4">
                         <div class="caption-deals position-relative">
                             <div class="heading text-nowrap position-absolute bottom-10 end-10">
-                                <h5 class="py-1 px-3 d-inline-block bg-dark fw-bold rotate3 text-white  position-absolute z-2">Tranquil</h5>
-                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">Grove</h5>
+                                <h5 class="py-1 px-3 d-inline-block bg-dark fw-bold rotate3 text-white  position-absolute z-2">Cozy Crimson</h5>
+                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">Cabin</h5>
                             </div><!--/heading-->
                             <img src="img/deals/demo_img5.png" alt="Demo imagen" class="img-fluid shadow-lg">
                         </div><!--/caption-deals-->
@@ -248,8 +297,8 @@
                     <div class="col mb-4">
                         <div class="caption-deals position-relative">
                             <div class="heading text-nowrap position-absolute bottom-10 end-10">
-                                <h5 class="py-1 px-3 d-inline-block bg-dark fw-bold rotate3 text-white  position-absolute z-2">Tranquil</h5>
-                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">Grove</h5>
+                                <h5 class="py-1 px-3 d-inline-block bg-dark fw-bold rotate3 text-white  position-absolute z-2">Rustic</h5>
+                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">GrMaple Lodge</h5>
                             </div><!--/heading-->
                             <img src="img/deals/demo_img6.png" alt="Demo imagen" class="img-fluid shadow-lg">
                         </div><!--/caption-deals-->
@@ -268,6 +317,146 @@
                 </div><!--/.row-->
             </div><!--/container-->
         </section><!--/gradient-->
-        <?php include('templates/accordionFAQs.php') ?>   
+        <section class="faq my-5">
+            <div class= "container">
+                <div class="row align-items-center ">
+                    <div class="col-12 col-md-10">
+                        <div class="heading">
+                            <h2 class="fw-bold text-azul">Frequently Asked Questions</h2>
+                            <h1 class="fw-bold">Your Questions Answered </h1>
+                        </div><!--/heading-->
+                    </div><!--/col-->
+                    <div class="col-12 col-md-2 d-none d-md-block">
+                        <a href="#" class="btn btn-lg btn-dark rounded-1 w-100 fw-bold">SEE ALL FAQ'S <i class="fas fa-chevron-right"></i></a>
+                    </div><!--/col-->
+                </div><!--/row-->
+                <div class="row">
+                    <div class="col">
+                        <div class="accordion accordion-flush accordionFaqs" id="accordionFaqs">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Why Choose Sell2Rent?
+                                </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    <p>The majority of our properties are off-market and have never been listed online. Thanks to our sell and Stay program, most of our properties also include a homeowner willing to rent from day one.</p>
+                                </div>
+                                </div>
+                            </div><!-- 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Who is the seller?
+                                </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                The sellers are homeowners who have contacted us for the Sell and Stay program. Many want to tap into their home equity and are willing to stay as renters after a sale.
+                                </div>
+                                </div>
+                            </div><!-- 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How long does the buying process Take?
+                                </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    The usual process takes about 30-45 days to complete.
+                                </div>
+                                </div>
+                            </div><!-- 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What underwriting is done by sell2rent?
+                                </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    Preliminary underwriting is done by us as we analyze: (1) The Seller, (2) The Property, and (3) The Financial Transaction.
+                                </div>
+                                </div>
+                            </div><!-- 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What types of properties can i invest in?
+                                </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    We focus exclusively on single-family homes and townhomes that are occupied by the homeowner.
+                                </div>
+                                </div>
+                            </div><!-- 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Where are the properties located?
+                                </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    Across the US.
+                                </div>
+                                </div>
+                            </div><!-- 6 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Who controls the closing?
+                                </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    In most cases, Sell2rent will arrange the closing with your preference, using institutional-quality service providers.
+                                </div>
+                                </div>
+                            </div><!-- 7 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                As an investor how much does it cose to use s2R?
+                                </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    Nothing. The investor does not pay to use our platform.                                  
+                                </div>
+                                </div>
+                            </div><!-- 8 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                What is the typical leaseback period for a seller? 
+                                </button>
+                                </h2>
+                                <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    Rent agreements typically range from 1 to 3 years. Many sellers are willing to pay rent several months in advance. Ultimately, the terms of the lease are negotiated and agreed to by both you and the seller.
+                                </div>
+                                </div>
+                            </div><!-- 9 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                What if i font want to rent the house to the former owner?
+                                </button>
+                                </h2>
+                                <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                                <div class="accordion-body">
+                                    We also have vacant properties you can invest in!
+                                </div>
+                                </div>
+                            </div><!-- 10 -->
+                        </div>
+                    </div><!--/col-->
+                </div><!--/row-->
+            </div><!--/container-->
+        </section><!--/acordion faq--> 
     </main>
     <?php include('templates/footer.php'); ?>
