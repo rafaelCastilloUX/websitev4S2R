@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sell2Rent | Sell your property and Stay as a renter</title>
   <link rel="icon" type="image/x-icon" href="img/icons/favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <!--Bootstrap Core-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <!--Animation Scroll PLugin-->
@@ -25,6 +26,7 @@
 <script src="resources/environment.js"></script>
 <script src="resources/batchdata.js"></script>
 <!-- End Batchdata -->
+<script src="resources/simulator-form.js"></script>
 </head>
 
 <body onload="initialize()">   

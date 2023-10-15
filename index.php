@@ -89,7 +89,7 @@
           </div><!--/.container-fluid-->
           
         </section><!--/.info-->
-        <section class="match d-none">
+        <section class="match">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-lg-6" data-aos="fade-left" data-aos-anchor-placement="top" data-aos-delay="300">
@@ -105,42 +105,13 @@
                       <h2 class="textFrame bg-white position-relative z-1" style="left:-1.5em; bottom:-1.5em">A <span class="fw-semibold">Match?</span></h2>
                     </div><!--/heading-->
                   </div><!--/cta-form-container-->
-                  <div class="preqForm text-center text-white">
-                    <h5 class="fw-bold text-verde">1. Property Type</h5>
-                    <h4 class="fw-bold">What type of property do you own?</h4>
-                    <div class="my-1 px-5">                    
-                      <form>
-                        <div class="row g-3">
-                          <div class="col-sm-6 p-0">
-                            <div class="d-block p-1">
-                              <input class="form-check-input d-none" type="radio" name="multipleOptions" id="opcion1" value="opcion1">
-                              <label class="form-check-label label-btn" for="opcion1">Single Family Home</label>
-                            </div>
-                            <div class="d-block p-1">
-                              <input class="form-check-input d-none" type="radio" name="multipleOptions" id="opcion2" value="opcion2">
-                              <label class="form-check-label label-btn" for="opcion2">TownHouse</label>
-                            </div>
-                          </div>
-                          <div class="col-sm-6 p-0">
-                            <div class="d-block p-1">
-                              <input class="form-check-input d-none" type="radio" name="multipleOptions" id="opcion3" value="opcion3">
-                              <label class="form-check-label label-btn" for="opcion3">Condo</label>
-                            </div>
-                            <div class="d-block p-1">
-                              <input class="form-check-input d-none" type="radio" name="multipleOptions" id="opcion4" value="opcion4">
-                              <label class="form-check-label label-btn" for="opcion4">Other</label>
-                            </div>
-                          </div>
-                        </div>
-                    
-                        <div class="row my-3">
-                          <div class="col-sm-12">
-                            <button type="submit" class="btn btn-verde fw-bold">NEXT  <i class="fa-solid fa-chevron-right "></i></button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div><!--/preqForm-->
+                  <form id="simulator-form">
+                    <?php include('templates/simulator-form/step1.php'); ?>
+                    <?php include('templates/simulator-form/step2.php'); ?>                 
+                    <?php include('templates/simulator-form/step3.php'); ?>
+                    <?php include('templates/simulator-form/step4.php'); ?>
+                  </form>  
+                  <!--/preqForm-->
                 </div><!--/bg-dark-->
                   </div><!--/cta-form-container--> 
               </div><!--/.col-->
