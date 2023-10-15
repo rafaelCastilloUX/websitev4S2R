@@ -247,47 +247,105 @@
                       <div class="col p-4 overflow-y-auto" style="height: 60vh;margin-top: 5em;">
                         <!-- Section: Timeline -->
                         <section class="py-5">
-                          <ul class="timeline-with-icons">
-                            <li class="timeline-item mb-5" data-aos="fade-in-up" data-aos-anchor-placement="top" data-aos-delay="300">
-                              <span class="timeline--icon" id="step01">
-                                <span class="timeline-step">STEP</span>
-                                <span class="timeline-number">01</span>
-                              </span>
-                              <div class="heading ms-5">
-                                <h5 class="textFrame rotate3 fw-bold bg-verde position-absolute z-2">Complete the Form</h5>
-                                <h5 class="textFrame bg-azul fw-bold text-white position-relative z-1" style="left:-1.5em; bottom:-1.5em">& schedule a call:</h5>
-                              </div><!--/in step-->
-                              <div class="timeline--card_step">
-                                <p class="fs-4 mb-0 mt-2">Fill out the form and schedule a call with our sales team. (We’re nice. We promise.)</p>
-                              </div><!--/card-step--> 
-                            </li><!--/step-->
-                            <li class="timeline-item mb-5"  id="step02" data-aos-anchor=".timeline-with-icons"  data-aos="fade-in-up" data-aos-delay="300">                              
-                              <span class="timeline--icon">
-                                <span class="timeline-step">STEP</span>
-                                <span class="timeline-number">02</span>
-                              </span>
-                              <div class="heading ms-5">
-                                <!-- <h5 class="textFrame rotate3 fw-bold bg-verde position-absolute z-2">Complete the Form</h5> -->
-                                <h5 class="textFrame bg-azul fw-bold text-white position-relative z-1" style="left:-1.5em; bottom:-1.5em">Time to meet:</h5>
-                              </div><!--/in step-->
+                          <ul class="timeline-with-icons" data-aos="fade-in-up" data-aos-delay="300">                            
+                            <li class="timeline-item mb-5">
+                              <div class="d-flex gap-1">
+                                <span class="timeline--icon" id="step01">
+                                  <span class="timeline-step">STEP</span>
+                                  <span class="timeline-number">01</span>
+                                </span>
+                                <div class="heading ms-1">
+                                  <img src="img/journey-step01.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                </div><!--/in step-->
+                              </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
-                                <p>Fill out the form and schedule a call with our sales team. (We’re nice. We promise.)</p>
+                                <p class="fs-5 mb-0 mt-2">Fill out the form and schedule a call with our sales team. (We're nice. We promise.)</p>
                               </div><!--/card-step--> 
-                            </li><!--/step--> 
-                            <li class="timeline-item mb-5"  id="step03" data-aos-anchor=".timeline-with-icons" data-aos="fade-in-up" data-aos-delay="300">                              
-                              <span class="timeline--icon">
-                                <span class="timeline-step">STEP</span>
-                                <span class="timeline-number">03</span>
-                              </span>
-                              <div class="heading ms-5">
-                                <h5 class="textFrame rotate3 fw-bold bg-verde position-absolute z-2">Complete the Form</h5>
-                                <h5 class="textFrame bg-azul fw-bold text-white position-relative z-1" style="left:-1.5em; bottom:-1.5em">& Schedule a Call:</h5>
-                              </div><!--/in step-->
-                              <div class="timeline--card_step">
-                                <p>Fill out the form and schedule a call with our sales team. (We’re nice. We promise.)</p>
+                            </li><!--/step 1-->
+                            <li class="timeline-item mb-5">
+                              <div class="d-flex gap-1">
+                                <span class="timeline--icon" id="step01">
+                                  <span class="timeline-step">STEP</span>
+                                  <span class="timeline-number">02</span>
+                                </span>
+                                <div class="heading ms-1">
+                                  <img src="img/journey-step02.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                </div><!--/in step-->
+                              </div><!--/d-flex-->
+                              <div class="timeline--card_step bg-light text-body-emphasis">
+                                <p class="fs-5 mb-0 mt-2">At the scheduled time, we’ll hop on a meeting together and make progress towards your goals.</p>
                               </div><!--/card-step--> 
-                            </li><!--/step--> 
- 
+                            </li><!--/step 2-->
+                            <li class="timeline-item mb-5">
+                              <div class="d-flex gap-1">
+                                <span class="timeline--icon" id="step01">
+                                  <span class="timeline-step">STEP</span>
+                                  <span class="timeline-number">03</span>
+                                </span>
+                                <div class="heading ms-1">
+                                  <img src="img/journey-step03.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                </div><!--/in step-->
+                              </div><!--/d-flex-->
+                              <div class="timeline--card_step bg-light text-body-emphasis">
+                                <p class="fs-5 mb-0 mt-2">Upload the necessary documents, property photos, and a video for assessment. Access the guide here.</p>
+                              </div><!--/card-step--> 
+                            </li><!--/step 3-->
+                            <li class="timeline-item mb-5">
+                              <div class="d-flex gap-1">
+                                <span class="timeline--icon" id="step01">
+                                  <span class="timeline-step">STEP</span>
+                                  <span class="timeline-number">04</span>
+                                </span>
+                                <div class="heading ms-1">
+                                  <img src="img/journey-step04.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                </div><!--/in step-->
+                              </div><!--/d-flex-->
+                              <div class="timeline--card_step bg-light text-body-emphasis">
+                                <p class="fs-5 mb-0 mt-2">Our team assesses your property's value, shares the results with our investor network, and you sign a PSA allowing us to market the property.</p>
+                              </div><!--/card-step--> 
+                            </li><!--/step 4-->
+                            <li class="timeline-item mb-5">
+                              <div class="d-flex gap-1">
+                                <span class="timeline--icon" id="step01">
+                                  <span class="timeline-step">STEP</span>
+                                  <span class="timeline-number">05</span>
+                                </span>
+                                <div class="heading ms-1">
+                                  <img src="img/journey-step05.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                </div><!--/in step-->
+                              </div><!--/d-flex-->
+                              <div class="timeline--card_step bg-light text-body-emphasis">
+                                <p class="fs-5 mb-0 mt-2">We match you with home-buying investors in our national network. (We aim for multiple, competing bids.)</p>
+                              </div><!--/card-step--> 
+                            </li><!--/step 5-->
+                            <li class="timeline-item mb-5">
+                              <div class="d-flex gap-1">
+                                <span class="timeline--icon" id="step01">
+                                  <span class="timeline-step">STEP</span>
+                                  <span class="timeline-number">06</span>
+                                </span>
+                                <div class="heading ms-1">
+                                  <img src="img/journey-step06.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                </div><!--/in step-->
+                              </div><!--/d-flex-->
+                              <div class="timeline--card_step bg-light text-body-emphasis">
+                                <p class="fs-5 mb-0 mt-2">You review one or more cash offers with rental terms to choose and accept your favorite</p>
+                              </div><!--/card-step--> 
+                            </li><!--/step 6-->
+                            <li class="timeline-item mb-5" >
+                              <div class="d-flex gap-1">
+                                <span class="timeline--icon" id="step01">
+                                  <span class="timeline-step">STEP</span>
+                                  <span class="timeline-number">07</span>
+                                </span>
+                                <div class="heading ms-1">
+                                  <img src="img/journey-step07.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                </div><!--/in step-->
+                              </div><!--/d-flex-->
+                              <div class="timeline--card_step bg-light text-body-emphasis">
+                                <p class="fs-5 mb-0 mt-2"> You receive cash at closing, sign a lease agreement, and continue living in the comfort of your own home.</p>
+                              </div><!--/card-step--> 
+                            </li><!--/step 7--> 
                           </ul>
                         </section>
                         <!-- Section: Timeline -->
