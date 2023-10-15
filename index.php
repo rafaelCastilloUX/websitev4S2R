@@ -89,7 +89,7 @@
           </div><!--/.container-fluid-->
           
         </section><!--/.info-->
-        <section class="match d-none">
+        <section class="match ">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-lg-6" data-aos="fade-left" data-aos-anchor-placement="top" data-aos-delay="300">
