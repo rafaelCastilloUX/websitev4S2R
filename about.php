@@ -24,11 +24,11 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-2 align-items-center">
                     <div class="col">
-                        <img src="img/mision.png" alt="Our Mision" class="img-fluid">
+                        <img src="img/mision.png" alt="Our Mission" class="img-fluid">
                     </div><!--/.col-->
                     <div class="col">
                         <div class="heading ms-5 position-relative">
-                            <h5 class="py-3 px-4 d-inline-block rotate3 fw-bold bg-dark text-white position-absolute z-2" style="margin-top:-1em;">Mision</h5>                            
+                            <h5 class="py-3 px-4 d-inline-block rotate3 fw-bold bg-dark text-white position-absolute z-2" style="margin-top:-1em;">Mission</h5>                            
                         </div>
                         <div class="bg-verde p-5 text-dark">
                             <p class="fw-semibold">At Sell2Rent, we're on a mission to transform the way homeowners navigate tough financial and life situations.</p>
