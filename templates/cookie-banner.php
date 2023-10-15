@@ -9,4 +9,5 @@
 </div>
  <!-- Cookie !-->
  <script src="resources/cookie.js"></script>
+ <link rel="stylesheet" href="css/cookie-banner.css">
   <!-- End Cookie !-->
