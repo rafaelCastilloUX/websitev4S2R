@@ -11,8 +11,9 @@
         <div class="col">
             <div class="card text-white bg-navy mb-3">
             <img src="img/s-partners_uniqueproportion.png" class="card-img-top" alt="Photos">
-            <div class="card-body p-md-5"> 
-                <p class="card-text">We empower you by enabling you to leverage your home equity to improve your financial situation.</p>
+            <div class="card-body p-md-5 position-relative min-height-xl-200">
+                <img src="img/titles/home-equity.svg" alt="Home Equity Empowerment" class="position-absolute top-n4 img-fluid ">
+                <p class="card-text fs-5  mt-5 mt-lg-0">We empower you by enabling you to leverage your home equity to improve your financial situation.</p>
             </div>
             </div>
         </div><!--/col-->
@@ -20,9 +21,10 @@
             <div class="col">
             <div class="card text-white bg-azul mb-3">
                 <img src="img/s-partners_haslefree.png" class="card-img-top" alt="Photos">
-                <div class="card-body p-md-5"> 
-                <p class="card-text">We provide you with a streamlined and simplified experience, eliminating the complexities of a traditional sales process, loan qualifications, & payment deadlines.</p>
-                </div>
+                <div class="card-body p-md-5 position-relative min-height-xl-200">
+                <img src="img/titles/hassle-free.svg" alt="Hassle Free Process" class="position-absolute top-n4 img-fluid ">
+                <p class="card-text fs-5  mt-5 mt-lg-0">We provide you with a streamlined and simplified experience, eliminating the complexities of a traditional sales process, loan qualifications, & payment deadlines.</p>
+            </div>
             </div>
             </div><!--/col-->
         </div><!--/col-->
@@ -30,8 +32,9 @@
             <div class="col">
             <div class="card text-white bg-navy mb-3">
                 <img src="img/s-partners_family.png" class="card-img-top" alt="Photos">
-                <div class="card-body p-md-5">
-                 <p class="card-text">You can sell your home and choose to rent it back, maintaining your lifestyle &stability.</p>
+                <div class="card-body p-md-5 position-relative min-height-xl-200">
+                    <img src="img/titles/homeownership.svg" alt="Homeownership Flexibility" class="position-absolute top-n4 img-fluid ">
+                    <p class="card-text fs-5  mt-5 mt-lg-0">You can sell your home and choose to rent it back, maintaining your lifestyle &stability.</p>
                 </div>
             </div>
             </div><!--/col-->
@@ -39,8 +42,9 @@
         <div class="col">
             <div class="card text-white bg-navy mb-3">
             <img src="img/s-partners_man.png" class="card-img-top" alt="Photos">
-            <div class="card-body p-md-5"> 
-                <p class="card-text">You get connected with real investors making multiple competitive offers, ensuring you get the best deal for your home.</p>
+            <div class="card-body p-md-5 position-relative min-height-xl-200">
+                <img src="img/titles/real-investors.svg" alt="Real Investors Connections" class="position-absolute top-n4 img-fluid ">
+                <p class="card-text fs-5  mt-5 mt-lg-0">You get connected with real investors making multiple competitive offers, ensuring you get the best deal for your home.</p>
             </div>
             </div>
         </div><!--/col-->                
