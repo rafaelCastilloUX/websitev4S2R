@@ -1,4 +1,4 @@
-<div class="preqForm text-center text-white step3 d-none">
+<div class="preqForm text-center text-white step3" style="display: none;">
     <h5 class="fw-bold text-verde">3. Lot Size</h5>
     <h4 class="fw-bold">How large is your property's lot size?</h4>
     <div class="my-1 px-5">

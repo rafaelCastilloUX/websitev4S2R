@@ -1,10 +1,13 @@
 function btnNextClicked(event, step) {
     event.preventDefault();
     console.log(step)
-    $('.preqForm').addClass('d-none');
+    $(".step1").hide();
+    $(".step2").hide();
+    $(".step3").hide();
+    $(".step4").hide();
 
     let nextStep = step+1;
-    $(".step"+nextStep).removeClass('d-none');
+    $(".step"+nextStep).fadeIn(3000)
 
     if(step === 4) {
         let formData = $("#simulator-form").serializeArray();

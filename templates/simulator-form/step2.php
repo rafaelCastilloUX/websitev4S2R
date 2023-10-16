@@ -1,4 +1,4 @@
-<div class="preqForm text-center text-white step2 d-none">
+<div class="preqForm text-center text-white step2" style="display: none;">
     <h5 class="fw-bold text-verde">2. Year Built</h5>
     <h4 class="fw-bold">When was your property built?</h4>
     <div class="my-1 px-5">

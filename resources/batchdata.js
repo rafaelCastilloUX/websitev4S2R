@@ -9,6 +9,9 @@ function setButtonDisabled(value) {
 }
 
 function initialize() {
+  $(".step2").hide();
+  $(".step3").hide();
+  $(".step4").hide();
     setButtonDisabled(true);
     // Custom Autocomplete of Batch Service
     batchAutocomplete(document.getElementById("batchAddressAutoComplete"), env.domainServer, env.apiKey);
