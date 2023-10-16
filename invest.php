@@ -298,7 +298,7 @@
                         <div class="caption-deals position-relative">
                             <div class="heading text-nowrap position-absolute bottom-10 end-10">
                                 <h5 class="py-1 px-3 d-inline-block bg-dark fw-bold rotate3 text-white  position-absolute z-2">Rustic</h5>
-                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">GrMaple Lodge</h5>
+                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">Maple Lodge</h5>
                             </div><!--/heading-->
                             <img src="img/deals/demo_img6.png" alt="Demo imagen" class="img-fluid shadow-lg">
                         </div><!--/caption-deals-->
