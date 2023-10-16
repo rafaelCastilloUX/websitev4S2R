@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Start cookieyes banner --><script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/825897ec39a5e140a25c7736/script.js"></script> <!-- End cookieyes banner -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sell2Rent | Sell your property and Stay as a renter</title>
