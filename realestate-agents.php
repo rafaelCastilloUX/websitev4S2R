@@ -245,7 +245,7 @@
                     <div class="col-12 col-md-6">
                         <h5 class="text-verde fw-semibold fs-3">Your Success as a real estate agent</h5>
                         <h2 class="fw-bold text-white">Streamline Your Transactions With Sell2Ren</h2>
-                        <img src="img/realestateagents.png" alt="Real estate agents" class="mt-3 img-fluid">
+                        <img src="img/realestateagents.webp" alt="Real estate agents" class="mt-3 img-fluid">
                     </div><!--/col-->
                     <div class="col-12 col-md-6  text-start text-white">
                         <div class="container-fluid">

@@ -131,7 +131,7 @@
                         </div><!--/flex-->
                     </div><!--/col-->  
                     <div class="col d-none d-sm-block"  data-aos="fade-in" data-aos-delay="300">
-                        <img src="img/smartphone.png" alt="How it works in S2R" class="w-100">
+                        <img src="img/smartphone.webp" alt="How it works in S2R" class="w-100">
                     </div><!--/col-->
                     <div class="col">
                         <div class="mb-2 bg-white p-2 d-flex flex-column mx-auto" style="max-width:350px;"  data-aos="fade-in" data-aos-delay="500">
@@ -233,7 +233,7 @@
                         </div>
                     </div><!--/col-->
                     <div class="col-sm-12 col-lg-5 ">
-                        <img src="img/investors-hand.png" alt="Join th einvestors" class="img-fluid">
+                        <img src="img/investors-hand.webp" alt="Join th einvestors" class="img-fluid">
                     </div><!--/col-->
                 </div><!--/.row-->
             </div><!--/.container-->

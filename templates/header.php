@@ -36,7 +36,7 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQWHB9M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-semitransparent fixed-top bg-navy" style="bg-opacity: .5;">
+    <nav class="navbar navbar-expand-lg navbar-semitransparent fixed-top bg-navy" >
       <div class="container">
         <a class="navbar-brand" href="index.php"><img src="img/s2r-logo.svg" alt="Sell2Rent Logo" class="w-100" height="45"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarStandard" aria-controls="mainNavbarStandard" aria-expanded="false" aria-label="Toggle navigation">

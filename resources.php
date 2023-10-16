@@ -89,7 +89,7 @@
             <div class="row row-cols-1 row-cols-md-2">
               <div class="col">
                 <div class="card text-white bg-navy mb-3">
-                  <img src="img/s-partners_uniqueproportion.png" class="card-img-top" alt="Photos">
+                  <img src="img/resources_demo1.png" class="card-img-top" alt="Photos">
                   <div class="card-body p-md-5"> 
                     <div class="d-inline">
                       <span class="badge text-bg-dark">White Paper</span>
@@ -101,7 +101,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card text-white bg-navy mb-3">
-                  <img src="img/s-partners_uniqueproportion.png" class="card-img-top" alt="Photos">
+                  <img src="img/resources_demo1.png" class="card-img-top" alt="Photos">
                   <div class="card-body p-md-5"> 
                     <div class="d-inline">
                       <span class="badge text-bg-dark">White Paper</span>
@@ -129,7 +129,7 @@
             <div class="row row-cols-1 row-cols-md-3 ">
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard1.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -139,7 +139,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -149,7 +149,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard3.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -175,7 +175,7 @@
             <div class="row row-cols-1 row-cols-md-3 ">
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard1.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -185,7 +185,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -195,7 +195,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard3.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -221,7 +221,7 @@
             <div class="row row-cols-1 row-cols-md-3 ">
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard1.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -231,7 +231,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -241,7 +241,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard3.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -267,7 +267,7 @@
             <div class="row row-cols-1 row-cols-md-3 ">
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard1.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -277,7 +277,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -287,7 +287,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard3.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -313,7 +313,7 @@
             <div class="row row-cols-1 row-cols-md-3 ">
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard1.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -323,7 +323,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -333,7 +333,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard3.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -359,7 +359,7 @@
             <div class="row row-cols-1 row-cols-md-3 ">
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard1.png"  class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -369,7 +369,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard2.png"  class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -379,7 +379,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard3.png"  class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -405,7 +405,7 @@
             <div class="row row-cols-1 row-cols-md-3 ">
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard1.png"  class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -415,7 +415,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard2.png"  class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -425,7 +425,7 @@
               </div><!--/.col-->
               <div class="col mb-2">
                 <div class="card" >
-                  <img src="img/s-partners_uniqueproportion.png"" class="card-img-top" alt="...">
+                  <img src="img/resources_democard3.png"  class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Chasing out : home equity to pay off debt </h5>
                     <p class="card-text">Introduction: Life can be unpredictable, throwing unexpected challenges our way. When it comes to homeownership, sometimes selling your house and renting it back can be.</p>
@@ -442,7 +442,7 @@
               <div class="col">
                 <div class="hgroup text-center">
                   <h2 class="fw-bold display-3 d-inline-block lh-1">Start working with Sell2Rent</h2>
-z                </div><!--Headingroup-->
+                </div><!--Headingroup-->
               </div><!--/.col-->
             </div><!--/.row-->
           </div><!--/container-->
@@ -456,7 +456,7 @@ z                </div><!--Headingroup-->
                       <span class="badge text-bg-dark">White Paper</span>
                       <span class="badge text-bg-dark">June 30, 2023</span>
                     </div><!--/inline-->
-                      <p class="card-text fs-5">I’m Eager to Learn About Sell & Stay Program Qualify My Property.</p>
+                      <p class="card-text fs-5">I'm Eager to Learn About Sell & Stay Program Qualify My Property.</p>
                   </div><!--/card-body-->
                 </div><!--/card-->
               </div><!--/col-->
@@ -468,7 +468,7 @@ z                </div><!--Headingroup-->
                       <span class="badge text-bg-dark">White Paper</span>
                       <span class="badge text-bg-dark">June 30, 2023</span>
                     </div><!--/inline-->
-                      <p class="card-text fs-5">i’m Ready to into the World of Single-Family Home Investment & Begin My Venture</p>
+                      <p class="card-text fs-5">i'm Ready to into the World of Single-Family Home Investment & Begin My Venture</p>
                   </div><!--/card-body-->
                 </div><!--/card-->
               </div><!--/col-->

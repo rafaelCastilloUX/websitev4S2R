@@ -16,8 +16,7 @@
             </ul>
           </div><!--/col-->
       
-          <div class="col col-lg-2 offset-lg-1 mb-3 ">
-            <h5 class="text-verde fw-bold fs-6"> </h5>
+          <div class="col col-lg-2 offset-lg-1 mb-3 ">            
             <ul class="list-group">
               <li class="list-group-item link-footer"><a href="#" class="p-0 ">Home</a></li>
               <li class="list-group-item link-footer"><a href="#" class="p-0 ">About</a></li>
@@ -26,8 +25,7 @@
             </ul>
           </div><!--/col-->
 
-          <div class="col col-lg-2 mb-3 ">
-            <h5 class="text-verde fw-bold fs-6"> </h5>
+          <div class="col col-lg-2 mb-3 ">            
             <ul class="list-group">
               <li class="list-group-item link-footer"><a href="#" class="p-0 ">Sell</a></li>
               <li class="list-group-item link-footer"><a href="#" class="p-0 ">Invest</a></li>
@@ -36,8 +34,7 @@
             </ul>
           </div><!--/col-->
 
-          <div class="col col-lg-3 mb-3 ">
-            <h5 class="text-verde fw-bold fs-6"> </h5>
+          <div class="col col-lg-3 mb-3 ">            
             <div class="container">
               <div class="row row-cols-1 text-start">
                 <div class="col d-flex align-items-start justify-content-start justify-content-lg-start">

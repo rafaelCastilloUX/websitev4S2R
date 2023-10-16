@@ -10,7 +10,7 @@
                 </div>
             </div><!--/col-->
             <div class="col-sm-12 col-lg-5"  data-aos="fade-left" data-aos-delay="800">
-                <img src="img/img-whatsaLeasback.png" alt="What is a leaseback" class="img-fluid">                        
+                <img src="img/img-whatsaLeasback.webp" alt="What is a leaseback" class="img-fluid">                        
             </div><!--/col-->
         </div><!--/.row-->
         <div class="row mt-5 gap-5">
