@@ -1,5 +1,29 @@
 function btnNextClicked(event, step) {
     event.preventDefault();
+    if(step === 1) {
+        if($('input[name=typeOfProperty]:checked', '#simulator-form').val() === undefined) {
+            return;
+        }
+    }
+
+    if(step === 2) {
+        if($('input[name=propertyBuilt]:checked', '#simulator-form').val() === undefined) {
+            return;
+        }
+    }
+
+    if(step === 3) {
+        if($('input[name=lotSize]:checked', '#simulator-form').val() === undefined) {
+            return;
+        }
+    }
+
+    if(step === 4) {
+        if($('input[name=priceofProperty]:checked', '#simulator-form').val() === undefined) {
+            return;
+        }
+    }
+
     console.log(step)
     $(".step1").hide();
     $(".step2").hide();

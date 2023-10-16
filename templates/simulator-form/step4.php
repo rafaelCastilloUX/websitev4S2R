@@ -20,12 +20,12 @@
                     <div class="d-block p-1">
                         <input class="form-check-input d-none" type="radio" name="priceofProperty" id="priceofProperty-opcion3"
                             value="$500,000 - $1,000,000">
-                        <label class="form-check-label label-btn" for="priceofProperty-opcion3">$500,000 - $750,000</label>
+                        <label class="form-check-label label-btn" for="priceofProperty-opcion3">$500,000 - $1,000,000</label>
                     </div>
                     <div class="d-block p-1">
                         <input class="form-check-input d-none" type="radio" name="priceofProperty" id="priceofProperty-opcion4"
                             value="More than $1,000,000">
-                        <label class="form-check-label label-btn" for="priceofProperty-opcion4">More than $750,000</label>
+                        <label class="form-check-label label-btn" for="priceofProperty-opcion4">More than $1,000,000</label>
                     </div>
                 </div>
             </div>
