@@ -255,7 +255,7 @@
                                   <span class="timeline-number">01</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/journey-step01.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step01.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -269,7 +269,7 @@
                                   <span class="timeline-number">02</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/journey-step02.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step02.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -283,7 +283,7 @@
                                   <span class="timeline-number">03</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/journey-step03.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step03.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -297,7 +297,7 @@
                                   <span class="timeline-number">04</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/journey-step04.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step04.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -311,7 +311,7 @@
                                   <span class="timeline-number">05</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/journey-step05.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step05.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -325,7 +325,7 @@
                                   <span class="timeline-number">06</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/journey-step06.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step06.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -339,7 +339,7 @@
                                   <span class="timeline-number">07</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/journey-step07.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step07.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">

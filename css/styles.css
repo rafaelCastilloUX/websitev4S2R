@@ -566,6 +566,9 @@ footer .list-group-item>a{text-decoration: none;}
 .top-n1 {
   top: -1em;
 }
+.top-n4 {
+  top: -4em;
+}
 .top-10vh{
   top: 10vh;
 }
@@ -670,6 +673,9 @@ ul.timeline > li:before {
   }
   .matchDark{
     left: -5%;
+  }
+  .min-height-xl-200{
+    min-height: 200px;
   }
   .textFrame {
     font-size: 2.3rem;
