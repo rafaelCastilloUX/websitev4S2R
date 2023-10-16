@@ -476,6 +476,28 @@ footer .list-group-item>a{text-decoration: none;}
   color: var(--color-azul);
 }
 
+
+.tabs-about-us{
+  border: 0;
+  position: relative;
+}
+.tabs-about-us button {
+  background-color: var(--color-principal);
+  border-radius: 2px;
+  color: white;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.tabs-about-us button:hover, .tabs-about-us button.active {
+  background-color: var(--color-verde);
+  color: var(--color-principal);
+}
+
+.content-about-us{
+  padding: 1em;
+}
+
 .text-azul {
   color: var(--color-azul);
 }

@@ -77,14 +77,13 @@
                 </div><!--/.row-->
                 <div class="row row-cols-1 row-cols-md-2  my-2 align-items-end">
                     <div class="col">
-                        <img src="img/dannykattan.png" alt="" class="img-fluid">
+                        <img src="img/dannykattan.webp" alt="" class="img-fluid">
                     </div><!--/.col-->
                     <div class="col bg-navy p-5 text-white">
-                        <div class="heading ms-5 position-relative">
-                            <h5 class="py-3 px-4 d-inline-block rotate3 fw-bold bg-azul text-white z-2 shadow-sm" >Daniel Kattan</h5>
-                            <h5 class="py-3 px-4 d-inline-block fw-bold bg-white text-dark z-1 shadow" >Founder</h5>
+                        <div class="heading mb-3 d-flex gap-3 align-items-end position-relative">
+                            <img src="img/titles/dannykattan.svg" alt="Danny Kattan CEO" class="img-fluid" width="190">
                             <div class="d-inline"><a href="#"><img src="img/icons/in-footer.svg" alt="LinkedIn S2R" class="img-fluid"></a></div><!--/inline-->
-                        </div>
+                        </div><!--/heading-->
                         <p class="fs-6">Danny has more than 15 years of experience in Real Estate.</p>
                         <p class="fs-6">He has acquired more than 2000 single-family and multifamily units & has extensive knowledge of the different variables that affect the market.</p>
                         <p class="fs-6">He was instrumental in the financing and refinancing of PIA Residential's portfolio and was responsible for structuring more than $200 million in non-recourse debt and raising in excess of $100 million in equity.</p>
@@ -93,18 +92,17 @@
                 </div><!--/.row-->
                 <div class="row row-cols-1 row-cols-md-2  my-2 align-items-end">
                     <div class="col bg-navy p-5 text-white order-2 order-md-1">
-                        <div class="heading ms-5 position-relative">
-                            <h5 class="py-3 px-4 d-inline-block rotate3 fw-bold bg-azul text-white position-absolute start-0 z-2 shadow-sm" >Alex Arguelles</h5>
-                            <h5 class="py-3 px-4 d-inline-block fw-bold bg-white text-dark position-absolute start-0 z-1 shadow" >CEO & Co-Founder</h5>
+                    <div class="heading mb-3 d-flex gap-3 align-items-end position-relative">
+                            <img src="img/titles/alexarguelles.svg" alt="Alex Arguelles CEO and co-Founder" class="img-fluid" width="190">
                             <div class="d-inline"><a href="#"><img src="img/icons/in-footer.svg" alt="LinkedIn S2R" class="img-fluid"></a></div><!--/inline-->
-                        </div>
+                        </div><!--/heading-->
                         <p class="fs-6">Alex started his real estate career at the age of 21 by co-founding Tzadik Management Group (Exit: 2020). </p>
                         <p class="fs-6">He was a pivotal part of successfully scaling that company from 3 to 175+ employees. During that time, TMG Acquired/Managed/Sold over 15,000 apartments.</p>
                         <p class="fs-6">After 13 years in his first startup, Alex decided to take all the life lessons (both good and bad ones) and partner with exceptional entrepreneurs. </p>
                         <p class="fs-6">He founded Hybrid Ventures to invest in and help scale new disruptive companies. He is now an active angel investor and advisor to several growing technology companies.</p>
                     </div><!--/.col-->
                     <div class="col order-1 order-ms-2">
-                        <img src="img/alexarguelles.png" alt="" class="img-fluid">
+                        <img src="img/alexarguelles.webp" alt="" class="img-fluid">
                     </div><!--/.col-->
                 </div><!--/.row-->
             </div><!--/container-->
@@ -120,27 +118,27 @@
                 </div><!--/.row-->
                 <div class="row">
                     <div class="col">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs tabs-about-us justify-content-around" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="product-tab" data-bs-toggle="tab" data-bs-target="#product-tab-pane" type="button" role="tab" aria-controls="product-tab-pane" aria-selected="true"> PRODUCT & TECH </button>
+                            <button class=" btn active" id="product-tab" data-bs-toggle="tab" data-bs-target="#product-tab-pane" type="button" role="tab" aria-controls="product-tab-pane" aria-selected="true"> PRODUCT & TECH </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="sales-tab" data-bs-toggle="tab" data-bs-target="#sales-pane" type="button" role="tab" aria-controls="sales-pane" aria-selected="false"> SALES </button>
+                            <button class=" btn" id="sales-tab" data-bs-toggle="tab" data-bs-target="#sales-pane" type="button" role="tab" aria-controls="sales-pane" aria-selected="false"> SALES </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false"> GROWTH MARKETING </button>
+                            <button class=" btn" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false"> GROWTH MARKETING </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="crm-tab" data-bs-toggle="tab" data-bs-target="#crm-tab-pane" type="button" role="tab" aria-controls="crm-tab-pane" aria-selected="false"> CRM MANAGEMENT </button>
+                            <button class=" btn" id="crm-tab" data-bs-toggle="tab" data-bs-target="#crm-tab-pane" type="button" role="tab" aria-controls="crm-tab-pane" aria-selected="false"> CRM MANAGEMENT </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="operations-tab" data-bs-toggle="tab" data-bs-target="#operations-tab-pane" type="button" role="tab" aria-controls="operations-tab-pane" aria-selected="false"> OPERATIONS </button>
+                            <button class=" btn" id="operations-tab" data-bs-toggle="tab" data-bs-target="#operations-tab-pane" type="button" role="tab" aria-controls="operations-tab-pane" aria-selected="false"> OPERATIONS </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="human-tab" data-bs-toggle="tab" data-bs-target="#human-tab-pane" type="button" role="tab" aria-controls="human-tab-pane" aria-selected="false"> HUMAN RESOURCES </button>
+                            <button class=" btn" id="human-tab" data-bs-toggle="tab" data-bs-target="#human-tab-pane" type="button" role="tab" aria-controls="human-tab-pane" aria-selected="false"> HUMAN RESOURCES </button>
                         </li>
                         </ul>
-                        <div class="tab-content" id="myTabContent">
+                        <div class="tab-content content-about-us" id="myTabContent">
                         <div class="tab-pane fade show active" id="product-tab-pane" role="tabpanel" aria-labelledby="product-tab" tabindex="0">...product </div>
                         <div class="tab-pane fade" id="sales-pane" role="tabpanel" aria-labelledby="sales-tab" tabindex="0">... sales</div>
                         <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">... marketing ppl</div>

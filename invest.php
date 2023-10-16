@@ -40,8 +40,8 @@
                     </div><!--/col-->
                     <div class=" col-12 col-md-6 overflow-y-auto" style="height: 60vh; " data-aos="fade-in-right" data-aos-delay="400" >
                        <!-- Section: Timeline -->
-                       <section class="py-1">
-                          <ul class="pb-0 list-unstyled" data-aos="fade-in-up" data-aos-delay="300">                            
+                        <section class="py-1">
+                            <ul class="pb-0 list-unstyled" data-aos="fade-in-up" data-aos-delay="300">                            
                             <li class=" mb-5">
                                 <div class="position-relative mt-5"> 
                                     <h3 class="bg-azul py-3 px-4 text-white fs-3 fw-semibold ms-3 position-absolute top-n1"> /01 </h3>
@@ -87,7 +87,7 @@
                                     <p class="fs-5 mb-0 mt-2 text-white">Choose from a variety of single-family homes and townhomes across the US, enhancing your investment portfolio with nationwide opportunities.</p>
                                 </div><!--/card-step--> 
                             </li><!--/step 5-->  
-                          </ul>
+                            </ul>
                         </section><!-- Section: Timeline -->
                     </div>
                 </div><!--/row-->
