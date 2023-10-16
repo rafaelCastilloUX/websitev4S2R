@@ -110,6 +110,7 @@
                     <?php include('templates/simulator-form/step2.php'); ?>                 
                     <?php include('templates/simulator-form/step3.php'); ?>
                     <?php include('templates/simulator-form/step4.php'); ?>
+                    <?php include('templates/simulator-form/step5.php'); ?>
                   </form>  
                   <!--/preqForm-->
                 </div><!--/bg-dark-->

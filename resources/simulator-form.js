@@ -5,11 +5,12 @@ function btnNextClicked(event, step) {
     $(".step2").hide();
     $(".step3").hide();
     $(".step4").hide();
+    $(".step5").hide();
 
     let nextStep = step+1;
     $(".step"+nextStep).fadeIn(3000)
 
-    if(step === 4) {
+    if(step >= 4) {
         let formData = $("#simulator-form").serializeArray();
         let typeOfProperty = formData[0].value;
         let propertyBuilt = formData[1].value;
@@ -24,6 +25,11 @@ function btnNextClicked(event, step) {
         }
 
         console.log(obj)
+        if(obj.propertyBuilt === "Before 1950") {
+            $('.match-or-not').html("Not a match.");
+        } else {
+            $('.match-or-not').html("It's a match.");
+        }
     }
 
 }
