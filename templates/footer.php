@@ -1,6 +1,5 @@
 <section class="bg-navy text-white">
-      <div class="container">
-        <?php include('templates/cookie-banner.php'); ?>
+      <div class="container">        
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 text-center text-md-start">
           <div class="col col-lg-4  mb-3">
             <a href="index.html" class="d-inline-block mb-3 text-decoration-none text-center mb-3">
