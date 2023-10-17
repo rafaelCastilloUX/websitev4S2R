@@ -32,7 +32,7 @@ function btnNextClicked(event, step) {
     $(".step5").hide();
 
     let nextStep = step+1;
-    $(".step"+nextStep).fadeIn(3000)
+    $(".step"+nextStep).fadeIn(2000)
 
     if(step >= 4) {
         let formData = $("#simulator-form").serializeArray();
@@ -65,7 +65,7 @@ function btnBackClicked(e, step) {
     $(".step3").hide();
     $(".step4").hide();
     $(".step5").hide();
-    $(".step" + step).fadeIn(3000);
+    $(".step" + step).fadeIn(2000);
 }
 
 $( document ).ready(function() {

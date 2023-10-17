@@ -134,6 +134,12 @@ body {
   box-shadow:0 4px 11px rgba(0,128,96,0.35);
 }
 
+.btn-verde:disabled{
+  background-color: var(--color-verde);
+  border-color: transparent;
+  opacity: 0.65;
+}
+
 .btn-outline-azul{
   border-color: var(--color-azul);
   border: 2px solid;
@@ -425,7 +431,10 @@ footer .list-group-item>a{text-decoration: none;}
    color: #111;
    
 }
-
+.preqForm{
+  min-height: 250px;
+  transition: all linear .3s;
+}
 .pt-10{
   padding-top: 10%;
 }
@@ -683,7 +692,7 @@ ul.timeline > li:before {
     flex-direction: column-reverse;
   } 
   .investCard.investments{
-    background-image:url(../img/BG_investment-card.png);
+    background-image:url(../img/BG_investment-card.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

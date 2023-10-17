@@ -48,8 +48,8 @@
             </div><!--/container-->
             <div class="position-absolute bottom-0 w-100 overflow-hidden d-none d-sm-block">
               <div class="ticker-container bg-navy">
-                <div class="ticker">  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. | </div>
-                <div class="ticker">  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. | </div>
+                <div class="ticker">Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. |&nbsp;</div>
+                <div class="ticker">Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. |&nbsp;</div>
               </div><!--/ticker-container-->
             </div><!--/band tricker -->          
         </section><!--/.Hero-->
@@ -373,7 +373,7 @@
               <div class="col-12 col-lg-4 order-2 order-lg-1">
                 <div class="dettails">
                   <h3 class="fw-bold mb-0">Our Clear Commitments</h3>
-                  <p class="mb-0">We value your privacy, will always have the homeowners back, and will work relentlessly to achieve the sellers goals. While we're committed to these, let's openly go over  what we won't DON'T DO.</p>
+                  <p class="mb-0">We value your privacy, will always have the homeowners back, and will work relentlessly to achieve the seller's goals. While we're committed to these, let's openly go over  what we won't DON'T DO.</p>
                   <a href="#" class="btn btn-lg btn-dark fw-bold">GET STARTED <i class="fa-solid fa-chevron-right"></i></a><!--CTA-->
                 </div><!--/.details-->
               </div><!--/.col-->
@@ -423,8 +423,8 @@
           </div><!--/.container-->
           <div class="position-absolute bottom-0 w-100 overflow-hidden" style="transform: skewY(-2deg);">
             <div class="ticker-container bg-azul">
-              <div class="ticker text-white">  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. | </div>
-              <div class="ticker text-white">  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. | </div>
+              <div class="ticker text-white">Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. |&nbsp;</div>
+              <div class="ticker text-white">Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter.  |  Sell your house, cash out, & stay as a renter. |&nbsp;</div>
             </div><!--/ticker-container-->
           </div><!--/band tricker -->
         </section><!--/ourapproach -->
@@ -615,7 +615,7 @@
                 <div class="inner m-5 ps-3">
                   <h2 class="fw-bold display-5">What will it cost you?</h2>
                   <h2 class="fw-bold display-5 my-3 text-verde">Our Fees</h2>
-                  <p class="lead">We understand your budget matters, That's why we are transparent from the beginning</p>
+                  <p class="lead">We understand your budget matters, That's why we are transparent from the beginning.</p>
                 </div>
               </div><!--/col-->
               <div class="col-sm-12 col-lg-5 px-5">
