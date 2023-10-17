@@ -233,7 +233,7 @@
                       </div><!--/.col-->
                       <div class="col order-1 order-lg-2">
                         <div class="p-0">
-                          <img src="img/img_sellALeaseback.png" alt="Sell and Stay" class="img-fluid" style="box-shadow: 15px 13px 44px 0px rgba(30, 147, 255, 0.15), 61px 50px 79px 0px rgba(30, 147, 255, 0.13), 138px 113px 107px 0px rgba(30, 147, 255, 0.08), 246px 200px 127px 0px rgba(30, 147, 255, 0.02), 384px 313px 139px 0px rgba(30, 147, 255, 0.00);">
+                          <img src="img/img_sellALeaseback.webp" alt="Sell and Stay" class="img-fluid" style="box-shadow: 15px 13px 44px 0px rgba(30, 147, 255, 0.15), 61px 50px 79px 0px rgba(30, 147, 255, 0.13), 138px 113px 107px 0px rgba(30, 147, 255, 0.08), 246px 200px 127px 0px rgba(30, 147, 255, 0.02), 384px 313px 139px 0px rgba(30, 147, 255, 0.00);">
                         </div>
                       </div><!--/.col-->
                     </div><!--/.row-->
@@ -243,7 +243,7 @@
                           <h4 class="text-verde fw-semibold">Navigating The Journey</h4>
                           <h2 class="text-white fw-bold">Easy Steps To Follow</h2>
                         </div><!--/hgroup-->
-                        <img src="img/img_sellAStay_laptop.png" alt="Sell and Stay" class="img-fluid">
+                        <img src="img/img_sellAStay_laptop.webp" alt="Sell and Stay" class="img-fluid">
                       </div><!--/col -->
                       <div class="col p-4 overflow-y-auto" style="height: 60vh;margin-top: 5em;">
                         <!-- Section: Timeline -->
@@ -474,7 +474,7 @@
             <div class="row">
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo1.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo1.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -483,7 +483,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo2.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo2.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -492,7 +492,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo3.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo3.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -501,7 +501,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo4.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo4.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -510,7 +510,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo5.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo5.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -519,7 +519,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo6.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo6.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -619,7 +619,7 @@
                 </div>
               </div><!--/col-->
               <div class="col-sm-12 col-lg-5 px-5">
-                <img src="img/img-sixPercent.png" alt="Six percent fees" class="img-fluid" style="margin-top: -13%;">
+                <img src="img/img-sixPercent.webp" alt="Six percent fees" class="img-fluid" style="margin-top: -13%;">
               </div><!--/col-->
             </div><!--/.row-->
           </div><!--/.container-->
@@ -628,7 +628,7 @@
           <div class="container">
             <div class="row my-5  pb-0 investCard investments align-items-end"   data-aos="fade-in" data-aos-delay="300">
               <div class="col-sm-12 col-lg-6 order-2 order-lg-1 d-none d-lg-block ">
-                <img src="img/investment_img.png" alt="Investemtns" class="img-fluid p-5 pb-0">
+                <img src="img/investment_img.webp" alt="Investemtns" class="img-fluid p-5 pb-0">
               </div>
               <div class="col-sm-12 col-lg-5  py-5 order-1 order-lg-2 text-center text-md-start">
                 <h2 class="text-white fs-1 mb-0">Find the</h2>

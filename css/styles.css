@@ -369,7 +369,7 @@ footer .list-group-item>a{text-decoration: none;}
   display: block;
   height: 100%;
   width: 100%;
-  background-image: url(../img/manoPhone.png);
+  background-image: url(../img/manoPhone.webp);
   background-color: #1E93FF;
   background-size: contain;
   background-repeat: no-repeat;
@@ -431,7 +431,7 @@ footer .list-group-item>a{text-decoration: none;}
 }
 
 .riplecircle-bg{
-  background-image: url(../img/riplecircle.png);
+  background-image: url(../img/riplecircle.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

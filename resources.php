@@ -19,7 +19,7 @@
             <div class="row">
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo1.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo1.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -28,7 +28,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo2.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo2.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -37,7 +37,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo3.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo3.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -46,7 +46,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo4.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo4.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -55,7 +55,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo5.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo5.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
@@ -64,7 +64,7 @@
               </div><!--/col-->
               <div class="col">
                 <div class="card border-0">
-                  <img src="img/reels/demo6.png" class="card-img-top" alt="...">
+                  <img src="img/reels/demo6.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
                     <p class="card-text">1 Million Views</p>                    
