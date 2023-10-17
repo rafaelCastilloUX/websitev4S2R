@@ -57,3 +57,26 @@ function btnNextClicked(event, step) {
     }
 
 }
+
+function btnBackClicked(e, step) {
+    e.preventDefault();
+    $(".step1").hide();
+    $(".step2").hide();
+    $(".step3").hide();
+    $(".step4").hide();
+    $(".step5").hide();
+    $(".step" + step).fadeIn(3000);
+}
+
+$( document ).ready(function() {
+    $('.label-btn').click(function(e) { 
+        console.log(e.target);
+        var el = e.target;
+        $('.label-btn').removeClass('label-btn-active');
+        $(el).addClass('label-btn-active');
+     });
+
+    $(".step2").hide();
+    $(".step3").hide();
+    $(".step4").hide();
+});

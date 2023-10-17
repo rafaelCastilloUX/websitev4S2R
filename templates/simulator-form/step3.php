@@ -32,6 +32,8 @@
 
             <div class="row my-3">
                 <div class="col-sm-12">
+                <button onclick="btnBackClicked(event, 2)" class="btn btn-verde fw-bold">BACK <i
+                            class="fa-solid fa-chevron-left "></i></button>
                     <button onclick="btnNextClicked(event, 3)"class="btn btn-verde fw-bold">NEXT <i
                             class="fa-solid fa-chevron-right "></i></button>
                 </div>
