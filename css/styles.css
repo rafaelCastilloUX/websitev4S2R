@@ -117,8 +117,8 @@ body {
   font-weight: 600;
 }
 .btn-azul:hover , .btn-azul:active , .btn-azul:focus-visible {
-  background-color: var(--button-azul-hover)!important;
-  box-shadow: var(--sombra);
+  background-color: var(--button-azul-hover)!important;  
+  box-shadow:0 4px 11px rgba(0,128,96,0.35);
   color: whitesmoke;
 }
 
@@ -130,8 +130,8 @@ body {
 }
 
 .btn-verde:hover , .btn-verde:active , .btn-verde:focus-visible {
-  background-color: var(--button-verde-hover)!important;
-  box-shadow: var(--sombra); 
+  background-color: var(--button-verde-hover)!important;  
+  box-shadow:0 4px 11px rgba(0,128,96,0.35);
 }
 
 .btn-outline-azul{
@@ -319,7 +319,7 @@ h4, h5 {
 }
 
 .font-mulish{
-  font-family: var(--mulish-font);
+  font-family: 'Mulish',sans-serif;
 }
 
 
@@ -382,7 +382,7 @@ footer .list-group-item>a{text-decoration: none;}
 
 .navbar-collapse{
   background-color: transparent;
-  transform: all ease .4s;
+  transition: all ease .4s;
 }
 .navbar-collapse.show{
   background-color: var(--color-principal);
@@ -480,6 +480,37 @@ footer .list-group-item>a{text-decoration: none;}
 .subheading span {
   color: var(--color-azul);
 }
+
+
+.tabs-about-us{
+  border: 0;
+  position: relative;
+}
+.tabs-about-us button {
+  background-color: var(--color-principal);
+  border-radius: 2px;
+  color: white;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.tabs-about-us button:hover, .tabs-about-us button.active {
+  background-color: var(--color-verde);
+  color: var(--color-principal);
+}
+
+
+.content-about-us{
+  padding: 1em;
+}
+.content-about-us .icono{  
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
 
 .text-azul {
   color: var(--color-azul);
@@ -658,7 +689,7 @@ ul.timeline > li:before {
     background-position: center;
   }
   .investCard.solutions{
-    background-image:url(../img/BG_solutions-card.png);
+    background-image:url(../img/BG_solutions-card.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

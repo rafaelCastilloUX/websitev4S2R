@@ -40,8 +40,8 @@
                     </div><!--/col-->
                     <div class=" col-12 col-md-6 overflow-y-auto" style="height: 60vh; " data-aos="fade-in-right" data-aos-delay="400" >
                        <!-- Section: Timeline -->
-                       <section class="py-1">
-                          <ul class="pb-0 list-unstyled" data-aos="fade-in-up" data-aos-delay="300">                            
+                        <section class="py-1">
+                            <ul class="pb-0 list-unstyled" data-aos="fade-in-up" data-aos-delay="300">                            
                             <li class=" mb-5">
                                 <div class="position-relative mt-5"> 
                                     <h3 class="bg-azul py-3 px-4 text-white fs-3 fw-semibold ms-3 position-absolute top-n1"> /01 </h3>
@@ -87,7 +87,7 @@
                                     <p class="fs-5 mb-0 mt-2 text-white">Choose from a variety of single-family homes and townhomes across the US, enhancing your investment portfolio with nationwide opportunities.</p>
                                 </div><!--/card-step--> 
                             </li><!--/step 5-->  
-                          </ul>
+                            </ul>
                         </section><!-- Section: Timeline -->
                     </div>
                 </div><!--/row-->
@@ -131,7 +131,7 @@
                         </div><!--/flex-->
                     </div><!--/col-->  
                     <div class="col d-none d-sm-block"  data-aos="fade-in" data-aos-delay="300">
-                        <img src="img/smartphone.png" alt="How it works in S2R" class="w-100">
+                        <img src="img/smartphone.webp" alt="How it works in S2R" class="w-100">
                     </div><!--/col-->
                     <div class="col">
                         <div class="mb-2 bg-white p-2 d-flex flex-column mx-auto" style="max-width:350px;"  data-aos="fade-in" data-aos-delay="500">
@@ -233,7 +233,7 @@
                         </div>
                     </div><!--/col-->
                     <div class="col-sm-12 col-lg-5 ">
-                        <img src="img/investors-hand.png" alt="Join th einvestors" class="img-fluid">
+                        <img src="img/investors-hand.webp" alt="Join th einvestors" class="img-fluid">
                     </div><!--/col-->
                 </div><!--/.row-->
             </div><!--/.container-->
@@ -298,7 +298,7 @@
                         <div class="caption-deals position-relative">
                             <div class="heading text-nowrap position-absolute bottom-10 end-10">
                                 <h5 class="py-1 px-3 d-inline-block bg-dark fw-bold rotate3 text-white  position-absolute z-2">Rustic</h5>
-                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">GrMaple Lodge</h5>
+                                <h5 class="py-1 px-3 d-inline-block bg-verde fw-bold rotate3 position-relative z-1"  style="right:-1.5em; bottom:-1.3em">Maple Lodge</h5>
                             </div><!--/heading-->
                             <img src="img/deals/demo_img6.png" alt="Demo imagen" class="img-fluid shadow-lg">
                         </div><!--/caption-deals-->

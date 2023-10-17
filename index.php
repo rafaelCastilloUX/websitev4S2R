@@ -163,7 +163,7 @@
                       </div><!---->
                     </div><!--/.col-->
                     <div class="col-12 col-lg-6 flex flex-row align-items-start p-2 position-relative ">
-                      <img src="img/MapDark.svg" alt="Map" class="img-fluid mapa-users start-0">
+                      <img src="img/mapwebp.webp" alt="Map" class="img-fluid mapa-users start-0">
                     </div><!--/.col-->
                     <div class="col flex flex-row align-items-start p-2">
                       <div class="flex-row d-flex gap-3 me-3">
@@ -204,7 +204,7 @@
             <nav class="mt-0">
               <div class="nav nav-tabs justify-content-center gap-3" id="nav-tab" role="tablist">
                 <button class="nav-link active" id="nav-stay-tab" data-bs-toggle="tab" data-bs-target="#nav-stay" type="button" role="tab" aria-controls="nav-home" aria-selected="true"> Sell & Stay </button>
-                <!-- <button class="nav-link" id="nav-move-out-tab" data-bs-toggle="tab" data-bs-target="#nav-move-out" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"> Sell & Move Out </button>-->
+               
               </div>
             </nav>
           </div><!--/upper-->
@@ -251,7 +251,7 @@
                           <ul class="timeline-with-icons" data-aos="fade-in-up" data-aos-delay="300">                            
                             <li class="timeline-item mb-5">
                               <div class="d-flex gap-1">
-                                <span class="timeline--icon" id="step01">
+                                <span class="timeline--icon">
                                   <span class="timeline-step">STEP</span>
                                   <span class="timeline-number">01</span>
                                 </span>
@@ -265,7 +265,7 @@
                             </li><!--/step 1-->
                             <li class="timeline-item mb-5">
                               <div class="d-flex gap-1">
-                                <span class="timeline--icon" id="step01">
+                                <span class="timeline--icon">
                                   <span class="timeline-step">STEP</span>
                                   <span class="timeline-number">02</span>
                                 </span>
@@ -279,7 +279,7 @@
                             </li><!--/step 2-->
                             <li class="timeline-item mb-5">
                               <div class="d-flex gap-1">
-                                <span class="timeline--icon" id="step01">
+                                <span class="timeline--icon">
                                   <span class="timeline-step">STEP</span>
                                   <span class="timeline-number">03</span>
                                 </span>
@@ -293,7 +293,7 @@
                             </li><!--/step 3-->
                             <li class="timeline-item mb-5">
                               <div class="d-flex gap-1">
-                                <span class="timeline--icon" id="step01">
+                                <span class="timeline--icon">
                                   <span class="timeline-step">STEP</span>
                                   <span class="timeline-number">04</span>
                                 </span>
@@ -307,7 +307,7 @@
                             </li><!--/step 4-->
                             <li class="timeline-item mb-5">
                               <div class="d-flex gap-1">
-                                <span class="timeline--icon" id="step01">
+                                <span class="timeline--icon">
                                   <span class="timeline-step">STEP</span>
                                   <span class="timeline-number">05</span>
                                 </span>
@@ -321,7 +321,7 @@
                             </li><!--/step 5-->
                             <li class="timeline-item mb-5">
                               <div class="d-flex gap-1">
-                                <span class="timeline--icon" id="step01">
+                                <span class="timeline--icon">
                                   <span class="timeline-step">STEP</span>
                                   <span class="timeline-number">06</span>
                                 </span>
@@ -335,7 +335,7 @@
                             </li><!--/step 6-->
                             <li class="timeline-item mb-5" >
                               <div class="d-flex gap-1">
-                                <span class="timeline--icon" id="step01">
+                                <span class="timeline--icon">
                                   <span class="timeline-step">STEP</span>
                                   <span class="timeline-number">07</span>
                                 </span>
@@ -354,7 +354,7 @@
                     </div>
                   </div><!--/.container-->
                 </div><!--/inner tab Sell and STAY -->
-                <div class="tab-pane fade" id="nav-move-out" role="tabpanel" aria-labelledby="nav-move-out-tab" tabindex="0">... Sell and move out content </div>              
+                
               </div>
             </div><!--/container-->
           </div><!--/down-->
@@ -439,13 +439,13 @@
                 <div id="carouselWhoBenefits" class="carousel slide carousel-dark">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="img/whobenefits_slide1.png" class="d-block w-100" alt="Caption pendiente ...">
+                      <img src="img/whobenefits_slide1.webp" class="d-block w-100" alt="Caption pendiente ...">
                     </div>
                     <div class="carousel-item">
-                      <img src="img/whobenefits_slide2.png" class="d-block w-100" alt="Caption pendiente ...">
+                      <img src="img/whobenefits_slide2.webp" class="d-block w-100" alt="Caption pendiente ...">
                     </div>
                     <div class="carousel-item">
-                      <img src="img/whobenefits_slide3.png" class="d-block w-100" alt="Caption pendiente ...">
+                      <img src="img/whobenefits_slide3.webp" class="d-block w-100" alt="Caption pendiente ...">
                     </div>
                   </div>
                   <div class="carousel-controls-s2r">
@@ -657,7 +657,7 @@
                 </div><!--/container-->
               </div><!--/col-->
               <div class="col-sm-12 col-lg-6 order-2 d-none d-lg-block ">
-                <img src="img/solutions_img.png" alt="Investemtns" class="img-fluid p-5 pb-0">
+                <img src="img/solutions_img.webp" alt="Investemtns" class="img-fluid p-5 pb-0">
               </div>
             </div><!--/row-->
           </div><!--/container-->

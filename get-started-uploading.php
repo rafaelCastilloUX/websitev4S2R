@@ -48,8 +48,8 @@
                 </div><!--/col-->
                 <div class="col">
                   <div class="col">
-                    <div class="card text-bg-success mb-3">
-                      <img src="img/upload_mortgage.jpg" class="card-img-top" alt="Photos">
+                    <div class="card text-bg-verde mb-3">
+                      <img src="img/upload_mortgage.webp" class="card-img-top" alt="Photos">
                       <div class="card-body p-md-5">
                         <h5 class="card-title">Last Mortgage Statement</h5>
                         <p class="card-text">Share your latest mortgage statement for a personalized offer calculation, ensuring your financial needs are considered.</p>
