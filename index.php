@@ -540,8 +540,8 @@
               </div><!--/col-->
             </div><!--/.row--> 
             <div class="row">
-              <div class="col-sm-12 col-lg-6 text-sm-center text-lg-end">
-              <iframe width="315" height="560" src="https://www.youtube.com/embed/tU4xI2maNDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="col-sm-12 col-lg-6 text-sm-center text-lg-end">              
+                <img class="img-fluid" src="img/reels/demo1.webp" />
               </div>
               <div class="col-sm-12 col-lg-5 ">
                 <div id="carouselTestimonials2" class="carouselTestimonials carousel slide justify-content-center d-grid align-items-center" style="height: 90%;"  data-bs-ride="carousel">
