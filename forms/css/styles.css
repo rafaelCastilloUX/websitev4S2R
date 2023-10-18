@@ -1,0 +1,262 @@
+/* Basic reset */
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* Brand v1.0.1  08/04/2023 */
+
+:root {
+  --button-verde: var(--color-verde);
+
+  --buttons-verde-hover: #24c742;
+
+  --color-navy: #2c324d;
+
+  --color-primary: #30354c;
+
+  --color-verde: #40ff62;
+
+  --sombra: 0 4px 11px rgba(0, 128, 96, 0.35);
+
+  --success: var(--color-verde);
+
+  --primary-blue: #0d6efd;
+}
+
+/* Custom styles */
+
+body {
+  background-color: #f9f9f9;
+
+  color: var(--color-primary);
+
+  font-family: "Lato", sans-serif;
+
+  font-size: 16px;
+
+  line-height: 1.6;
+
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  padding-top: 3em;
+}
+
+.warning {
+  color: red;
+}
+
+.btn-verde {
+  background-color: var(--button-verde);
+
+  color: var(--color-primary);
+
+  font-weight: 600;
+}
+
+.btn-verde:hover {
+  background-color: var(--buttons-verde-hover);
+
+  box-shadow: var(--sombra);
+
+  color: whitesmoke;
+}
+
+.bg-navy {
+  background-color: var(--color-navy);
+}
+
+.bg-verde {
+  background-color: var(--color-verde);
+}
+
+.fw-bolder {
+  font-weight: 800 !important;
+}
+
+.color-verde {
+  color: var(--color-verde) !important;
+}
+
+.nav-divider {
+  border-left: 0.1rem solid rgba(0, 34, 28, 0.1);
+
+  height: 2rem;
+
+  margin: 0 0.5rem;
+}
+
+.link-footer {
+  background-color: transparent;
+
+  border: none;
+
+  padding: 0.3rem 0;
+}
+
+.link-footer a {
+  text-decoration: none;
+}
+
+/* Hide/Show inactive Steps */
+
+.step {
+  display: none;
+}
+
+.step-active {
+  display: block;
+}
+
+/* stylish Cards and components */
+
+.step-content .card {
+  cursor: pointer;
+
+  min-width: 235px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.step-icon {
+  display: contents !important;
+}
+
+.step-point {
+  background: var(--color-verde);
+
+  border-radius: 25px;
+
+  color: #fff;
+
+  font-size: 1.4em;
+
+  height: 30px;
+
+  line-height: 1.5;
+
+  margin-left: -5px;
+
+  margin-top: -7px;
+
+  position: absolute;
+
+  text-align: center;
+
+  width: 30px;
+
+  z-index: 1;
+}
+
+/* Show active radio options cards */
+
+.step-content input[type="radio"]:checked + .card {
+  background-color: var(--color-verde);
+
+  box-shadow: var(--sombra);
+
+  color: #fff;
+}
+
+.form-check-input:checked {
+  background-color: var(--color-verde) !important;
+
+  border-color: var(--color-verde);
+}
+
+.form-check-label {
+  border-color: rgba(0, 0, 0, 0.075);
+
+  border-width: 2px;
+
+  opacity: 0.7;
+
+  transition: all ease 0.2s;
+}
+
+.form-check-label:focus-within,
+.form-check-label input:checked ~ .focus-check-label {
+  opacity: 1;
+}
+
+.form-check-label:focus-within {
+  border: 2px solid var(--color-verde);
+
+  box-shadow: var(--sombra);
+
+  outline: none;
+}
+
+.bg-opacity-100-hover:hover {
+  --bs-bg-opacity: 1;
+}
+
+.privacy_policy {
+  text-decoration: none;
+  color: var(--primary-blue) !important;
+}
+
+.submitBtn[disabled="true"] {
+  background-color: #8effa2;
+
+  color: var(--color-primary);
+
+  font-weight: 600;
+
+  pointer-events: none;
+}
+
+.submitBtn[disabled="true"]:hover {
+  background-color: #8effa2;
+
+  box-shadow: 0 0 0;
+
+  color: var(--color-primary);
+
+  pointer-events: none;
+}
+
+.primary-blue {
+  color: var(--primary-blue);
+}
+
+.container {
+  max-width: 1290px;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/*
+
+/* End of custom styles */
+
+/* ########## Pendiente */
+
+/*
+
+  - Cuando se tenga un input de tipo radio :checked se muestre el padre con opacity:1; y border-color:var(--color-verde);
+
+  - animación de scroll del range bar dinamica
+
+  - jumbotron icono para ok o fail en paginas Success y Unsuccess
+
+*/
+
+/* ########## Pendiente */
+
+/*  Just in case */
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sell2rent Sell-Leaseback Program">
+  <meta name="keywords" content="Sell2rent, Leaseback, Sell and Stay Home">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sell2Rent - Sell your house and stay as a renter</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="canonical" href="/">
+  <link rel="stylesheet" href="../css/application.css">
+  <!-- Start cookieyes banner -->
+  <script id="cookieyes" type="text/javascript"
+    src="https://cdn-cookieyes.com/client_data/825897ec39a5e140a25c7736/script.js"></script>
+  <!-- End cookieyes banner -->
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-NQWHB9M');</script>
+  <!-- End Google Tag Manager -->
+  <!-- CSS Space Theme -->
+  <link rel="stylesheet" href="../css/theme.min.css">
+  <link rel="stylesheet" href="../css/snippets.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--  <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
+  <!-- Load menus and footers -->
+  <script src="../js/application2.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjwfa0uHaf1BLjK9If0JS0mkYPrROuuJY&libraries=places"></script>
+
+  <!-- Title for social media shares -->
+  <meta property="og:title" content="Sell2Rent | Real Estate in Florida, USA">
+  <!-- Description for social media shares -->
+  <meta property="og:description"
+    content="Welcome to Sell2Rent, your source for real estate in Florida, USA. Explore our listings and find the perfect property for sale or rent. Hablamos inglés y español.">
+  <!-- Image for social media shares (use an image URL) -->
+  <meta property="og:image" content="https://kaydee.net/blog/open-graph-image/">
+  <!-- URL for social media shares -->
+  <meta property="og:url" content="https://www.sell2rent.com/">
+  <!-- End of Analytics and Open Graph Tags -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQWHB9M" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Main Container -->
+  <div class="home">
+    <!-- Main Menu -->
+    <div id="header"></div>
+    <!-- end of Navbar -->
+
+    <main>
+      <div class="container mt-10 mb-4">
+        <div class="mt-4 d-flex gap-3 px-5 justify-content-between">
+          <h5 class="fw-bold color-verde">Step 1</h5>
+          <h5 class="fw-bold primary-blue">Step 2</h5> <!-- .text-primary para presentar el estado actual activo-->
+          <h5 class="fw-bold opacity-25">Step 3</h5>
+          <h5 class="fw-bold opacity-25">Step 4</h5>
+          <h5 class="fw-bold opacity-25">Step 5</h5>
+        </div><!--/.Text-center-->
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="20"
+            aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+      </div><!--/.container-->
+      <div class="container mt-3 mb-5">
+        <form id="multi-step-form" method="post" novalidate>
+          <!-- Paso 2: Selección de una opción de una lista de cards -->
+          <section class="mt-1 mb-5 text-center">
+            <h2 class="mb-4 fw-bold">What is motivating you to sell your property?</h2>
+          </section><!--/.hgroup-->
+
+          <div class="d-flex flex-wrap justify-content-center flex-sm-column  flex-md-row gap-3 mb-2 text-center">
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Divorce" id="divorce" required>
+                <div class="card px-5 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/divorce.svg" alt="Divorce">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Divorce</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Retirement" id="retirement" required>
+                <div class="card px-5 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/retirement.svg" alt="Retirement">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Retirement</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Medical situation" id="medical-situation"
+                  required>
+                <div class="card px-4 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/medical-situation.svg" alt="Medical Situation">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Medical Situation</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Debt" id="debt" required>
+                <div class="card px-5 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/debt.svg" alt="Debt">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Debt</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Loss of job" id="lossJob" required>
+                <div class="card px-5 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/lost-job.svg" alt="Loss of Job">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Loss of Job</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Foreclouse" id="foreclouse" required>
+                <div class="card px-5 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/foreclouse.svg" alt="Foreclouse">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Foreclouse</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Bankruptcy" id="bankruptcy" required>
+                <div class="card px-5 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/bankruptcy.svg" alt="Bankruptcy">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Bankruptcy</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Inheritance" id="inheritance" required>
+                <div class="card px-5 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/inheritance.svg" alt="Inheritance">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Inheritance</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Opportunistic" id="market" required>
+                <div class="card px-4 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/booming-market.svg" alt="Booming Market">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Booming Market</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+            <div class="step-content flex-fill w-md-auto">
+              <label class="d-block">
+                <input class="d-none" type="radio" name="s2_segment" value="Other" id="other" required>
+                <div class="card px-5 py-4">
+                  <div class="step-icon">
+                    <img src="img/icons/others.svg" alt="Others">
+                  </div>
+                  <div>
+                    <h5 class="fw-bold">Other</h5>
+                  </div>
+                </div><!--/.card-->
+              </label>
+            </div><!--/.step-content -->
+          </div> <!--/.flex-->
+          <section class="container">
+            <div class="row">
+              <div class="col-12 col-md-8 mx-auto text-center mt-5 mb-3">
+                <label for="comments" class="fw-bold fs-2 text-center">Additional Comments <span
+                    class="fw-medium text-opacity-50">(Optional)</span> </label>
+                <input id="comments" class="form-control form-control-lg" type="text" name="s2_comments"
+                  placeholder="Example: Overwhelming credit card debt" aria-label="default input example">
+              </div><!--/col text-center-->
+              <div class="col-12 col-md-8 mx-auto text-center my-3">
+                <label for="comments" class="fw-bold fs-2 text-center">How soon would you want to use our
+                  platform?</label>
+                <h4 class="lead">Please click on the appropiate timeframe below</h4>
+                <div class="col-md-6 mx-auto text-start">
+                  <label class="form-check-label card focus-ring d-block p-2 my-2" for="lessThan3Months">
+                    <input class="form-check-input me-2" type="radio" name="s2_needToSellBy" value="Now"
+                      id="lessThan3Months">
+                    Less than 3 months
+                  </label>
+                  <label class="form-check-label card focus-ring d-block p-2 my-2" for="threeToSixMonths">
+                    <input class="form-check-input me-2" type="radio" name="s2_needToSellBy"
+                      value="In the next 6 months" id="threeToSixMonths">
+                    3 to 6 months
+                  </label>
+                  <label class="form-check-label card focus-ring d-block p-2 my-2" for="sixToTwelveMonths">
+                    <input class="form-check-input me-2" type="radio" name="s2_needToSellBy" value="In the next year"
+                      id="sixToTwelveMonths">
+                    6 to 12 months
+                  </label>
+                  <label class="form-check-label card focus-ring d-block p-2 my-2" for="moreThanTwelve">
+                    <input class="form-check-input me-2" type="radio" name="s2_needToSellBy" value="In the next 3 years"
+                      id="moreThanTwelve">
+                    More than 12 months
+                  </label>
+                </div><!--/.col -->
+              </div><!--/col How Soon -->
+              <div class="col-12 col-md-8 mx-auto text-center my-3">
+                <label for="comments" class="fw-bold fs-2 text-center">Who is the owners of the house?</label>
+                <h4 class="lead">(Who is on the title of the property)</h4>
+                <div class="col-md-6 mx-auto text-start">
+                  <label class="form-check-label card focus-ring d-block p-2 my-2" for="me">
+                    <input class="form-check-input me-2" type="radio" name="s2_ownership" value="Seller" id="me">
+                    Me
+                  </label>
+                  <label class="form-check-label card focus-ring d-block p-2 my-2" for="meAndSomeoneElse">
+                    <input class="form-check-input me-2" type="radio" name="s2_ownership" value="Seller & Spouse"
+                      id="meAndSomeoneElse">
+                    Me + Someone else
+                  </label>
+                  <label class="form-check-label card focus-ring d-block p-2 my-2" for="iKnowTheOwner">
+                    <input class="form-check-input me-2" type="radio" name="s2_ownership" value="Other"
+                      id="iKnowTheOwner">
+                    I know the owner
+                  </label>
+                  <label class="form-check-label card focus-ring d-block p-2 my-2" for="imAgent">
+                    <input class="form-check-input me-2" type="radio" name="s2_ownership" value="Other" id="imAgent">
+                    I'm the agent
+                  </label>
+                </div><!--/.col -->
+              </div><!--/col Owners -->
+            </div><!--/.row-->
+          </section><!--section -->
+          <!-- Paso 3: Selección entre varios bullet options -->
+        </form>
+      </div><!--/.container-->
+      <div class="container">
+        <div class="d-grid justify-content-center mt-5 mb-3">
+          <span class="warning" id="warningBottom"></span>
+        </div>
+        <div class="d-flex gap-2 justify-content-center mt-5 mb-3">
+          <a href="index.html" class="btn btn-outline-secondary btn-lg">
+            << Back</a>
+              <a href="step3.html" class="btn btn-verde btn-lg nextBtn">Next >></a>
+        </div><!--/.justify-->
+      </div><!--/.container-->
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer" class="section-1 mt-5"></div>
+  <!--/.section footer-->
+
+  <!-- Bootstrap JS -->
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!-- JS Global Compulsory  -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <!-- JS Space -->
+  <script src="../js/index-theme.min.js"></script>
+  <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>

@@ -22,9 +22,9 @@
   <!-- End Google Tag Manager -->
  
 <!-- Batchdata -->
-<link rel="stylesheet" href="css/batchdata.min.css">
+<link rel="stylesheet" href="css/batchdata.css">
 <script src="resources/batchdataAutocomplete/dist/batch-address-auto-complete.min.js"></script>
-<script src="resources/environment.min.js"></script>
+<script src="resources/environment.js"></script>
 <script src="resources/batchdata.min.js"></script>
 <!-- End Batchdata -->
 <script src="resources/simulator-form.min.js"></script>

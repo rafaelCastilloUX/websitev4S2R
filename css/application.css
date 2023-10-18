@@ -1,0 +1,2050 @@
+@import "bootstrap-icons/bootstrap-icons.css";
+
+:root {
+  --column-header: #2caae6;
+
+  --color-primary: #30354c;
+  --color-secondary: #45dd62;
+  --color-tertiary: #2caae6;
+
+  --color-gray: #d9d9d9;
+  --color-gray-light: #f9f9f9;
+  --hover-color-primary: #2082dc;
+  /* --invest-bg-primary: #01AEF0;
+    --sell-bg-primary: #37BAC4; */
+  --bg-primary: #30354c;
+  --primary-buttons: #40ff62;
+  --primary-buttons-hover: #24c742;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-BlackItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-BoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+.header1 {
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.bg-home {
+  background-color: var(--color-secondary);
+}
+.bg-primary-color {
+  background-color: var(--color-primary) !important;
+}
+.bg-secondary-color {
+  background-color: var(--color-secondary) !important;
+}
+.bg-tertiary-color {
+  background-color: var(--color-tertiary) !important;
+}
+.bg-gray-color {
+  background-color: var(--color-gray) !important;
+}
+.bg-gray-light-color {
+  background-color: var(--color-gray-light) !important;
+}
+
+.btn.btn-primary {
+  background-color: var(--primary-buttons);
+  border-color: var(--primary-buttons);
+  color: var(--color-primary);
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--primary-buttons-hover);
+  border-color: var(--primary-buttons-hover);
+  color: white !important;
+}
+
+.btn.btn-secondary {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-secondary) !important;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.btn.btn-tertiary {
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+  color: white !important;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+#footer .link-light {
+  /*color: var(--bg-primary) !important;*/
+}
+#footer .link-light#hover {
+  color: var(--bg-primary) !important;
+}
+#footer .btn .btn-icon:hover{
+  color: var(--bg-primary) !important;
+}
+
+/*CSS TEMPLATE*/
+.dropdown-menu {
+  padding: 0 !important;
+}
+
+.navbar-dropdown-menu-inner {
+  padding: 0 !important;
+}
+
+.text-primary {
+  font-weight: 600 !important;
+  font-size: 38px !important;
+}
+
+/* .text-header-1{
+    font-size: 3.5rem !important;
+    font-weight: 600 !important;
+    
+} */
+
+.text-header-1 {
+  font-size: calc(1.5rem + 1.05vw);
+  font-weight: 600 !important;
+}
+@media (min-width: 1200px) {
+  .text-header-1 {
+    font-size: 3.5rem !important;
+    font-weight: 600 !important;
+  }
+  .text-header-2 {
+    font-size: 38px !important;
+    font-weight: 600 !important;
+  }
+  .text-header-3{
+    font-size: 33px !important;
+    font-weight: 600 !important;
+   
+}
+.text-header-4 {
+    font-size: 26px !important;
+    font-weight: 400 !important;
+  
+    font-style: italic !important;
+  }
+}
+.text-header-2 {
+  font-size: calc(1.3rem + 1.05vw);
+  font-weight: 600 !important;
+}
+
+.text-header-3 {
+    font-size: calc(1.2rem + 1.05vw);
+  font-weight: 600 !important;
+}
+.text-header-4 {
+    font-size: calc(1.1rem + 1.05vw);;
+  font-weight: 400 !important;
+
+  font-style: italic !important;
+}
+.text-body {
+  font-weight: 400 !important;
+  font-size: 17px !important;
+}
+
+.text-primary-light {
+  color: var(--color-primary) !important;
+}
+
+.color-primary {
+  color: var(--color-primary) !important;
+}
+.color-white {
+  color: white;
+}
+.color-secondary {
+  color: var(--color-secondary) !important ;
+}
+.color-tertiary {
+  color: var(--color-tertiary);
+}
+.text-green {
+  color: #4cdd66 !important ;
+}
+
+.text-warning {
+  color: var(--color-secondary) !important;
+}
+a {
+  color: var(--color-primary) !important;
+}
+
+.bg-primary-dark {
+  --bs-bg-opacity: 1;
+  background-color: var(--color-secondary) !important;
+}
+
+.step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-primary) I !important;
+}
+
+.step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--hover-color-primary) !important;
+}
+
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-tertiary);
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  display: none;
+}
+
+
+
+
+
+/*END CSS TEMPLATE*
+
+
+/*
+.navbar-dark .navbar-nav a.nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+}
+.dropdown-menu {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+    position: fixed !important;
+    left: 0;
+    top: 85px;
+    width: 100vw;
+}
+
+
+.social .bi {
+    font-size: 2em;
+}
+@media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: flex;
+    }
+    .dropdown-menu.show {
+        display: flex;
+    }
+}
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+.dropdown-menu li .dropdown-item {
+    color: gray;
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
+.dropdown-menu li .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+/*.dropdown-menu li:first-child a {*/
+/*    font-weight: bold;*/
+/*    font-size: 1.2em;*/
+/*    text-transform: uppercase;*/
+/*    color: var(--color-primary);*/
+/*}*/
+/*.dropdown-menu li:first-child a:hover {*/
+/*    background-color: #f1f1f1;*/
+/*}*/
+
+.home-section .content-three {
+  margin-top: 7vw;
+}
+.home-section .content-one,
+.content-two,
+.content-three {
+  text-align: center;
+}
+.home-section .content-three div {
+  display: flex;
+  justify-content: center;
+}
+.home-section .content-three form {
+  display: flex;
+}
+/*-----------------------------------------------------------SELL*/
+.sell .bg-home {
+  background-color: var(--sell-bg-primary) !important;
+}
+.sell .banner-bottom-end-n3rem::after {
+  background-color: #37bac46b;
+}
+
+.sell a {
+  color: var(--sell-bg-primary) !important;
+}
+
+.sell .link-light {
+  color: white !important;
+}
+
+.sell .lead {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.sell .bg-home .title {
+  color: white !important;
+}
+
+.sell .section-3 .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media only screen and (min-width: 1200px) {
+  .sell .section-3 .card-img {
+    height: 227px;
+    width: 340px;
+    object-fit: cover;
+  }
+  .sell header {
+    margin-bottom: -72px !important;
+    background: transparent !important;
+  }
+  .sell header .navbar-nav .nav-link {
+    color: white !important;
+  }
+}
+.sell .section-5 .title {
+  background-color: var(--sell-bg-primary);
+}
+.sell .section-5 .title h3 {
+  color: white;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.banner-bottom-end-n3rem > * {
+  background-color: #00bbc7;
+}
+
+.sell .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+.sell .step-icon-soft-secondary {
+  color: #51596c;
+  background-color: #c3ebed !important;
+}
+
+.sell .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--sell-bg-primary) !important;
+}
+
+.sell .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+/*-----------------------------------------------------END SELL*/
+
+/*-------------------------------------------------------------INVEST*/
+.invest .bg-home {
+  background-color: var(--invest-bg-primary) !important;
+}
+
+.invest .banner-bottom-end-n3rem::after {
+  background-color: var(--invest-bg-primary);
+}
+.invest .bg-home .title {
+  color: white !important;
+}
+.invest .bg-home .actions {
+  display: flex;
+  color: white;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.invest .bg-home .actions .link {
+  align-items: center;
+  display: flex;
+}
+.invest .section-5 {
+  margin-top: 3.5rem;
+  background-color: #14a6e4;
+}
+.invest .section-5 h5 {
+  color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+  .invest header {
+    margin-bottom: -72px !important;
+    background: transparent !important;
+  }
+  .invest header .navbar-nav .nav-link {
+    color: white !important;
+  }
+}
+
+/*-----------------------------------------------------------END INVEST*/
+
+/*-----------------------------------------------------------HOME*/
+
+.home .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.home .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.home .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.home ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.home h5 {
+  font-weight: 700;
+}
+
+.home .section-5-mobile {
+  display: none;
+}
+.home .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-1.webp");
+  background-size: cover;
+  /*height: 125vh;*/
+  height: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+  .home .bg-home {
+    background-color: var(--color-primary) !important;
+  }
+}
+.home .bg-home-gray {
+  background-image: url("../content/images/webp/backgrounds/Background-gray-1.webp");
+  background-size: cover;
+  height: 118vh;
+}
+
+/* .our_program a{
+    color: var(--bg-primary) !important;  
+} */
+
+.home .accordion-collapse {
+  background-color: var(--color-tertiary);
+}
+
+.home .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--color-tertiary);
+}
+
+.home .accordion-button {
+  color: white !important;
+  background-color: var(--color-gray-light);
+}
+
+.home .accordion-item {
+  color: white !important;
+}
+.home .accordion-item .accordion-body {
+  color: white;
+  font-weight: 500;
+}
+
+.home .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+/**/
+
+.home .accordion-program .accordion-collapse {
+  background-color: white;
+}
+
+.home .accordion-program .accordion-button:not(.collapsed) {
+  color: var(--color-primary);
+  background-color: white;
+}
+
+.home .accordion-program .accordion-button {
+  color: var(--color-primary) !important;
+  background-color: var(--color-gray-light);
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.home .accordion-program .accordion-item {
+  color: var(--color-primary);
+}
+.home .accordion-program .accordion-item .accordion-body {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.home .accordion-program .accordion-item .collapsed {
+  color: var(--color-primary) !important;
+}
+
+.home .accordion-program .card-lg > .card-body,
+.card-lg > .card-img-overlay,
+.card-lg > .collapse .card-body {
+  padding: 0px;
+}
+.home .accordion-program .card-lg > .card-body,
+.card-lg > .card-img-overlay,
+.card-lg > .collapse .card-body {
+  padding: 0px;
+}
+
+.home .accordion-program .card-body {
+  padding: 0px;
+}
+.home .accordion-program .card-body {
+  padding: 0px;
+}
+
+.home .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+.home .step-icon-soft-secondary {
+  color: var(--color-primary);
+  background-color: var(--color-gray) !important;
+}
+
+.home .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--color-tertiary) !important;
+}
+.home .step .active .step-content .text-header-4,
+.step .active.is-valid .step-content .text-header-4 {
+  color: var(--color-tertiary) !important;
+}
+
+.home .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+
+/* .home #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+.home .bg-card {
+  background-color: white;
+  color: black;
+  padding: 20px 25px;
+  border-radius: 25px;
+}
+
+.home .form {
+  margin-bottom: -10px;
+  position: absolute;
+  bottom: -25px;
+  z-index: 5;
+}
+.home .form .bg-gray-light-color {
+  border-radius: 15px;
+}
+/*-----------------------------------------------------------HOME*/
+
+/*-----------------------------------------------------------DIVORCE*/
+
+.divorce .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.divorce .bg-home {
+  background-color: var(--bg-primary) !important;
+}
+.divorce .bg-home-dark {
+  background-color: var(--column-header);
+}
+
+.divorce .divorce-card {
+  background-color: #ffffffe6;
+  border-radius: 25px;
+}
+
+.divorce .divorce-form {
+  border-radius: 25px;
+}
+/* .divorce .home-section::before {
+   content: "";
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   background-color: var(--sell-bg-primary) !important;
+   opacity: 0.5;
+   z-index: 1;
+} */
+.divorce .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.divorce .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.divorce ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.divorce h5 {
+  font-weight: 700;
+}
+
+.divorce .section-5-mobile {
+  display: none;
+}
+
+.divorce a {
+  color: var(--bg-primary) !important;
+}
+
+.divorce .link-light {
+  color: white !important;
+}
+.divorce .accordion-collapse {
+  background-color: var(--bg-primary);
+}
+
+.divorce .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--bg-primary);
+}
+
+.divorce .accordion-item {
+  color: white !important;
+}
+.divorce .accordion-item .accordion-body {
+  color: black;
+  font-weight: 500;
+}
+
+.divorce .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.divorce .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+.divorce .step-icon-soft-secondary {
+  color: #51596c;
+  background-color: #c3ebed !important;
+}
+
+.divorce .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--sell-bg-primary) !important;
+}
+
+.divorce .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+
+/* .divorce #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+/*-----------------------------------------------------------DIVORCE*/
+
+/*-----------------------------------------------------------ABOUT US*/
+.about_us .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about_us .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.about_us .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.about_us .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.about_us ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.about_us h5 {
+  font-weight: 700;
+}
+
+.about_us .section-5-mobile {
+  display: none;
+}
+
+.about_us .bg-home {
+  background-color: var(--color-primary) !important;
+ /* height: 90vh;*/
+ height: 100%;
+}
+/* .about_us .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-2.webp");
+  background-size: cover;
+  height: 125vh;
+} */
+
+@media only screen and (max-width: 769px) {
+  .about_us .bg-home {
+    background-color: var(--color-primary) !important;
+    height: 100%;
+  }
+} 
+
+.about_us .bg-home-gray {
+  background-image: url(../content/images/webp/backgrounds/Background-gray-1.webp);
+  background-size: cover;
+  height: 119vh;
+  width: 100%;
+  top: -180px;
+  z-index: -1;
+}
+
+.about_us a {
+  color: var(--bg-primary) !important;
+}
+
+.about_us .link-light {
+  color: white !important;
+}
+.about_us .accordion-collapse {
+  background-color: var(--bg-primary);
+}
+
+.about_us .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--bg-primary);
+}
+
+.about_us .accordion-item {
+  color: white !important;
+}
+.about_us .accordion-item .accordion-body {
+  color: black;
+  font-weight: 500;
+}
+
+.about_us .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.about_us .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+.about_us .step-icon-soft-secondary {
+  color: #51596c;
+  background-color: #c3ebed !important;
+}
+
+.about_us .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--sell-bg-primary) !important;
+}
+
+.about_us .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+
+/* .about_us #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+.about-us-header .column-1 {
+  background: var(--column-header);
+  color: white;
+}
+.about-us-header .column-1 a:hover {
+  color: var(--color-secondary) !important; 
+}
+.about-us-header .column-1 a {
+  color: white !important;
+}
+
+.about-us-header .column-2 a {
+  color: black !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .about_us .section-5 {
+    display: none !important;
+  }
+  .about_us .section-5-mobile {
+    display: block !important;
+  }
+  .about_us .text-xs-center {
+    text-align: center;
+  }
+}
+/*-----------------------------------------------------------END ABOUT US*/
+
+/*-----------------------------------------------------------OUR PROGRAM*/
+.our_program .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our_program .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.our_program .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.our_program .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.our_program ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.our_program h5 {
+  font-weight: 700;
+}
+
+.our_program .section-5-mobile {
+  display: none;
+}
+/* .our_program .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-1.webp");
+  background-size: cover;
+  height: 116vh;
+} */
+
+.our_program .bg-home {
+  background-color: var(--color-primary) !important;
+  /*height: 95vh;*/
+  height: 100%;
+}
+
+/* @media only screen and (max-width: 769px) {
+  .our_program .bg-home {
+    background-color: var(--color-primary) !important;
+    height: 95vh;
+  }
+} */
+.our_program .bg-home-gray {
+  background-image: url("../content/images/webp/backgrounds/Background-gray-1.webp");
+  background-size: cover;
+  height: 118vh;
+}
+
+/* .our_program a{
+    color: var(--bg-primary) !important;  
+} */
+
+.our_program .accordion-collapse {
+  background-color: var(--color-tertiary);
+}
+
+.our_program .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--color-tertiary);
+}
+
+.our_program .accordion-button {
+  color: white !important;
+  background-color: var(--color-gray-light);
+}
+
+.our_program .accordion-item {
+  color: white !important;
+}
+.our_program .accordion-item .accordion-body {
+  color: white;
+  font-weight: 500;
+}
+
+.our_program .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.our_program .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+.our_program .step-icon-soft-secondary {
+  color: var(--color-primary);
+  background-color: var(--color-gray) !important;
+}
+
+.our_program .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--color-tertiary) !important;
+}
+.our_program .step .active .step-content .text-header-4,
+.step .active.is-valid .step-content .text-header-4 {
+  color: var(--color-tertiary) !important;
+}
+
+.our_program .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+/* 
+.our_program #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+.our_program .bg-card {
+  background-color: white;
+  color: black;
+  padding: 20px 25px;
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 1500px) {
+  .our_program .section-1 .image-content {
+    position: relative;
+  }
+  .our_program .section-1 .info {
+    height: 100%;
+    margin-top: 50%;
+  }
+  /* .our_program .section-1 .bg-home img {
+    width: 46vw !important;
+    position: absolute;
+    top: 0px;
+  } */
+
+}
+
+/*-----------------------------------------------------------END OUR PROGRAM*/
+
+/*-----------------------------------------------------------INVESTORS*/
+.investors .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.investors .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.investors .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.investors .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.investors ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.investors h5 {
+  font-weight: 700;
+}
+
+.investors .section-5-mobile {
+  display: none;
+}
+/* .investors .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-2.webp");
+  background-size: cover;
+  height: 125vh;
+} */
+
+.investors .bg-home {
+  background-color: var(--color-primary) !important;
+ /* height: 110vh;*/
+ height: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+  .investors .bg-home {
+    background-color: var(--color-primary) !important;
+    height: 100%;
+  }
+}
+
+.investors .bg-home-gray {
+  background-image: url("../content/images/webp/backgrounds/Background-gray-1.webp");
+  background-size: cover;
+}
+
+/* .investors a{
+    color: var(--bg-primary) !important;  
+} */
+
+.investors .link-light {
+  color: white !important;
+}
+.investors .accordion-collapse {
+  background-color: var(--color-tertiary);
+}
+
+.investors .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--color-tertiary);
+}
+
+.investors .accordion-button {
+  color: white !important;
+  background-color: var(--color-gray-light);
+}
+
+.investors .accordion-item {
+  color: white !important;
+}
+.investors .accordion-item .accordion-body {
+  color: white;
+  font-weight: 500;
+}
+
+.investors .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.investors .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+.investors .step-icon-soft-secondary {
+  color: var(--color-primary);
+  background-color: var(--color-gray) !important;
+}
+
+.investors .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--color-tertiary) !important;
+}
+.investors .step .active .step-content .text-header-4,
+.step .active.is-valid .step-content .text-header-4 {
+  color: var(--color-tertiary) !important;
+}
+
+.investors .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+
+/* .investors #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+/*-----------------------------------------------------------END INVESTORS*/
+
+/*-----------------------------------------------------------AGENTS*/
+.agents .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.agents .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.agents .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.agents .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.agents ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.agents h5 {
+  font-weight: 700;
+}
+
+.agents .section-5-mobile {
+  display: none;
+}
+/* .agents .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-1.webp");
+  background-size: cover;
+  height: 125vh;
+} */
+.agents .bg-home {
+  background-color: var(--color-primary) !important;
+  /*height: 100vh;*/
+  height: 100%;
+}
+@media only screen and (max-width: 769px) {
+  .agents .bg-home {
+    background-color: var(--color-primary) !important;
+    height: 100%;
+  }
+}
+.agents .bg-home-gray {
+  background-image: url("../content/images/webp/backgrounds/Background-gray-1.webp");
+  background-size: cover;
+}
+
+.agents .bg-home-gray-absolute {
+  background-image: url(../content/images/webp/backgrounds/Background-gray-2.webp);
+  background-size: cover;
+  height: 186vh;
+  width: 100%;
+  z-index: -1;
+  top: -32vh;
+}
+
+.agents a {
+  color: var(--bg-primary) !important;
+}
+
+.agents .link-light {
+  color: white !important;
+}
+.agents .accordion-collapse {
+  background-color: var(--color-tertiary);
+}
+
+.agents .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--color-tertiary);
+}
+
+.agents .accordion-button {
+  color: white !important;
+  background-color: var(--color-gray-light);
+}
+
+.agents .accordion-item {
+  color: white !important;
+}
+.agents .accordion-item .accordion-body {
+  color: white;
+  font-weight: 500;
+}
+
+.agents .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.agents .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+.agents .step-icon-soft-secondary {
+  color: #51596c;
+  background-color: #c3ebed !important;
+}
+
+.agents .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--sell-bg-primary) !important;
+}
+
+.agents .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+
+/* .agents #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+.agents .agents-image-device{
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .agents .agents-image-desktop {
+    display: none !important;
+  }
+  .agents .agents-image-device {
+    display: block !important;
+  }
+
+}
+
+/*-----------------------------------------------------------END AGENTS*/
+
+/*-----------------------------------------------------------INTERNSHIP*/
+.internship .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.internship .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.internship .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.internship .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.internship ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.internship h5 {
+  font-weight: 700;
+}
+
+.internship .section-5-mobile {
+  display: none;
+}
+.internship .bg-home {
+  background-color: var(--color-primary) !important;
+ /* height: 90vh;*/
+ height: 100%;
+}
+
+/* .internship .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-2.webp");
+  background-size: cover;
+  height: 125vh;
+}
+*/
+@media only screen and (max-width: 769px) {
+  .internship .bg-home {
+    background-color: var(--color-primary) !important;
+    height: 100%;
+  }
+} 
+.internship .bg-home-gray {
+  background-image: url("../content/images/webp/backgrounds/Background-gray-1.webp");
+  background-size: cover;
+  height: 118vh;
+}
+
+/* .internship a{
+    color: var(--bg-primary) !important;  
+} */
+
+.internship .accordion-collapse {
+  background-color: var(--color-tertiary);
+}
+
+.internship .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--color-tertiary);
+}
+
+.internship .accordion-button {
+  color: white !important;
+  background-color: var(--color-gray-light);
+}
+
+.internship .accordion-item {
+  color: white !important;
+}
+.internship .accordion-item .accordion-body {
+  color: white;
+  font-weight: 500;
+}
+
+.internship .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.internship .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+.internship .step-icon-soft-secondary {
+  color: var(--color-primary);
+  background-color: var(--color-gray) !important;
+}
+
+.internship .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--color-tertiary) !important;
+}
+.internship .step .active .step-content .text-header-4,
+.step .active.is-valid .step-content .text-header-4 {
+  color: var(--color-tertiary) !important;
+}
+
+.internship .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+
+/* .internship #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+.internship .bg-card {
+  background-color: white;
+  color: black;
+  padding: 20px 25px;
+  border-radius: 25px;
+}
+
+/*-----------------------------------------------------------END INTERNSHIP*/
+
+
+/* -- */
+
+@media only screen and (max-width: 425px) {
+  #header .navbar-nav{
+  overflow: scroll;
+  height: 600px;
+  
+}
+}
+
+
+
+/*---*/
+/*---------------------------------------------------------CONTACT US*/
+.contact-us-header .column-1 {
+  background: var(--column-header);
+  color: white;
+}
+.contact-us-header .column-1 a {
+  color: white !important;
+}
+.contact-us-header .column-1 a:hover {
+  color: var(--color-secondary) !important; 
+}
+
+.contact-us-header .column-2 a {
+  color: black !important;
+}
+/*---------------------------------------------------------END CONTACT US*/
+/*---------------------------------------------------------LEARN MORE*/
+.learn-more-header .column-1 {
+  background: var(--column-header);
+  color: white;
+}
+.learn-more-header .column-1 a {
+  color: white !important;
+}
+
+.learn-more-header .column-2 a {
+  color: black !important;
+}
+/*---------------------------------------------------------END LEARN MORE*/
+
+/*---------------------------------------------------------FOR PARTNERS*/
+.for-partners-header .column-1 {
+  background: var(--column-header);
+  color: white;
+}
+.for-partners-header .column-1 a:hover {
+  color: var(--color-secondary) !important; 
+  font-weight: 600;
+}
+.for-partners-header .column-1 a {
+  color: white !important;
+}
+
+.for-partners-header .column-2 a {
+  color: black !important;
+}
+/* .for-partners-header .column-1  .links  a{
+    color: #4CDD66 !important;
+} */
+/*---------------------------------------------------------FOR PARTNERS*/
+
+/*---------------------------------------------------------HOW IT WORKS*/
+.how-it-works-header .column-1 {
+  background: var(--column-header);
+  color: white;
+}
+.how-it-works-header .column-1 a {
+  color: white !important;
+}
+.how-it-works-header .column-1 a:hover {
+  color: var(--color-secondary) !important; 
+}
+
+.how-it-works-header .column-2 a {
+  color: black !important;
+}
+/* .how-it-works-header .column-1  .links  a{
+    color: #4CDD66 !important;
+} */
+/*---------------------------------------------------------HOW IT WORKS*/
+/*---------------------------------------------------------CAREERS*/
+
+.careers .home-section {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/careers/sell2rent.com-careers-img-1.webp");
+  background-size: cover;
+  height: 124vh;
+}
+
+.careers .bg-home-gray {
+  background-image: url("../content/images/webp/backgrounds/Background-gray-1.webp");
+  background-size: cover;
+}
+
+.careers .home-section .info .title div {
+  background-color: #30354ccc;
+  border-radius: 25px;
+}
+.careers .home-section .info .title .title-info {
+  z-index: 2;
+  color: white;
+}
+.careers .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.careers ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.careers h5 {
+  font-weight: 700;
+}
+
+.careers .section-5-mobile {
+  display: none;
+}
+.careers .bg-home {
+  background-color: var(--bg-primary) !important;
+}
+
+.careers a {
+  color: var(--bg-primary) !important;
+}
+
+.careers .link-light {
+  color: white !important;
+}
+.careers .accordion-collapse {
+  background-color: var(--bg-primary);
+}
+
+.careers .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--bg-primary);
+}
+
+.careers .accordion-item {
+  color: white !important;
+}
+.careers .accordion-item .accordion-body {
+  color: black;
+  font-weight: 500;
+}
+
+.careers .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.careers .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+.careers .step-icon-soft-secondary {
+  color: #51596c;
+  background-color: #c3ebed !important;
+}
+
+.careers .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--sell-bg-primary) !important;
+}
+
+.careers .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+
+/* .careers #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+.careers .embed_jobs_head{
+  padding: 0;
+}
+
+.careers .rec-grp-heading{
+  font-size: calc(1.2rem + 1.05vw);
+  font-family: 'Lato';
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+
+  .careers .rec-grp-heading{
+    font-size: 33px !important;  
+   
+}}
+
+.careers .rec-job-info {
+  list-style: none;
+}
+.careers .rec-job-title a{
+  color: var(--color-tertiary) !important;
+  font-family: 'Lato';
+  order: 1;
+}
+.careers .zrsite_Job_Type span:nth-child(1){
+  display: none;
+  order: 2;
+}
+.careers .zrsite_Job_Type span:nth-child(2){
+  font-weight: bold;
+}
+.careers .zrsite_Remote_Job span:nth-child(2){
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1500px) {
+  .careers .home-section .info .title {
+    top: 100px;
+    right: 50px;
+    position: absolute;
+  }
+}
+
+/*--------------------------------------------------------END CAREERS*/
+
+/*--------------------------------------------------------PARTNERS*/
+
+.partners .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.partners .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.partners .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.partners .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.partners ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.partners h5 {
+  font-weight: 700;
+}
+
+.partners .section-5-mobile {
+  display: none;
+}
+/* .partners .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-2.webp");
+  background-size: cover;
+  height: 125vh;
+} */
+
+.partners .bg-home {
+  background-color: var(--color-primary) !important;
+ /* height: 90vh;*/
+ height: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+  .partners .bg-home {
+    background-color: var(--color-primary) !important;
+    height: 100%;
+  }
+}
+
+.partners .bg-home-gray {
+  background-image: url(../content/images/webp/backgrounds/Background-gray-1.webp);
+  background-size: cover;
+  height: 119vh;
+  width: 100%;
+  top: -180px;
+  z-index: -1;
+}
+
+.partners a {
+  color: var(--bg-primary) !important;
+}
+
+.partners .link-light {
+  color: white !important;
+}
+.partners .accordion-collapse {
+  background-color: var(--bg-primary);
+}
+
+.partners .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--bg-primary);
+}
+
+.partners .accordion-item {
+  color: white !important;
+}
+.partners .accordion-item .accordion-body {
+  color: black;
+  font-weight: 500;
+}
+
+.partners .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.partners .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+.partners .step-icon-soft-secondary {
+  color: #51596c;
+  background-color: #c3ebed !important;
+}
+
+.partners .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--sell-bg-primary) !important;
+}
+
+.partners .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--sell-bg-primary) I !important;
+}
+
+.partners .section-4 img {
+  filter: grayscale(1);
+}
+
+/* .partners #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+/*--------------------------------------------------------END PARTNERS*/
+
+/*--------------------------------------------------------STRATEGIC_PARTNERS*/
+
+.strategic_partners .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.strategic_partners .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.strategic_partners .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.strategic_partners .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.strategic_partners ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.strategic_partners h5 {
+  font-weight: 700;
+}
+
+.strategic_partners .section-5-mobile {
+  display: none;
+}
+
+.strategic_partners .bg-home {
+  background-color: var(--color-primary) !important;
+  /*height: 108vh;*/
+  height: 100%;
+}
+/* .strategic_partners .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-1.webp");
+  background-size: cover;
+  height: 125vh;
+}
+ */
+@media only screen and (max-width: 769px) {
+  .strategic_partners .bg-home {
+    background-color: var(--color-primary) !important;
+    height: 100%;
+  }
+} 
+
+.strategic_partners .bg-home-gray {
+  background-image: url(../content/images/webp/backgrounds/Background-gray-1.webp);
+  background-size: cover;
+  height: 119vh;
+  width: 100%;
+  top: -180px;
+  z-index: -1;
+}
+
+.strategic_partners a {
+  color: var(--bg-primary) !important;
+}
+
+.strategic_partners .link-light {
+  color: white !important;
+}
+.strategic_partners .accordion-collapse {
+  background-color: var(--color-tertiary);
+}
+
+.strategic_partners .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--color-tertiary);
+}
+
+.strategic_partners .accordion-button {
+  color: white !important;
+  background-color: var(--color-gray-light);
+}
+
+.strategic_partners .accordion-item {
+  color: white !important;
+}
+.strategic_partners .accordion-item .accordion-body {
+  color: white;
+  font-weight: 500;
+}
+
+.strategic_partners .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.strategic_partners .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+.strategic_partners .step-icon-soft-secondary {
+  color: var(--color-primary);
+  background-color: var(--color-gray) !important;
+}
+
+.strategic_partners .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--color-tertiary) !important;
+}
+.strategic_partners .step .active .step-content .text-header-4,
+.step .active.is-valid .step-content .text-header-4 {
+  color: var(--color-tertiary) !important;
+}
+
+.strategic_partners .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+
+.strategic_partners .section-7 img {
+  filter: grayscale(1);
+}
+
+/* .strategic_partners #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+/*--------------------------------------------------------END STRATEGIC_PARTNERS*/
+
+/*-----------------------------------------------------------CONTACT_US*/
+.contact_us .home-section {
+  background-image: url("../content/images/webp/about_us/sell2rent.com-about_us-img-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact_us .home-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: var(--sell-bg-primary) !important;
+  opacity: 0.5;
+  z-index: 1;
+}
+.contact_us .home-section .info h3 {
+  z-index: 2;
+  color: white;
+}
+.contact_us .section-3 .leading-border {
+  border-left: 2px solid var(--bg-primary);
+}
+
+.contact_us ::selection {
+  color: black;
+  background-color: #37bbc428;
+}
+.contact_us h5 {
+  font-weight: 700;
+}
+
+.contact_us .section-5-mobile {
+  display: none;
+}
+.contact_us .bg-home {
+  background-color: transparent !important;
+  background-image: url("../content/images/webp/backgrounds/Background-blue-1.webp");
+  background-size: cover;
+  height: 125vh;
+}
+
+@media only screen and (max-width: 769px) {
+  .contact_us .bg-home {
+    background-color: var(--color-primary) !important;
+  }
+}
+.contact_us .bg-home-gray {
+  background-image: url("../content/images/webp/backgrounds/Background-gray-1.webp");
+  background-size: cover;
+  height: 118vh;
+}
+
+/* .our_program a{
+    color: var(--bg-primary) !important;  
+} */
+
+.contact_us .accordion-collapse {
+  background-color: var(--color-tertiary);
+}
+
+.contact_us .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: var(--color-tertiary);
+}
+
+.contact_us .accordion-button {
+  color: white !important;
+  background-color: var(--color-gray-light);
+}
+
+.contact_us .accordion-item {
+  color: white !important;
+}
+.contact_us .accordion-item .accordion-body {
+  color: white;
+  font-weight: 500;
+}
+
+.contact_us .accordion-item .collapsed {
+  color: var(--bg-primary) !important;
+}
+
+.contact_us .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+.contact_us .step-icon-soft-secondary {
+  color: var(--color-primary);
+  background-color: var(--color-gray) !important;
+}
+
+.contact_us .step .active .step-icon,
+.step .active.is-valid .step-icon {
+  color: #fff;
+  background-color: var(--color-tertiary) !important;
+}
+.contact_us .step .active .step-content .text-header-4,
+.step .active.is-valid .step-content .text-header-4 {
+  color: var(--color-tertiary) !important;
+}
+
+.contact_us .step .active .step-title,
+.step .active.is-valid .step-title {
+  color: var(--color-tertiary) I !important;
+}
+
+/* .contact_us #header nav a:hover {
+  color: var(--bg-primary) !important;
+} */
+
+.contact_us .bg-card {
+  background-color: white;
+  color: black;
+  padding: 20px 25px;
+  border-radius: 25px;
+}
+
+/*-----------------------------------------------------------END CONTACT_US*/
+
+@media only screen and (max-width: 992px) {
+  .dropdown-menu.show {
+    flex-wrap: wrap;
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+  .dropdown:hover .dropdown-menu {
+    width: 40vw;
+    flex-wrap: wrap;
+  }
+}
+
+
+.search-wrapper {
+  position: relative;
+}
+
+.clear-search {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: #999;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+  padding-top: 5px;
+}
+
+.search:hover .clear-search {
+  opacity: 1;
+}
+
+#searchInput:not(:placeholder-shown) ~ .clear-search {
+  opacity: 1;
+}
+
+#searchInput:not(:placeholder-shown) ~ .clear-search:hover {
+  color: #555;
+}
+
+.blog-details {
+    padding-top: 72px;
+}
+
+article .card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
