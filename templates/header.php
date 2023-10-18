@@ -15,7 +15,7 @@
   <!-- Icons -->
   <script src="https://kit.fontawesome.com/e5b25b5dd3.js" crossorigin="anonymous"></script>
   <!--Custom Styles-->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.min.css">
    
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NQWHB9M');</script>
@@ -24,11 +24,11 @@
 <!-- Batchdata -->
 <link rel="stylesheet" href="css/batchdata.min.css">
 <script src="resources/batchdataAutocomplete/dist/batch-address-auto-complete.min.js"></script>
-<script src="resources/environment.js"></script>
-<script src="resources/batchdata.js"></script>
+<script src="resources/environment.min.js"></script>
+<script src="resources/batchdata.min.js"></script>
 <!-- End Batchdata -->
-<script src="resources/simulator-form.js"></script>
-<script src="resources/dynamic-table.js"></script>
+<script src="resources/simulator-form.min.js"></script>
+<script src="resources/dynamic-table.min.js"></script>
 </head>
 
 <body onload="initialize()">   
