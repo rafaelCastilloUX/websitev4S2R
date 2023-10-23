@@ -8,7 +8,7 @@
                     <div class="col">
                         <div class="p-5 text-center rounded-2 text-white top-xl-25vh w-100"  >
                             <h2 class="fw-bold fs-1">About Us</h2>
-                            <h1 class="fw-bold text-white display-4">Get to know what <span class="text-verde"> drive </span> us</h1>
+                            <h1 class="fw-bold text-white display-4">Get to know what <span class="text-verde"> drives </span> us</h1>
                              <p class="fw-normal fs-5">Our greatest joy is helping families through our leaseback platform</p>
                             <div class="container">
                                 <button type="button" class="btn fw-bold btn-verde btn-lg mb-3">SELL <i class="fa-solid fa-chevron-right"></i></button>
@@ -106,7 +106,7 @@
                     </div><!--/.col-->
                 </div><!--/.row-->
             </div><!--/container-->
-            <div class="container">
+            <div class="container d-none">
                 <div class="row" data-aos="fade-in" data-aos-delay="300">
                     <div class="col-12 col-md-10 offset-md-1">
                         <div class="hgroup text-center">

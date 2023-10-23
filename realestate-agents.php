@@ -7,9 +7,9 @@
                 <div class="row p-5 text-center  bg-navy " >
                     <div class="col-12 col-lg-8 offset-lg-2">
                         <div class="p-5text-center rounded-2 text-white top-xl-25vh w-100"  >
-                            <h2 class="fw-bold fs-1">Help Home owners</h2>
+                            <h2 class="fw-bold fs-1">Help Homeowners</h2>
                             <h1 class="fw-bold text-verde display-3"><span class="text-verde">Sell & Stay</span> As a</h1>
-                            <h2 class="fw-bold text-white display-3">sell2Rent partner</h2>
+                            <h2 class="fw-bold text-white display-3">Sell2Rent partner</h2>
                              <p class="fw-normal fs-5">Grow your business and stand out in your market with sale leaseback offerings that give clients more flexibility.</p>
                             <div class="container">
                                 <button type="button" class="btn fw-bold btn-verde btn-lg">CONTACT US <i class="fa-solid fa-chevron-right"></i></button>
@@ -90,155 +90,41 @@
                             </ul>
                         </section><!-- Section: Timeline -->
                     </div>
-                </div><!--/row-->
-            </div><!--/container-->
-            <div class="container">
-                <div class="row" data-aos="fade-in" data-aos-delay="300">
-                    <div class="col">
-                        <div class="hgroup text-center">
-                        <h4 class="fw-bold text-azul mb-0">The Process</h4>
-                        <h2 class="fw-semibold display-4">How It Works</h2>
-                        </div><!--Headingroup-->
-                    </div><!--/col-->
-                </div><!--/.row-->
-                <div class="row text-center row-cols-1 row-cols-sm-3 g-4 align-items-center">
-                    <div class="col">
-                        <div class="mb-2 bg-white p-2 d-flex flex-column mx-auto" style="max-width:350px;"  data-aos="fade-in" data-aos-delay="500">
-                            <div class="text-azul fw-bold">STEP</div>
-                            <h2 class="fw-semibold display-5 lh-1">01</h2>
-                            <div class="desc px-4">
-                                <h4 class="fw-bold fs-5 mb-0 text-body-emphasis">Give us your buy box</h4>
-                                <p class="text-body-secondary">2 steps that take Less Than 3 minutes to fill out our form & define your buy-box.</p>
-                            </div><!--/desc-->
-                        </div><!--/flex-->
-
-                        <div class="mb-2 bg-white p-2 d-flex flex-column mx-auto" style="max-width:350px;"  data-aos="fade-in" data-aos-delay="800">
-                            <div class="text-azul fw-bold">STEP</div>
-                            <h2 class="fw-semibold display-5 lh-1">02</h2>
-                            <div class="desc px-4">
-                                <h4 class="fw-bold fs-5 mb-0 text-body-emphasis">Efficient communication</h4>
-                                <p class="text-body-secondary">between all parties is handled by our team Leave the legwork.</p>
-                            </div><!--/desc-->
-                        </div><!--/flex-->
-
-                        <div class="mb-2 bg-white p-2 d-flex flex-column mx-auto" style="max-width:350px;"  data-aos="fade-in" data-aos-delay="1100">
-                            <div class="text-azul fw-bold">STEP</div>
-                            <h2 class="fw-semibold display-5 lh-1">03</h2>
-                            <div class="desc px-4">
-                                <h4 class="fw-bold fs-5 mb-0 text-body-emphasis">Deals are typically</h4>
-                                <p class="text-body-secondary">live for 7 - 10 days. Followed by a short Best & Final Period.</p>
-                            </div><!--/desc-->
-                        </div><!--/flex-->
-                    </div><!--/col-->  
-                    <div class="col d-none d-sm-block"  data-aos="fade-in" data-aos-delay="300">
-                        <img src="img/smartphone.png" alt="How it works in S2R" class="w-100">
-                    </div><!--/col-->
-                    <div class="col">
-                        <div class="mb-2 bg-white p-2 d-flex flex-column mx-auto" style="max-width:350px;"  data-aos="fade-in" data-aos-delay="500">
-                            <div class="text-azul fw-bold">STEP</div>
-                            <h2 class="fw-semibold display-5 lh-1">04</h2>
-                            <div class="desc px-4">
-                                <h4 class="fw-bold fs-5 mb-0 text-body-emphasis">Rigorous analysis</h4>
-                                <p class="text-body-secondary">We utilize advanced technologies to perform initial underwriting Processes & ensure a mutually beneficial transaction.</p>
-                            </div><!--/desc-->
-                        </div><!--/flex-->
-
-                        <div class="mb-2 bg-white p-2 d-flex flex-column mx-auto" style="max-width:350px;"  data-aos="fade-in" data-aos-delay="800">
-                            <div class="text-azul fw-bold">STEP</div>
-                            <h2 class="fw-semibold display-5 lh-1">05</h2>
-                            <div class="desc px-4">
-                                <h4 class="fw-bold fs-5 mb-0 text-body-emphasis">Smart matching</h4>
-                                <p class="text-body-secondary">Our proprietary algorithm matches you with investment opportunities that align with your criteria.</p>
-                            </div><!--/desc-->
-                        </div><!--/flex-->
-
-                        <div class="mb-2 bg-white p-2 d-flex flex-column mx-auto" style="max-width:350px;"  data-aos="fade-in" data-aos-delay="1100">
-                            <div class="text-azul fw-bold">STEP</div>
-                            <h2 class="fw-semibold display-5 lh-1">06</h2>
-                            <div class="desc px-4">
-                                <h4 class="fw-bold fs-5 mb-0 text-body-emphasis">Property Inspections</h4>
-                                <p class="text-body-secondary">When necessary, 3rd party reports & title searches are conducted before proceeding to a controlled buyer-led closing.</p>
-                            </div><!--/desc-->
-                        </div><!--/flex-->
-                    </div><!--/col-->
-                </div><!--/row -->
-            </div><!--/container-->
-            <div class="container">
-                <div class="row" data-aos="fade-in" data-aos-delay="300">
-                    <div class="col">
-                        <div class="hgroup text-center">
-                        <h4 class="fw-bold text-azul mb-0">Inventor Success Stories</h4>
-                        <h2 class="fw-semibold display-4">Hear From Those Who've Thrived with Sell2Rent</h2>
-                        </div><!--Headingroup-->
-                    </div><!--/col-->
-                </div><!--/.row-->
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col mb-4">
-                        <div class="tarjeta bg-azul text-white p-5 my-auto rotate3">
-                            <div class="rate w-100 fs-5 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div><!--/rate-->
-                            <h5 class="mb-3">Sell2Rent's marketplace has truly opened doors to investment opportunities I wouldn't have found anywhere else. The properties are top-notch, and the process is seamless.</h5>
-                            <div class="name d-inline-flex gap-2">
-                            <p class="fw-bold">John R.</p>
-                            <p class="ps-2 border-start border-dark"> Seasoned InvestorSeasoned Investor</p>
-                            </div><!--/name-->                        
-                        </div><!--/tarjeta-->
-                    </div><!--/col-->
-                    <div class="col mb-4">
-                        <div class="tarjeta bg-verde p-5 my-auto">
-                            <div class="rate w-100 fs-5 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div><!--/rate-->
-                            <h5 class="mb-3">Sell2Rent's marketplace has truly opened doors to investment opportunities I wouldn't have found anywhere else. The properties are top-notch, and the process is seamless.</h5>
-                            <div class="name d-inline-flex gap-2">
-                            <p class="fw-bold">John R.</p>
-                            <p class="ps-2 border-start border-dark"> Seasoned Investor</p>
-                            </div><!--/name-->                        
-                        </div><!--/tarjeta-->
-                    </div><!--/col-->
-                    <div class="col mb-4">
-                        <div class="tarjeta bg-verde p-5 my-auto">
-                            <div class="rate w-100 fs-5 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div><!--/rate-->
-                            <h5 class="mb-3">Sell2Rent's marketplace has truly opened doors to investment opportunities I wouldn't have found anywhere else. The properties are top-notch, and the process is seamless.</h5>
-                            <div class="name d-inline-flex gap-2">
-                            <p class="fw-bold">John R.</p>
-                            <p class="ps-2 border-start border-dark"> Seasoned Investor</p>
-                            </div><!--/name-->                        
-                        </div><!--/tarjeta-->
-                    </div><!--/col-->
-                    <div class="col mb-4">
-                        <div class="tarjeta bg-navy text-white p-5 my-auto">
-                            <div class="rate w-100 fs-5 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            </div><!--/rate-->
-                            <h5 class="mb-3">Sell2Rent's marketplace has truly opened doors to investment opportunities I wouldn't have found anywhere else. The properties are top-notch, and the process is seamless.</h5>
-                            <div class="name d-inline-flex gap-2">
-                            <p class="fw-bold">John R.</p>
-                            <p class="ps-2 border-start border-dark"> Seasoned Investor</p>
-                            </div><!--/name-->                        
-                        </div><!--/tarjeta-->
-                    </div><!--/col-->
-                </div><!--/row-->
-            </div><!--/container-->
-            <div class="container my-5">
+                </div><!--/row-->  
+        </section>
+        <section>
+            <div class="container my-3 bg-black-white ps-5 pe-5 pt-5"  data-aos="fade-in"  >
                 <div class="row align-items-center mt-lg-5 ">
-                    <div class="col-sm-12 col-lg-7 ">
+                    <div class="col-sm-12 col-lg-7 "  data-aos="fade-in" data-aos-delay="400">
                         <div class="">
-                            <h2 class="fw-bold display-5 text-azul">Join these successful investors</h2>
-                            <h2 class="fs-4 my-3">experience the Sell2Rent advantage firsthand</h2>
-                            <a href="#" class="btn btn-verde btn-lg fw-bold">REGISTER NOW <i class="fas fa-chevron-right fa-sm"></i></a>
+                            <h2 class="fw-bold display-5 text-white">What is a</h2>
+                            <h2 class="display-5 text-verde fw-bold">Leaseback?</h2>
+                            <p class="fw-bsemiold fs-6 text-white">A leaseback, often referred to as a sale-leaseback, is a financial arrangement where a property owner sells their property and subsequently leases it back from the buyer. This arrangement offers mutual benefits: the seller gains access to equity while continuing to use the property as a tenant, and the buyer acquires a property with a built-in tenant, creating a win-win scenario for both parties.</p>
+                            <p class="fw-semibol mt-3 text-verde fs-6">Homeowners today don't know they have this option (we want to change that!).</p>
                         </div>
                     </div><!--/col-->
-                    <div class="col-sm-12 col-lg-5 ">
-                        <img src="img/investors-hand.png" alt="Join th einvestors" class="img-fluid">
+                    <div class="col-sm-12 col-lg-5"  data-aos="fade-left" data-aos-delay="800">
+                        <img src="img/img-whatsaLeasback.webp" alt="What is a leaseback" class="img-fluid">                        
                     </div><!--/col-->
                 </div><!--/.row-->
+                <div class="row mt-5 gap-5">
+                    <div class="col-12 col-md-4 col-lg-3 bg-verde "  data-aos="fade-up" data-aos-delay="400">
+                        <div class="p-5 text-center">
+                            <p>The US Single-Family Market is vast.</p>
+                            <h2 class="fs-1 fw-bolder">140M+</h2>
+                            <p>Homes (of which 5-7 million homes sell each year).</p>
+                        </div><!--/text center -->
+                    </div><!--/col-->
+                    <div class="col-12 col-md-4 col-lg-3 bg-azul "  data-aos="fade-up" data-aos-delay="400">
+                        <div class="p-5 text-white text-center">
+                            <p>Almost half of U.S. households can't afford a $250,000 home, with nearly</p>
+                            <h2 class="fs-1 fw-bolder">30%</h2>
+                            <p>spending over 30% of their income on housing costs, according to NAHB.</p>
+                        </div><!--/text center -->
+                    </div><!--/col-->
+                </div><!--/row-->
             </div><!--/.container-->
-        </section>
-        <?php include('templates/whats-leaseback.php'); ?>
+        </section><!--wat's a leaseback -->
         <section class="bg-navy pt-5">
             <div class="container">
                 <div class="row mt-3 ">
@@ -278,13 +164,13 @@
             </div>
 
         </section><!--/bg-navy-->
-        <?php include('templates/proposition.php'); ?>
+        <?php include('templates/proposition.php'); ?>        
         <section class="bg-azul py-5">
             <div class="container">
                 <div class="row" data-aos="fade-in" data-aos-delay="300">
                     <div class="col-12 col-md-10 offset-md-1">
                         <div class="hgroup text-center">
-                        <h2 class="fw-bold text-white display-4">Join Our <span class="text-dark">Partner Network</span>  Now!</h2>
+                        <h2 class="fw-bold text-white display-4">Ready to start submitting your listings?</h2>
                         <p class="my-4 fw-bold text-white">You're just moments away from unlocking the opportunity to connect your clients with a unique investment solution. As a registered partner with Sell2Rent, you're empowered to submit your property listings and provide homeowners with a valuable service that sets you apart.</p>
                         <a href="#" class="btn btn-lg btn-verde fw-bold">CONTACT US<i class="fas fa-chevron-right fa-sm"></i></a>
                         </div><!--Headingroup-->

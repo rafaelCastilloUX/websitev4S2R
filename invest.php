@@ -7,8 +7,8 @@
                 <div class="row p-5 text-center  bg-dark ">
                     <div class="col-12 col-lg-8 offset-lg-2">
                         <div class="p-5text-center rounded-2 text-white top-xl-25vh w-100"  >
-                            <h2 class="fw-bold fs-1">Get first access to Single-Family</h2>
-                            <h1 class="fw-bold  display-3"><span class="text-verde">Rental Properties </span> that 
+                            <h2 class="fw-bold fs-1">Get first access</h2>
+                            <h1 class="fw-bold  display-3"><span class="text-verde">Properties </span> that 
                                 fit your <span class="text-verde">Buy Criteria</span> </h1>
                              <p class="fw-normal fs-5">Work with Sell2Rent to invest in homes across the country through our Sell & Leaseback program.</p>
                             <div class="container">

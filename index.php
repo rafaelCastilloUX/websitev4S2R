@@ -58,7 +58,7 @@
             <div class="row g-4 py-5 px-4 row-cols-1 row-cols-lg-3">
               <div class="col d-flex align-items-center"  data-aos="fade-in" data-aos-delay="300">
                 <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                  <img src="img/icons/icon_house-find-blue.svg" alt="Properties Check">
+                  <img src="img/icons/icon_house-find-blue.svg" loading="lazy" alt="Properties Check">
                 </div>
                 <div>
                   <h4 class="fw-bold">Property <br> Check</h4>
@@ -67,7 +67,7 @@
               </div><!--/.col-->
               <div class="col d-flex align-items-center"  data-aos="fade-in" data-aos-delay="300">
                 <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                  <img src="img/icons/icon_changes-rounded-blue.svg" alt="Tailored for Life's Changes">
+                  <img src="img/icons/icon_changes-rounded-blue.svg" loading="lazy" alt="Tailored for Life's Changes">
                 </div>
                 <div>
                   <h4 class="fw-bold">Tailored for <br> Life's Changes</h4>
@@ -77,7 +77,7 @@
               </div><!--/.col-->
               <div class="col d-flex align-items-center"  data-aos="fade-in" data-aos-delay="300">
                 <div class="icon-square text-body-emphasis -inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                  <img src="img/icons/icon_unlock-fill-blue.svg" alt="unlock Your Home's Equity">
+                  <img src="img/icons/icon_unlock-fill-blue.svg" loading="lazy" alt="unlock Your Home's Equity">
                 </div>
                 <div>
                   <h4 class="fw-bold">Unlock Your Home's Equity</h4>
@@ -89,11 +89,11 @@
           </div><!--/.container-fluid-->
           
         </section><!--/.info-->
-        <section class="match">
+        <section class="match d-none">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-lg-6" data-aos="fade-left" data-aos-anchor-placement="top" data-aos-delay="300">
-                <div class="mano-phone w-100">
+                <div class="mano-phone w-100" loading="lazy">
                 </div><!--/mano-phone-->
  
               </div><!--/.col-->
@@ -136,7 +136,7 @@
                   <div class="row align-items-center">
                     <div class="col-12 col-lg-3 offset-lg-2 flex flex-row align-items-start p-2 ">
                       <div class="flex-row d-flex gap-3 me-3">
-                        <img src="img/icons/icon_mapmarker-blue.svg" alt="Nationwide Icon" width="40" class="icon-verde">
+                        <img src="img/icons/icon_mapmarker-blue.svg" alt="Nationwide Icon" loading="lazy" width="40" class="icon-verde">
                         <h5 class="fw-bold">Nationwide support, always here</h5>
                       </div><!---->
                       <div><!--/.flex-row-->
@@ -145,7 +145,7 @@
                     </div><!--/.col-->
                     <div class="col-sm-12 col-lg-3  offset-lg-2 flex flex-row align-items-start p-2">
                       <div class="flex-row d-flex gap-3 me-3">
-                        <img src="img/icons/icon_users-blue.svg" alt="Users Icon" width="40" class="icon-verde">
+                        <img src="img/icons/icon_users-blue.svg" alt="Users Icon" loading="lazy" width="40" class="icon-verde">
                         <h5 class="fw-bold">Maximize options, multiple choices</h5>
                       </div><!---->
                       <div><!--/.flex-row-->
@@ -155,7 +155,7 @@
 
                     <div class="col-12 col-lg-3 flex flex-row align-items-start p-2 ">
                       <div class="flex-row d-flex gap-3 me-3">
-                        <img src="img/icons/icon_privacy-tip-blue.svg" alt="Networks Icon" width="40" class="icon-verde">
+                        <img src="img/icons/icon_privacy-tip-blue.svg" alt="Networks Icon" loading="lazy" width="40" class="icon-verde">
                         <h5 class="fw-bold">Your privacy, <br> our priority</h5>
                       </div><!---->
                       <div><!--/.flex-row-->
@@ -163,11 +163,11 @@
                       </div><!---->
                     </div><!--/.col-->
                     <div class="col-12 col-lg-6 flex flex-row align-items-start p-2 position-relative ">
-                      <img src="img/mapwebp.webp" alt="Map" class="img-fluid mapa-users start-0">
+                      <img src="img/mapwebp.webp" alt="Map" loading="lazy" class="img-fluid mapa-users start-0">
                     </div><!--/.col-->
                     <div class="col flex flex-row align-items-start p-2">
                       <div class="flex-row d-flex gap-3 me-3">
-                        <img src="img/icons/icon_note-check-blue.svg" alt="Check Icon" width="40" class="icon-verde">
+                        <img src="img/icons/icon_note-check-blue.svg" loading="lazy"  alt="Check Icon" width="40" class="icon-verde">
                         <h5 class="fw-bold">Valuations <br> made clear</h5>
                       </div><!---->
                       <div><!--/.flex-row-->
@@ -177,7 +177,7 @@
 
                     <div class="col-12 col-lg-3 offset-lg-2 flex flex-row align-items-start p-2">
                       <div class="flex-row d-flex gap-3 me-3">
-                        <img src="img/icons/icon_money-off-blue.svg" alt="Budget Icon" width="40" class="icon-verde">
+                        <img src="img/icons/icon_money-off-blue.svg"  loading="lazy" alt="Budget Icon" width="40" class="icon-verde">
                         <h5 class="fw-bold">Budget-Friendly, <br> no surprises</h5>
                       </div><!---->
                       <div><!--/.flex-row-->
@@ -186,7 +186,7 @@
                     </div><!--/.col-->
                     <div class="col-12 col-lg-3 offset-lg-2 flex flex-row align-items-start p-2">
                       <div class="flex-row d-flex gap-3 me-3">
-                        <img src="img/icons/icon_real-estate-blue.svg" alt="Real Estate Icon" width="40" class="icon-verde">
+                        <img src="img/icons/icon_real-estate-blue.svg" loading="lazy" alt="Real Estate Icon" width="40" class="icon-verde">
                         <h5 class="fw-bold">Flexibility to achieve your goals</h5>
                       </div><!---->
                       <div><!--/.flex-row-->
@@ -233,7 +233,7 @@
                       </div><!--/.col-->
                       <div class="col order-1 order-lg-2">
                         <div class="p-0">
-                          <img src="img/img_sellALeaseback.webp" alt="Sell and Stay" class="img-fluid" style="box-shadow: 15px 13px 44px 0px rgba(30, 147, 255, 0.15), 61px 50px 79px 0px rgba(30, 147, 255, 0.13), 138px 113px 107px 0px rgba(30, 147, 255, 0.08), 246px 200px 127px 0px rgba(30, 147, 255, 0.02), 384px 313px 139px 0px rgba(30, 147, 255, 0.00);">
+                          <img src="img/img_sellALeaseback.webp" loading="lazy" alt="Sell and Stay" class="img-fluid" style="box-shadow: 15px 13px 44px 0px rgba(30, 147, 255, 0.15), 61px 50px 79px 0px rgba(30, 147, 255, 0.13), 138px 113px 107px 0px rgba(30, 147, 255, 0.08), 246px 200px 127px 0px rgba(30, 147, 255, 0.02), 384px 313px 139px 0px rgba(30, 147, 255, 0.00);">
                         </div>
                       </div><!--/.col-->
                     </div><!--/.row-->
@@ -243,7 +243,7 @@
                           <h4 class="text-verde fw-semibold">Navigating The Journey</h4>
                           <h2 class="text-white fw-bold">Easy Steps To Follow</h2>
                         </div><!--/hgroup-->
-                        <img src="img/img_sellAStay_laptop.webp" alt="Sell and Stay" class="img-fluid">
+                        <img src="img/img_sellAStay_laptop.webp" loading="lazy" alt="Sell and Stay" class="img-fluid">
                       </div><!--/col -->
                       <div class="col p-4 overflow-y-auto" style="height: 60vh;margin-top: 5em;">
                         <!-- Section: Timeline -->
@@ -256,7 +256,7 @@
                                   <span class="timeline-number">01</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/titles/journey-step01.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step01.svg" loading="lazy" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -270,7 +270,7 @@
                                   <span class="timeline-number">02</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/titles/journey-step02.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step02.svg" loading="lazy" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -284,7 +284,7 @@
                                   <span class="timeline-number">03</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/titles/journey-step03.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step03.svg" loading="lazy" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -298,7 +298,7 @@
                                   <span class="timeline-number">04</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/titles/journey-step04.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step04.svg" loading="lazy" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -312,7 +312,7 @@
                                   <span class="timeline-number">05</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/titles/journey-step05.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step05.svg" loading="lazy" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -326,7 +326,7 @@
                                   <span class="timeline-number">06</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/titles/journey-step06.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step06.svg" loading="lazy" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -340,7 +340,7 @@
                                   <span class="timeline-number">07</span>
                                 </span>
                                 <div class="heading ms-1">
-                                  <img src="img/titles/journey-step07.svg" alt="Complete the Form and Schedule a Call: " class="img-fluid">
+                                  <img src="img/titles/journey-step07.svg" loading="lazy" alt="Complete the Form and Schedule a Call: " class="img-fluid">
                                 </div><!--/in step-->
                               </div><!--/d-flex-->
                               <div class="timeline--card_step bg-light text-body-emphasis">
@@ -439,13 +439,13 @@
                 <div id="carouselWhoBenefits" class="carousel slide carousel-dark">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="img/whobenefits_slide1.webp" class="d-block w-100" alt="Caption pendiente ...">
+                      <img src="img/whobenefits_slide1.webp" class="d-block w-100" loading="lazy" alt="Caption pendiente ...">
                     </div>
                     <div class="carousel-item">
-                      <img src="img/whobenefits_slide2.webp" class="d-block w-100" alt="Caption pendiente ...">
+                      <img src="img/whobenefits_slide2.webp" class="d-block w-100" loading="lazy" alt="Caption pendiente ...">
                     </div>
                     <div class="carousel-item">
-                      <img src="img/whobenefits_slide3.webp" class="d-block w-100" alt="Caption pendiente ...">
+                      <img src="img/whobenefits_slide3.webp" class="d-block w-100" loading="lazy" alt="Caption pendiente ...">
                     </div>
                   </div>
                   <div class="carousel-controls-s2r">
@@ -461,74 +461,7 @@
             </div>
           </div>
         </section><!--/who-benefits-->
-        <section class="reels pb-5">
-          <div class="container">
-            <div class="row" data-aos="fade-in" data-aos-delay="300">
-              <div class="col">
-                <div class="hgroup text-center">
-                  <h4 class="fw-bold text-azul mb-0">Shorts</h4>
-                  <h2 class="fw-semibold display-4">Preserving Memories and <br> Unlocking Equity</h2>
-                </div><!--Headingroup-->
-              </div><!--/col-->
-            </div><!--/.row-->
-            <div class="row">
-              <div class="col">
-                <div class="card border-0">
-                  <img src="img/reels/demo1.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
-                    <p class="card-text">1 Million Views</p>                    
-                  </div>
-                </div><!--/card-->
-              </div><!--/col-->
-              <div class="col">
-                <div class="card border-0">
-                  <img src="img/reels/demo2.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
-                    <p class="card-text">1 Million Views</p>                    
-                  </div>
-                </div><!--/card-->
-              </div><!--/col-->
-              <div class="col">
-                <div class="card border-0">
-                  <img src="img/reels/demo3.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
-                    <p class="card-text">1 Million Views</p>                    
-                  </div>
-                </div><!--/card-->
-              </div><!--/col-->
-              <div class="col">
-                <div class="card border-0">
-                  <img src="img/reels/demo4.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
-                    <p class="card-text">1 Million Views</p>                    
-                  </div>
-                </div><!--/card-->
-              </div><!--/col-->
-              <div class="col">
-                <div class="card border-0">
-                  <img src="img/reels/demo5.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
-                    <p class="card-text">1 Million Views</p>                    
-                  </div>
-                </div><!--/card-->
-              </div><!--/col-->
-              <div class="col">
-                <div class="card border-0">
-                  <img src="img/reels/demo6.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6 class="card-text fw-bold">Lorem ipsum dolor sit amet consectetur.</h6>
-                    <p class="card-text">1 Million Views</p>                    
-                  </div>
-                </div><!--/card-->
-              </div><!--/col-->
-            </div>
-          </div><!--/container-->
-        </section><!--/reels-->
+        <!--/reels-->
         <section class="testimonials pb-5">
           <div class="container">
             <div class="row">
@@ -619,7 +552,7 @@
                 </div>
               </div><!--/col-->
               <div class="col-sm-12 col-lg-5 px-5">
-                <img src="img/img-sixPercent.webp" alt="Six percent fees" class="img-fluid" style="margin-top: -13%;">
+                <img src="img/img-sixPercent.webp" alt="Six percent fees" class="img-fluid" loading="lazy" style="margin-top: -13%;">
               </div><!--/col-->
             </div><!--/.row-->
           </div><!--/.container-->
@@ -628,7 +561,7 @@
           <div class="container">
             <div class="row my-5  pb-0 investCard investments align-items-end"   data-aos="fade-in" data-aos-delay="300">
               <div class="col-sm-12 col-lg-6 order-2 order-lg-1 d-none d-lg-block ">
-                <img src="img/investment_img.webp" alt="Investemtns" class="img-fluid p-5 pb-0">
+                <img src="img/investment_img.webp" alt="Investemtns" loading="lazy" class="img-fluid p-5 pb-0">
               </div>
               <div class="col-sm-12 col-lg-5  py-5 order-1 order-lg-2 text-center text-md-start">
                 <h2 class="text-white fs-1 mb-0">Find the</h2>
@@ -657,7 +590,7 @@
                 </div><!--/container-->
               </div><!--/col-->
               <div class="col-sm-12 col-lg-6 order-2 d-none d-lg-block ">
-                <img src="img/solutions_img.webp" alt="Investemtns" class="img-fluid p-5 pb-0">
+                <img src="img/solutions_img.webp" alt="Investemtns" loading="lazy" class="img-fluid p-5 pb-0">
               </div>
             </div><!--/row-->
           </div><!--/container-->

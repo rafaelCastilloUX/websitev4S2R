@@ -36,7 +36,7 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQWHB9M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-semitransparent fixed-top bg-navy" >
+    <nav class="navbar navbar-expand-lg navbar-semitransparent fixed-top bg-navy"  data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="index.php"><img src="img/s2r-logo.svg" alt="Sell2Rent Logo" class="w-100" height="45"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarStandard" aria-controls="mainNavbarStandard" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +50,7 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="why-choose-us.php">Why Choose Us?</a></li>
-                    <li><a class="dropdown-item disabled" href="get-started-uploading.php">Get Started Uploading</a></li>                  
+                    <!--<li><a class="dropdown-item disabled" href="get-started-uploading.php">Get Started Uploading</a></li>-->
                   </ul>
                 </li>
                 <li class="nav-item dropdown py-3 pb-1">
@@ -59,7 +59,7 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="invest.php">Investors</a></li>
-                    <li><a class="dropdown-item disabled" href="#">Property Marketplace</a></li>                  
+                    <!--<li><a class="dropdown-item disabled" href="#">Property Marketplace</a></li>-->
                   </ul>
                 </li>
                 <li class="nav-item dropdown py-3 pb-1">

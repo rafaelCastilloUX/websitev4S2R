@@ -7,9 +7,9 @@
                 <div class="row p-5 text-center  bg-navy ">
                     <div class="col-12 col-lg-8 offset-lg-2">
                         <div class="p-5text-center rounded-2 text-white top-xl-25vh w-100"  >
-                            <h2 class="fw-bold fs-1">Help Home owners</h2>
+                            <h2 class="fw-bold fs-1">Help Homeowners</h2>
                             <h1 class="fw-bold text-verde display-3"> Access their equity </h1>
-                            <h2 class="fw-bold text-white display-3">As a sell2Rent partner</h2>
+                            <h2 class="fw-bold text-white display-3">As a Sell2Rent partner</h2>
                              <p class="fw-normal fs-5">Collaborate with Us for Shared Success</p>
                             <div class="container">
                                 <button type="button" class="btn fw-bold btn-verde btn-lg">CONTACT US <i class="fa-solid fa-chevron-right"></i></button>
@@ -32,7 +32,7 @@
                         </div>
                     </div><!--/col-->
                     <div class="col-sm-12 col-lg-5"  data-aos="fade-left" data-aos-delay="800">
-                        <img src="img/img-whatsaLeasback.png" alt="What is a leaseback" class="img-fluid">                        
+                        <img src="img/img-whatsaLeasback.webp" alt="What is a leaseback" class="img-fluid" loading="lazy">                        
                     </div><!--/col-->
                 </div><!--/.row-->
                 <div class="row mt-5 gap-5">

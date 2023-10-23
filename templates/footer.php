@@ -5,7 +5,7 @@
             <a href="index.html" class="d-inline-block mb-3 text-decoration-none text-center mb-3">
               <img src="img/s2r-logo.svg" alt="Sell2rent" height="45">
             </a>
-            <p>All images and graphics on this site are for representational purposes only. We reserve all rights to these visuals. Any resemblance to actual products, services, or entities is purely coincidental.</p>
+            <p>The images on this website, created using artificial intelligence (AI), are the exclusive property of Sell2Rent. You are not authorized to use, copy, or reproduce these images without our written consent.</p>
             <ul class="list-inline mt-4">
               <li class="list-inline-item">Follow US: </li>
               <li class="list-inline-item"><a href="https://www.facebook.com/sell2rent" target="_blank" class=""><img src="img/icons/fb-footer.svg" alt="LinkedIn S2R" class="img-fluid"></a></li>
@@ -55,7 +55,7 @@
                   <div class="border border-2 rounded-circle text-verde py-1 px-2 me-3" style="height: 32px;width: 32px;"  ><i class="fa-solid fa-location-dot"></i></div>
                   <div>
                     <h6 class="fw-semibold mb-0">Location</h6>
-                    <p>19790 W Dixie Hwy, <br> STE 501Miami, FL 33180-2294</p>
+                    <p>19790 W Dixie Hwy, <br> Ste 501Miami, FL 33180-2294</p>
                   </div>
                 </div><!--/col-->
                 
